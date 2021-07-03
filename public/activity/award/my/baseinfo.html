@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="htmlWhite">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<title>个人资料</title>
+<meta name="author" content="络绎" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/my.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bgc_white" ontouchstart>
+<!-- 头部条 start -->
+<div class="fixed_bar_top">
+	<header class="header_bar bgc_grey relative">
+		<a href="javascript:history.go(-1);" class="btn_back"><i></i></a>
+		<h1 class="cat">编辑个人资料</h1>
+	</header>
+</div>
+<!-- 头部条 end -->
+
+<div class="weui-cells baseinfo noafter">
+	<a href="javascript:void(0)" class="weui-cell" id="userPhoto">
+		<div class="weui-cell__bd">
+			<div class="tit">头像</div>
+		</div>
+		<div class="weui-cell__ft">
+			点击更换
+			<div class="user_photo"><img src="../images/my/test/photo.jpg" alt="" /></div>
+		</div>
+	</a>
+	<a href="javascript:void(0)" class="weui-cell">
+		<div class="weui-cell__bd">
+			<div class="tit">昵称</div>
+		</div>
+		<div class="weui-cell__ft">
+			<span class="fs14">浪客剑心</span>
+		</div>
+	</a>
+	<a href="javascript:void(0)" class="weui-cell sex">
+		<div class="weui-cell__bd">
+			<div class="tit fl">性别</div>
+		</div>
+		<div class="weui-cell__ft">
+			<label class="radio_wrap">
+				<input type="radio" name="sex" class="radio"  checked>男
+			</label>
+			<label class="radio_wrap">
+				<input type="radio"  name="sex" class="radio">女
+			</label>
+		</div>
+	</a>
+	<a href="javascript:void(0)" class="weui-cell">
+		<div class="weui-cell__bd">
+			<div class="tit">个人简介</div>
+		</div>
+	</a>
+	<div class="weui-cell jianjie nobefore">
+		<div class="weui-cell__bd">
+			<textarea class="weui-textarea" placeholder="用一段话介绍一下自己吧（40字以内）" rows="8" id="jianjie"></textarea>
+			<div class="weui-textarea-counter"><span id="jianjie_words">0</span>/40</div>
+		</div>
+	</div>
+</div>
+<div class="padding15">
+	<input type="submit" class="weui-btn bgc_yellow grey" value="保存" />
+</div>
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../lib/jqweui/js/jquery-weui.min.js"></script>
+<script src="../lib/icheck/js/icheck.min.js"></script>
+<script src="../lib/layer/layer.js"></script>
+<script src="../js/js.js"></script>
+<script>
+$(function (){
+	//修改头像
+	$(document).on("click", "#userPhoto", function() {
+		$.actions({
+		  title: "",
+		  onClose: function() {
+			//console.log("close");
+		  },
+		  actions: [
+			{
+			  text: "拍照",
+			  //className: "color-primary",
+			  onClick: function() {
+				$.alert("拍照成功");
+			  }
+			},
+			{
+			  text: "从手机相册选择",
+			 // className: "color-warning",
+			  onClick: function() {
+				$.alert("你选择了“编辑”");
+			  }
+			}
+		  ]
+		});
+	});
+
+
+	//单选按钮
+	$('.radio').iCheck({
+		//checkboxClass: 'icheckbox_square-green',
+		radioClass: 'iradio',
+		increaseArea: '20%'
+	});
+
+	var jianjie=$("#jianjie");
+	wordLimit1(jianjie,$("#jianjie_words"),40);
+	
+})
+</script>
+</body>
+</html>

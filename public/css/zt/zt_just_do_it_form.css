@@ -1,0 +1,201 @@
+img{display: block;width: 100%;margin: 0 auto;}
+.max750{ width: 18.75rem; margin: 0 auto;}.radius5{ border-radius:0.125rem; -webkit-border-radius:0.125rem;}
+.radius10{ border-radius:0.25rem; -webkit-border-radius:0.25rem; overflow: hidden;}
+.radius50p{ border-radius:50%; -webkit-border-radius:50%;}
+
+body{}
+.toolbar .picker-button{ color:#fdd000;}
+.weui-picker-overlay, .weui-picker-container{z-index: 99999;}
+/* 禁用按钮 
+.disabled {
+    background-color: #E1E1E1 !important;
+    border-color: #E1E1E1 !important;
+    color: #333 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}*/
+
+
+/*===========================报名表单===========================*/
+/*头部固定条*/
+.fixed_bar_top{ position:fixed; left:0; top:0; width:100%; z-index:9999;}
+header{ position:relative; height: 2.2rem; background-color: #F2F2F2;}
+header .btn_back{ position:absolute; left: 0; top: 0; width: 2.5rem; height: 2.2rem; background: url(../../images/zt/just_do_it/ico_arrow_left.png) 1.1rem center no-repeat; -webkit-background-size: 0.5rem 0.85rem; background-size: 0.5rem 0.85rem;}
+header h1{ height: 2.2rem; line-height: 2.2rem; padding-left: 2.5rem; padding-right: 2.5rem; font-size: 0.9rem;}
+
+/*表单*/
+.form_wrap{}
+.form_wrap > li{ padding: 0.375rem 0; }
+.form_wrap > li .label_wrap,.form_wrap > li .input_wrap{ padding: 0 0.75rem; }
+.form_wrap > li.name_item img{ width: 1.25rem; height: 1.25rem; margin-left: 0.25rem; vertical-align:middle;}
+.form_wrap > li .label_wrap .label{ font-size: 0.65rem; font-weight: bold;}
+.form_wrap > li .label_wrap .star{ display: inline-block; margin-left: 0.25rem; font-size: 0.4rem; color:#FF3B06;}
+.form_wrap > li .input_wrap{ margin-top: 0.2rem;}
+.form_wrap > li .input_wrap .ipt{ display:block; width:100%; height: 2.25rem; line-height: 1.2rem; padding: 0 0.75rem; border:1px solid #EAE9E9;}
+.form_wrap > li .input_wrap .arrow_b{ background:url(../../images/zt/just_do_it/down.png) no-repeat 16.25rem center; -webkit-background-size: 0.3rem 0.2rem; background-size: 0.3rem 0.2rem;}
+.form_wrap > li.self_media_item .level2{ display:none; margin: 1.0rem 0 0.25rem; background-color:#F9F9F9;}
+.form_wrap > li.self_media_item .level2 li{ padding: 0.375rem 0;}
+
+/*视频播放*/
+.video_box {position: relative;width: 100%;height: 10.0rem;}
+.video_box .mask_box { position: absolute;width: 100%;height: 100%;z-index: 100;}
+.video_box .mask_box img {display: block;width: 100%;height: 100%;}
+.video_box .mask_box .mask {position: absolute;left: 0;top: 0;width: 100%; height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: .5;}
+.video_box .mask_box .btn_play {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 1.85rem;height: 1.85rem;background: url(../../images/zt/just_do_it/btn_play.png) 0 0 no-repeat; -webkit-background-size: 100% 100%;
+background-size: 100% 100%;}
+.video_box video{ width: 100%; height: 10.0rem;}
+.img_box{min-width: 100%;width: auto;height: 10.0rem;}
+.img_box img{width: auto!important;max-width: 100%;}
+/*黄色按钮*/
+.btn1{ display: block; width: 100%; height: 2.0rem; line-height: 2.0rem; border: none; border-radius: 3px; background-color: #FDD000; text-align: center; font-size: 0.75rem; color:#333; cursor:pointer;}
+/*灰色按钮*/
+.btn1_grey{ background-color:#e1e1e1 !important;}
+/*上传按钮*/
+.form_wrap > li.video_item .weui-uploader__input-box{ width: 3.7rem; height: 3.7rem; border:none; margin:0px; background-color: #E8E8E8;}
+.form_wrap > li.video_item .weui-uploader__input-box:before{content: "添加视频"; width: 1.5rem;height: 1.5rem; line-height:1.2; background-color:transparent; color: #999; text-align:center;}
+.form_wrap > li.video_item .weui-uploader__input-box:after{ display:none;}
+.form_wrap > li.video_item ol li{ line-height:1.5; font-size:0.55rem; color:#999;}
+
+.form_wrap2 > .input_wrap .weui-uploader__input-box{ width: 3.7rem; height: 3.7rem; border:none; margin:0px; background-color: #E8E8E8;}
+.form_wrap2 > .input_wrap .weui-uploader__input-box:before{content: "添加视频"; width: 1.5rem;height: 1.5rem; line-height:1.2; background-color:transparent; color: #999; text-align:center;}
+.form_wrap2 > .input_wrap .weui-uploader__input-box:after{ display:none;}
+.form_wrap2 > ol li{ line-height:1.5; font-size:0.55rem; color:#999;}
+/*上传图片*/
+.form_wrap2 > .upload_img{}
+.form_wrap2 > .upload_img .uplaod_img_btn{}
+.form_wrap2 > .upload_img .weui-uploader__input-box{ width: 3.7rem; height: 3.7rem; border:none; margin:0px; background-color: #E8E8E8;}
+.form_wrap2 > .upload_img .weui-uploader__input-box:before{content: "添加封面"; width: 1.5rem;height: 1.5rem; line-height:1.2; background-color:transparent; color: #999; text-align:center;}
+.form_wrap2 > .upload_img .weui-uploader__input-box:after{ display
+:none;}
+.form_wrap2 > .upload_img .upload_fm{width: 13.5rem;/*540*/;height: 7.5rem;/*300*/;overflow: hidden;border:1px solid #f6f6f6;}
+.form_wrap2 > .upload_img .upload_fm img{width: auto;height:100%;margin: 0 auto;}
+/*示例竖版视频*/
+.video_shili{}
+.video_shili .video_box{width: 6.15rem;height: 10.0rem;}
+.video_shili .video_box .btn_play{width: 1.2rem;height: 1.2rem;}
+
+/*添加删除*/
+.upload_fm > .up_close{position: absolute;top: 0;right: 0;width: 1.3rem!important;height: 1.3rem!important;}
+.upload_fm > .up_close > img{width: 1.3rem!important;height: 1.3rem!important;}
+
+/*底部固定条*/
+.fixed_bar_bottom{ position:fixed; left:0; bottom:0; width:100%; z-index:9999;}
+.fixed_bar_bottom .nav{ border-top:1px solid #EEEEEE; background-color:#FFFFFF;}
+.fixed_bar_bottom .nav li{ float:left; width:33.3333%;}
+.fixed_bar_bottom .nav li a{ display:block; width:100%; height: 2.45rem; line-height: 0.6rem; padding-top: 1.625rem; background: url(../../images/zt/just_do_it/ico_home.png) center 0.125rem no-repeat; -webkit-background-size: 1.4rem 1.4rem; background-size: 1.4rem 1.4rem; text-align:center; font-size: 0.55rem;}
+.fixed_bar_bottom .nav li:nth-child(2) a{ background-image:url(../../images/zt/just_do_it/ico_vote.png);}
+.fixed_bar_bottom .nav li:nth-child(3) a{ background-image:url(../../images/zt/just_do_it/ico_ranking.png);}
+
+
+/*手机验证插件弹出框样式*/
+.field-tooltip .zvalid-resultformat{ width:13.75rem; line-height: 1.4; padding: 1.0rem; border:1px solid #EAE9E9; background-color:#fff; color:#333;}
+
+
+/*===========================报名成功===========================*/
+.page_success_reg{ padding-top: 4.0rem;}
+.page_success_reg h2{ line-height:1; font-size: 1.65rem; color:#F59023;}
+.page_success_reg p{ line-height:1.6;}
+.page_success_reg .follow{ margin-top:3.0rem;}
+.page_success_reg .follow dl{ margin-bottom:1.75rem;}
+.page_success_reg .follow dl .logo{ width: 2.5rem; height: 2.5rem;}
+
+/*取消确定弹出框*/
+.layer_confirm_roy{ border-radius: 0.25rem !important; overflow:hidden;}
+
+.layer_confirm_roy .guanzhu{ text-align:center;}
+.layer_confirm_roy .guanzhu p{ margin-bottom: 0.25rem; text-align:center; font-size: 0.7rem;}
+.layer_confirm_roy .guanzhu .logo img{ width: 1.1rem; height: 1.1rem; vertical-align: middle;}
+.layer_confirm_roy .guanzhu .logo span{ margin-left: 0.25rem; font-size: 0.75rem; vertical-align: middle; font-weight:bold;}
+.layer_confirm_roy.layui-layer-dialog .layui-layer-content{ padding: 1.75rem 0.75rem 1.25rem;}
+.layer_confirm_roy .layui-layer-btn{ border-top:1px solid #EEEEEE; text-align:center;}
+.layer_confirm_roy .layui-layer-btn a{ float:left; width:50%; height: 2.45rem; line-height: 2.45rem; padding:0; border:none; margin:0; background-color:#fff;}
+.layer_confirm_roy .layui-layer-btn a.layui-layer-btn0{ border-right:1px solid #EEEEEE; color:#9B9B9B;}
+
+
+
+
+/*===========================个人页===========================*/
+.page_geren{}
+.page_geren .info{ padding: 0.75rem; background-color: #F2F2F2;}
+.c_orange{ color:#FA6C11;}
+/*底部固定条2*/
+.fixed_bar_bottom .nav2{ padding: 0.25rem 0.125rem; background-color:#FFFFFF;}
+
+.fixed_bar_bottom .nav2 li{ float:left; padding: 0 0.125rem;}
+.fixed_bar_bottom .nav2 li a{ display:block; height: 2.0rem; line-height: 2.0rem; border-radius: 3px; font-size: 0.75rem;}
+.fixed_bar_bottom .nav2 li:nth-child(1) a{ width: 4.75rem; padding-left: 1.825rem; background: #F2F2F2 url(../../images/zt/just_do_it/ico_back.png) 0.725rem center no-repeat; -webkit-background-size: 0.725rem 0.625rem; background-size: 0.725rem 0.625rem;}
+.fixed_bar_bottom .nav2 li:nth-child(2) a{ width: 6.5rem; background-color: #FDD000; text-align:center;}
+.fixed_bar_bottom .nav2 li:nth-child(3) a{ width: 6.5rem; background-color: #FD7100; text-align:center; color:#fff;}
+
+/*===========================排行榜===========================*/
+.bgc_yellow1{ background-color:#FDD000;}
+.page_rank .top_three{ background:url(../../images/zt/just_do_it/louti.png) no-repeat center bottom; -webkit-background-size: 16.675rem 6.075rem; background-size: 16.675rem 6.075rem;
+    overflow: hidden;}
+.page_rank .top_three ul li{ float:left; width:33.3333%; height: 10.0rem; padding-top: 2.25rem; padding-left: 0.25rem; text-align:center;}
+.page_rank .top_three ul li .avatar_box{ position:relative; width: 2.3rem; height: 2.3rem; margin:0 auto;}
+.page_rank .top_three ul li .avatar_box .ico_hg{ position:absolute; left:-0.15rem; top:-0.2rem; width: 0.75rem; height: 0.75rem;}
+.page_rank .top_three ul li .avatar_box .avatar{ position:relative; width:100%; height:100%; border:3px solid #8DB4E1; z-index:10;}
+.page_rank .top_three ul li:nth-child(2){ padding-top: 0.65rem;}
+.page_rank .top_three ul li:nth-child(2) .avatar_box{ width: 2.9rem; height: 2.9rem;}
+.page_rank .top_three ul li:nth-child(2) .avatar_box .ico_hg{ left:-0.175rem; top:-0.375rem; width: 0.95rem; height: 0.95rem;}
+.page_rank .top_three ul li:nth-child(2) .avatar_box .avatar{ border:3px solid #FC9111;}
+.page_rank .top_three ul li:nth-child(3){ padding-top:3.5rem; padding-right: 0.375rem;}
+.page_rank .top_three ul li:nth-child(3) .avatar_box{ width: 1.75rem; height: 1.75rem;}
+.page_rank .top_three ul li:nth-child(3) .avatar_box .ico_hg{ left:-0.125rem; top:-0.2rem; width: 0.575rem; height: 0.575rem;}
+.page_rank .top_three ul li:nth-child(3) .avatar_box .avatar{ border:3px solid #EC6944;}
+
+.page_rank .top_three ul li .name{ width: 4.25rem; height: 1.0rem; line-height: 1.0rem; border-radius: 0.5rem; background-color: rgba(253, 95,0,.5); margin:1.6rem auto 0; font-size: 0.75rem; color: #fff;}
+.page_rank .top_three ul li:nth-child(2) .name{ margin-top: 1.9rem;}
+.page_rank .top_three ul li:nth-child(3) .name{ margin-top: 1.5rem;}
+.page_rank .top_three ul li .integral{ line-height: 1; margin-top: 0.375rem; font-size:0.65rem; color:#fff;}
+
+
+.page_rank .list{ width: 17.25rem; margin: -0.75rem auto 0;}
+.page_rank .list ol{ padding-bottom: 0.5rem; border-radius: 4px; background-color:#fff;}
+.page_rank .list li{ padding: 0.75rem 1.0rem 0.75rem 0.5rem; overflow:hidden;}
+.page_rank .list li .no{ float:left; width: 1.0rem; line-height: 1.7rem; text-align: center; font-size: 0.7rem;}
+.page_rank .list li .avatar{ float:left; width: 1.7rem; height: 1.7rem; margin-left: 0.25rem; vertical-align:middle;}
+.page_rank .list li .name{ float:left; line-height: 1.7rem; margin-left: 0.25rem; font-size: 0.7rem;}
+
+.page_rank .list li .integral{ line-height: 1.7rem; font-size: 0.65rem; color:#F59023;}
+
+/*loading*/
+.loading{position: fixed;height: 100%;width: 100%;background: rgba(0,0,0,.01);top: 0;left: 0;z-index: 9999999;}
+.loading .loading_img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align: center;}
+.loading .loading_img img{width: 1.3rem;}
+/*.none{*/
+    /*display: none;*/
+/*}*/
+
+
+/*************************************************/
+*{touch-action: pan-y;}
+.picker-item{font-size: .75rem;}
+.none{display: none;}
+
+/*.admin_direction{border: 1px solid red;}*/
+/*.entrepreneurship{border: 1px solid blue;}*/
+/*.ready_entrepreneurship{border: 1px solid orange;}*/
+/*.start_coach{border: 1px solid green;}*/
+/*#identity{border: 1px solid black;}*/
+/* 头部 */
+.ad_code{position: relative;}
+.ad_code .ad_close{position: absolute;width: 1.1rem;right: .6rem;top:.9rem;}
+/*弹出 start*/
+.bm_success_layer_wrap{
+    width: 13.75rem !important;
+    height: 14.5rem !important;
+    border-radius: 0.25rem !important;
+}
+
+.bm_success_layer_wrap .bm_success{display: block;width: 10.75rem;}
+.bm_success_layer_wrap p{line-height: .8rem!important;}
+.bm_success_layer_wrap .layui-layer-setwin .layui-layer-close2
+{right: 0rem!important;top: 0rem!important;width: 1rem!important;height: 1rem!important;background: url(../../images/close2.png) no-repeat center center;background-size: 1.3rem 1.3rem;z-index: 9999999;opacity: .5; }
+
+
+
+
+
+
+

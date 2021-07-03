@@ -1,0 +1,70 @@
+/*/40*/
+
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+.display-block{display: block}
+.pt176{padding-top: 4.4rem;}
+.pb176{padding-bottom: 4.4rem;}
+.pb120{padding-bottom:3rem;}
+.pt118{padding-top: 2.95rem;}
+.plr50{padding-left: 1.25rem;padding-right: 1.25rem;}
+.plr35{padding-left: .875rem;padding-right: .875rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pb70{padding-bottom: 1.75rem;}
+.pb238{padding-bottom: 5.95rem;}
+.pt75{padding-top: 1.875rem;}
+.border1{border:1px solid #000}
+.line-h60{line-height: 1.8rem;}
+.ptb100{padding:2.5rem 0}
+.mt100{margin-top:2.5rem;}
+.mt50{margin-top:1.25rem;}
+/*color bgcolor*/
+
+.bgcolor-eeeded{background-color: #eeeded;}
+.bgcolor-fbfbfb{background-color: #fbfbfb;}
+.bgcolor-eeeeee{background-color: #eeeeee;}
+.color-fdd000{color:#fdd000;}
+.color_fff{color: #fff}
+.h20grey{height: .5rem;background: #f2f2f2;}
+
+
+
+
+/*进一步了解 css*/
+.further{}
+.further::after{content: '>';margin-left: .3rem}
+
+
+/**/
+.line-1{border-top: 1px solid #666;width: 25%;display: block;margin: 0 auto}
+
+.tea-list{}
+.tea-list ul li{width: 48.6%;float: left}
+.tea-list ul li:nth-child(2n){float: right;}
+.tea-list ul li p{padding-bottom: 1rem;padding-top: .4rem;}
+
+
+
+
+
+
+
+.firstBox,.content{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s
+}
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+@media (max-width: 320px) {
+    .job-list dl dd{margin-left: 6rem;;}
+}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

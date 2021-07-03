@@ -1,0 +1,135 @@
+
+/**/
+body{background-color: #f0f0f0!important;color: #3b3738!important;}
+img{display: block;width: 100%;margin: 0 auto;}
+a{display: block}
+.border1px000{border: 1px solid #333;}
+.lin9{line-height: .9rem;}
+
+.pb40{padding-bottom: 1rem!important;;}
+.plr45{padding-left: 1.125rem;padding-right: 1.125rem;}
+.ptb25{padding-top: .625rem;padding-bottom: .625rem;}
+.border-radius-img-top-right{overflow: hidden;border-top-right-radius: .25rem;border-top-left-radius: .25rem;}
+
+.color_2c2f34{color: #2c2f34;}
+.color_3c3738{color: #3c3738}
+.bg_3b3738{background-color: #3b3738}
+.bgcolor_bfbfbf{background-color: #bfbfbf;}
+
+/*体验更多试听 css*/
+.further{}
+.further::after{content: '»';margin-left: .3rem;vertical-align: sub;font-size: 1.5rem}
+
+
+
+/*第一步*/
+.First-one{}
+.First-one p{display: inline-block;padding:.1rem .6rem;}
+.First-one span{line-height: .9rem;}
+.First-one p:after{content: "";background: url("../../images/zt/tiaoxuan/icon-right-j.jpg")no-repeat center center;position: absolute;top: 0;right: 13.38rem;background-size: 100% 100%;height: 100%;width: .25rem;line-height: 1.125rem;}
+.First-one img{display: inline-block;width: .825rem;vertical-align: middle;margin-left:.25rem;margin-right: .25rem;}
+
+/**/
+.zhongbang{}
+.zhongbang h3{line-height: 1.6rem;display: inline-block;border-top:1px solid #333;border-bottom:1px solid #333;}
+.zhongbang h3:after{content: "";background: url("../../images/zt/tiaoxuan/icon-bottom.jpg")no-repeat center center;position: absolute;left: 48.6%;bottom: 12.3%;background-size: 100% 100%;height: .3rem;width: .5rem;}
+.zhongbang2 h3:after{bottom: 17.3%;}
+
+
+/*私教基础理论必备*/
+.list-tea{}
+.list-tea dt{float: right;width: 3.5rem;}
+.list-tea dt img{vertical-align: middle}
+.list-tea dd{float: left;}
+
+/*视频*/
+.con {width: 100%;margin: 0 auto}
+.con .video {position: relative;width: 100%;height: 6.725rem;overflow: hidden;}
+.con .video .box2 {position: absolute;width: 100%;height: 100%;z-index: 9;}
+.con .video .box2 img {display: block;width: 100%;height: 100%;}
+.con .video video {position: absolute; left: 0; top: 0; width: 100%; height: 6.725rem;}
+.con .video .mask{}
+
+
+/*课程*/
+.list-ke{}
+.list-ke ul li{float: left;width: 48%;padding:2rem 0}
+.list-ke ul li:nth-child(2n){float: right}
+.list-ke ul li:last-child{width: 100%;}
+.list-ke ul li:nth-child(1){background: url("../../images/zt/tiaoxuan/CPR.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(2){background: url("../../images/zt/tiaoxuan/jichu.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(3){background: url("../../images/zt/tiaoxuan/zhiye.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(4){background: url("../../images/zt/tiaoxuan/jiaozheng.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(5){background: url("../../images/zt/tiaoxuan/pulati.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(6){background: url("../../images/zt/tiaoxuan/yunchan.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(7){background: url("../../images/zt/tiaoxuan/gongnengxing.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(8){background: url("../../images/zt/tiaoxuan/boji.jpg")no-repeat center center;background-size: 100% 100%}
+.list-ke ul li:nth-child(9){background: url("../../images/zt/tiaoxuan/huiyuan.jpg")no-repeat center center;background-size: 100% 100%}
+
+
+
+/*12预定*/
+.yuding{display: inline-block}
+.yuding p{line-height: 1.3rem}
+.yuding p span{display: inline-block;width: 50%}
+
+
+/*学费优惠*/
+.youhui-t{}
+.youhui-t ul li span{display: inline-block;width:1.5rem;height: 1.5rem;padding:.2rem; vertical-align: middle}
+
+.xian{border-bottom: 1px dashed #a5a3a3;display: block}
+
+
+/*表单*/
+.form{padding-left: 2.5rem;padding-right: 2.5rem;}
+.input{width: 100%;}
+.input input{width: 100%;height: 2.175rem;line-height: 2.175rem;background: none;padding-left: .8rem;padding-right: .8rem;}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #6b6b6b;}
+input:-ms-input-placeholder{/*IE*/color:#6b6b6b;}
+input::-moz-placeholder{/*Firfox*/color: #6b6b6b}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.tip{margin-top: 0.3rem;margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+
+
+/*弹出样式*/
+.bm_success_layer_wrap_tiao .layui-layer-setwin .layui-layer-close2{right: -8px;top: -9px;background: url("../../images/zt/tiaoxuan/icon_x.png")no-repeat center center;background-size: 100% 100%;}
+.bm_success_layer img{width: 86%}
+.bm_success_layer_wrap_tiao .layer-anim{
+    overflow: hidden;;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;}
+
+
+
+
+/*媒体查询*/
+
+/* iphone4 */
+@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2){
+
+    /*弹出二维码尺寸*/
+    .bm_success_layer img{width: 76%;}
+
+}
+
+/* iphone5 */
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+
+    /*弹出二维码尺寸*/
+    .bm_success_layer img{width: 80%;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

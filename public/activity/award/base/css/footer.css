@@ -1,0 +1,57 @@
+body {
+    line-height: 1.6;
+    padding-top: 2.2rem;
+    background-color: #F2F2F2;
+    font-family: "微软雅黑", Microsoft YaHei, Arial Narrow, sans-serif;
+    color: #333;
+}
+/*底部固定条*/
+.fixed_bar_bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+/*底部固定导航条*/
+.weui-tabbar {
+    height: 2.5rem;
+    border-top: 1px solid #E0DFE2;
+    background-color: #fff;
+}
+.weui-tabbar__item {
+    padding-top: 0.35rem;
+}
+.weui-tabbar .weui-tabbar__icon {
+    width: 1.05rem;
+    height: 1.05rem;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: auto 1.05rem;
+}
+.weui-tabbar__label {
+    color: #666;
+    font-size: 0.55rem;
+}
+.weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {
+    color: #FDD000;
+}
+.weui-tabbar .weui-tabbar__item:nth-child(1) .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_shouye_tabbar.png);
+}
+.weui-tabbar .weui-tabbar__item:nth-child(2) .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_xuexi_tabbar.png);
+}
+.weui-tabbar .weui-tabbar__item:nth-child(3) .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_wode_tabbar.png);
+}
+.weui-tabbar .weui-tabbar__item:nth-child(1).weui-bar__item--on .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_shouye_tabbar_cur.png);
+}
+.weui-tabbar .weui-tabbar__item:nth-child(2).weui-bar__item--on .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_xuexi_tabbar_cur.png);
+}
+.weui-tabbar .weui-tabbar__item:nth-child(3).weui-bar__item--on .weui-tabbar__icon {
+    background-image: url(../../images/my/ico_wode_tabbar_cur.png);
+}

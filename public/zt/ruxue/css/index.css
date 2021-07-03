@@ -1,0 +1,302 @@
+/*/40*/
+body{ height:100%; max-width: 18.75rem; font-size: .6rem; margin: 0 auto;color: #3b3738;}
+img{width: 100%;display: block;margin: 0 auto;}
+.italic{ font-style:italic;}
+.color_ffa800{color: #ffa800;}
+.color_3b3738{color: #3b3738;}
+.color_fff{color: #fff;}
+.color_817e77{color: #817e77;}
+.color_ff0000{color: #ff0000;}
+
+.bg_ffa800{background: #ffa800;}
+.in-line{display: inline-block;}
+.mb60{margin-bottom: 1.5rem;}
+.mt60{margin-top: 1.5rem;}
+.f80{font-size: 2rem;}
+
+
+/* 按钮 */
+.button a{display: block; border-radius: .5rem; overflow: hidden;
+	background: -moz-linear-gradient(top, #ffca00 0%, #ff8c00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8c00), color-stop(100%,#ff8c00));
+    background: -webkit-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: -o-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: -ms-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: linear-gradient(to bottom, #ffca00 0%,#ff8c00 100%);
+    width: 7.25rem;height: 1.75rem;line-height: 1.75rem;text-align: center;
+}
+.but a{margin: 0 auto;}
+.but1 a{height: 2rem;line-height: 2rem;width: 60%;margin:1.1rem auto 0;}
+.but2 a{height: 1.25rem;line-height: 1.25rem;width: 4.9rem;border-radius: .25rem;}
+
+/* 右侧悬浮和弹出 start */
+.fix_right{position: fixed;right: 0;top:50%;margin-top:-4.7rem;z-index: 999;}
+.fix_right img{width: 6.5rem;}
+
+.fix_tanwrap{position: fixed; left: 0;top: 0;height: 100%;width: 100%;opacity: 0;visibility: hidden; background-color: rgba(0, 0, 0, 0.5);z-index:99999999;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.fix_tanwrap.is-visible{opacity: 1;visibility: visible;-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;-moz-transition: opacity 0.3s 0s, visibility 0s 0s;transition: opacity 0.3s 0s, visibility 0s 0s;}
+.fix_tan{position: absolute;top:50%;left: 50%;margin-left:-35%;margin-top: -60%; text-align: center;
+    -webkit-transform: translateY(60px);-moz-transform: translateY(60px);-ms-transform: translateY(60px);-o-transform: translateY(60px);transform: translateY(60px);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;-moz-transition-property: -moz-transform;transition-property: transform;
+    -webkit-transition-duration: 0.3s;-moz-transition-duration: 0.3s;-ms-transition-duration: 0.3s;-o-transition-duration: 0.3s;transition-duration: 0.3s;
+}
+.fix_con{position: relative;}
+.fix_con .packet{width: 12.825rem;height: 14.825rem;}
+.fix_btn a{border-radius: 2rem;overflow: hidden;display: block;width: 5.6rem;height: 1.25rem;line-height: 1.25rem;text-align: center;color: #f03838;
+	background: -moz-linear-gradient(top, #ffe5c6 0%, #ebb36e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe5c6), color-stop(100%,#ebb36e));
+    background: -webkit-linear-gradient(top, #ffe5c6 0%,#ebb36e 100%);
+    background: -o-linear-gradient(top, #ffe5c6 0%,#ebb36e 100%);
+    background: -ms-linear-gradient(top, #ffe5c6 0%,#ebb36e 100%);
+    background: linear-gradient(to bottom, #ffe5c6 0%,#ebb36e 100%);
+    box-shadow:0px 2px 0px #ab0b0b; -webkit-box-shadow:0px 2px 0px #ab0b0b;
+}
+.fix_w{position: absolute;bottom: .65rem;left: 3.65rem;}
+.fix_tan_img{position: absolute;bottom:-2.4rem;left:50%;margin-left: -.95rem;}
+.fix_tan_img img{width: 1.45rem;}
+/* 右侧悬浮和弹出 end */
+
+
+/* ==============================================纯咨询============================================== */
+
+/* banner */
+.banner_wrap{overflow: hidden;}
+.banner_wrap .banner{background: url('../images/banner2.jpg')no-repeat center center;background-size: 100% 100%;padding-bottom: 2.725rem;}
+.banner_wrap .banner .banner_m{padding:.5rem 0 0 4.75rem;}
+.banner_wrap .banner .banner_tui{padding-left: 1.5rem;}
+
+.scale{margin-left: 2.225rem;-webkit-animation: breathingLight .4s infinite; animation: breathingLight .4s infinite;}
+@-webkit-keyframes 'breathingLight' {
+    0% {-webkit-transform:scale(1);transform:scale(1);}
+    30% {-webkit-transform:scale(1.1);transform:scale(1.1);}
+    70% {-webkit-transform:scale(1.1);transform:scale(1.1);}
+    100% {-webkit-transform:scale(1);transform:scale(1);}
+}
+
+@keyframes 'breathingLight' {
+    0% {-webkit-transform:scale(1);transform:scale(1);}
+    30% {-webkit-transform:scale(1.1);transform:scale(1.1);}
+    70% {-webkit-transform:scale(1.1);transform:scale(1.1);}
+    100% {-webkit-transform:scale(1);transform:scale(1);}
+} 
+
+/* 0元入学 */
+.floor1_wrap{background: url('../images/bg_img1.jpg')no-repeat center center;background-size: 100% 100%;padding: 3.15rem 0 2.8rem 0;}
+.floor1{padding:0 1.3rem;}
+.floor1 li{width: 33.333%;}
+.floor1 li:nth-child(2){border-left: 2px solid #d2d2d2;border-right: 2px solid #d2d2d2;}
+
+/* 为什么选择做私教 */
+.floor2_wrap{background: url('../images/bg_img2.jpg')no-repeat center center;background-size: 100% 100%;}
+.floor2{padding:0 1.6rem;}
+.con_title{margin:0 .6rem;border-bottom: 4px solid #ffa800;} 
+.con_title p{letter-spacing:-0.04rem;}
+.floor2_con dt{width: 43%;height: 9.8rem;}
+.floor2_con dd{width: 53%;height: 9.8rem;}
+.floor2_con dd .p_r{line-height: .75rem;}
+.floor2_con dd ul li{width: 30.6667%;}
+.floor2_con dd ul li:nth-child(2){margin:0 4%;}
+
+/* 做私教为什么选择赛普 */
+.floor3_top{background: url('../images/bg_img3.jpg')no-repeat center center;background-size: 100% 100%;padding:3rem 0 1.35rem 0;}
+.floor3_top_con{padding:0 2.4rem;}
+.floor3_bom{background: url('../images/bg_img4.jpg')no-repeat center center;background-size: 100% 100%;}
+.floor3_bom_con{margin:0 2.2rem;background: url('../images/choose.jpg')no-repeat center center;background-size: 100% 100%;padding:2.2rem 0 1rem 0;}
+.floor3_bom_con ul{padding:0 1rem;}
+.floor3_bom_con ul li{width: 48%;}
+.floor3_bom_con ul li:nth-child(1),.floor3_bom_con ul li:nth-child(3){margin-right: 4%;}
+.floor3_bom_con ul li span{display: block;width: 2.85rem;height: 1.25rem;line-height: 1.25rem;margin:0 auto;}
+
+/* 从入学到入职 */
+.floor4_top{background: url('../images/bg_img5.jpg')no-repeat center center;background-size: 100% 100%;padding:2.8rem 2.4rem .95rem 2.4rem;}
+.enrol{background: url('../images/bg_img6.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem 1.25rem 2.2rem;}
+.enrol_jian{background: #fffaec;height: 1.5rem;line-height: 1.5rem;}
+.enrol1{background: url('../images/bg_img7.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol2{background: url('../images/bg_img8.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol3{background: url('../images/bg_img9.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol4{background: url('../images/bg_img10.jpg')no-repeat center center;background-size: 100% 100%;}
+
+/* 用实力赢得信赖 */
+.floor5_top{background: url('../images/bg_img11.jpg')no-repeat center center;background-size: 100% 100%;padding:3.1rem 2.4rem 1.5rem 2.4rem;}
+.floor5_lun{background: url('../images/bg_img12.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem;}
+.roy-swiper-container2 .swiper-slide img{ width:80%;margin:0 auto;border-radius: .25rem;}
+.roy-swiper-container2 .swiper-button-prev,.roy-swiper-container2 .swiper-button-next{width: 1.3rem; height: 1.3rem; margin-top:-.7rem;}
+.roy-swiper-container2 .swiper-button-prev{ left:0px; background:url(../images/btn_prev.png) no-repeat left top; -webkit-background-size:100%;  background-size:100%;}
+.roy-swiper-container2 .swiper-button-next{ right:0px; background:url(../images/btn_next.png) no-repeat left top; -webkit-background-size:100%; background-size:100%;}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{ opacity:.8;}
+
+.btns .button a{width: 7.5rem;height: 2rem ;line-height: 2rem;}
+
+/* 图片 */
+.floor6_pic{background: url('../images/bg_img13.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1.25rem;padding-left: 1.9rem;padding-right: 1.9rem;}
+.floor6_pic1{background: url('../images/bg_img14.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor6_pic2{background: url('../images/bg_img15.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor6_pic3{background: url('../images/bg_img16.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1rem;padding-bottom: 2.25rem;}
+
+
+
+/* ==============================================纯表单============================================== */
+/* 右侧弹窗2 */
+.fix_f{position: absolute; bottom:3.75rem;left: 2.9rem;}
+.pack_input{width:7.1rem;height: 1.2rem;line-height: 1.2rem;padding: 0.5rem;border-radius: 0.25rem;background: #fff;color: #f03838;border: 0;outline: none;}
+.pack_input::-webkit-input-placeholder{color:#f03838;}
+.pack_input::-moz-placeholder{ color:#f03838;}
+.pack_input:-ms-input-placeholder{color:#f03838;} 
+
+/* banner */
+.banner_wrap .banner1{background: url('../images/chunbiaodan/banner2.jpg')no-repeat center center;background-size: 100% 100%;padding-bottom: 3.25rem;}
+.banner_wrap .banner1 .banner_m{padding:.5rem 0 0 4.75rem;}
+.banner_wrap .banner1 .banner_tui{padding-left: 1.5rem;}
+
+/* 0元入学 */
+.floor11_wrap{background: url('../images/chunbiaodan/bg_img1.jpg')no-repeat center center;background-size: 100% 100%;padding: 3.1rem 0 1rem 0;}
+.from_mes .cs .ipt{padding-left:.8rem; height: 1.8rem;line-height: 1.8rem;width: 100%;border: 1px solid #d2d2d2;outline: none;}
+.from_mes .cs input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #817e77;}
+.from_mes .cs input:-ms-input-placeholder{/*IE*/color:#817e77;}
+.from_mes .cs input::-moz-placeholder{/*Firfox*/color: #817e77;}
+.from_mes{padding:0 1.6rem;}
+.form_but a{width: 100%;height: 2rem;line-height: 2rem;}
+
+/* 滚动 */
+.gun_wrap{background: url('../images/chunbiaodan/bg_img11.jpg')no-repeat center center;background-size: 100% 100%;height: 1.85rem;line-height: 1.85rem;}
+.gun_con ul{padding-left:4rem;}
+.gun_con ul li a span:nth-child(2){padding:0 2.25rem 0 2.4rem;}
+
+/* 为什么选择做私教 */
+.floor21_wrap{background: url('../images/chunbiaodan/bg_img2.jpg')no-repeat center center;background-size: 100% 100%;padding-top: 2.75rem;}
+
+/* 做私教为什么选择赛普 */
+.floor31_top{background: url('../images/chunbiaodan/bg_img3.jpg')no-repeat center center;background-size: 100% 100%;}
+.floor31_bom{background: url('../images/chunbiaodan/bg_img4.jpg')no-repeat center center;background-size: 100% 100%;padding-bottom: 2.75rem;}
+
+/* 添加表单 */
+.chun_form{background: url('../images/chunbiaodan/bg_img5.jpg')no-repeat center center;background-size: 100% 100%;}
+.chun_form_tit,.from_mes1{padding:0 2.4rem;}
+
+/* 从入学到入职 */
+.floor41_top{background: url('../images/chunbiaodan/bg_img6.jpg')no-repeat center center;background-size: 100% 100%;padding:2.65rem 2.4rem 1.2rem 2.4rem;}
+.enrol11{background: url('../images/chunbiaodan/bg_img7.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem 1.25rem 2.2rem;}
+.enrol12{background: url('../images/chunbiaodan/bg_img8.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol21{background: url('../images/chunbiaodan/bg_img9.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol31{background: url('../images/chunbiaodan/bg_img10.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol41{background: url('../images/chunbiaodan/bg_img12.jpg')no-repeat center center;background-size: 100% 100%;}
+
+/* 用实力赢得信赖 */
+.floor51_top{background: url('../images/chunbiaodan/bg_img13.jpg')no-repeat center center;background-size: 100% 100%;padding:2.65rem 2.4rem 1.5rem 2.4rem;}
+.floor51_lun{background: url('../images/chunbiaodan/bg_img14.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem;}
+
+/* 图片 */
+.floor61_pic{background: url('../images/chunbiaodan/bg_img15.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1.25rem;padding-left: 1.9rem;padding-right: 1.9rem;}
+.floor61_pic1{background: url('../images/chunbiaodan/bg_img16.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor61_pic2{background: url('../images/chunbiaodan/bg_img17.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor61_pic3{background: url('../images/chunbiaodan/bg_img18.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1rem;padding-bottom: 2.25rem;}
+
+/*弹出 start*/
+.hide{display: none;}
+.bm_success_layer_wrap {width: 16rem!important;height: 14.5rem!important;border-radius: 0.25rem !important;}
+.bm_success_layer_wrap .layui-layer-setwin .layui-layer-close2 {right: 0rem;top: 0rem;width: 1.35rem;height: 1.35rem;background: url(../images/closed.png) no-repeat center center;background-size: 1.35rem 1.35rem;z-index: 99999; }
+.bm_success_layer_wrap .bm_success {display: block;}
+
+.tan_wrap{background: #fff;padding:1.5rem 0 2rem 0;border-radius: .5rem;}
+.tan_wrap .yan_phone{font-size: .8rem;color: #0a0d1c;padding-bottom:.375rem;text-align: center;border-bottom: 4px solid #fdd000;width: 7.5rem;margin:0 auto;}
+.tan_wrap .yan_txt{margin:1.25rem 0;font-size: .6rem;color: #3f3f3f;line-height: .95rem;}
+.tan_wrap .yan_ipt,.tijiao{margin:0 1.075rem;}
+.tan_wrap .yan_ipt .ipt_mes{height: 1.625rem;line-height: 1.625rem;padding: 0 0.5rem;border: 1px solid #878787;border-radius: 0.25rem;background: #fff;font-size: .55rem;color: #050505;display: inline-block;margin-right: 5%;width: 55%;}
+.tan_wrap .yan_ipt .ipt_mes::-webkit-input-placeholder{color:#878787;}
+.tan_wrap .yan_ipt .ipt_mes::-moz-placeholder{ color:#878787;}
+.tan_wrap .yan_ipt .ipt_mes:-ms-input-placeholder{color:#878787;}
+.tan_wrap .yan_ipt .captcha{display: inline-block;text-align: center;font-size: .55rem;height: 1.625rem;line-height: 1.625rem;border-radius: 0.25rem;width: 38%;
+background: -moz-linear-gradient(top, #ffca00 0%, #ff8c00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8c00), color-stop(100%,#ff8c00));
+    background: -webkit-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: -o-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: -ms-linear-gradient(top, #ffca00 0%,#ff8c00 100%);
+    background: linear-gradient(to bottom, #ffca00 0%,#ff8c00 100%);
+}
+.tan_wrap  .tijiao_btn{
+	background: -moz-linear-gradient(top, #ffca00 0%, #ff8b00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8b00), color-stop(100%,#ff8b00));
+    background: -webkit-linear-gradient(top, #ffca00 0%,#ff8b00 100%);
+    background: -o-linear-gradient(top, #ffca00 0%,#ff8b00 100%);
+    background: -ms-linear-gradient(top, #ffca00 0%,#ff8b00 100%);
+    background: linear-gradient(to bottom, #ffca00 0%,#ff8b00 100%);
+	margin-top:1.1rem;font-size: .75rem;color: #fff;border-radius: 0.25rem;height: 1.75rem;line-height: 1.75rem;text-align: center;display: block;}
+/*弹出 end*/
+
+/* 弹窗 */
+#teamData1 label.error{color:red;font-size: .6rem;text-align: center; position: absolute;bottom: .7rem;left: 15%;}
+#teamData1 label.checked{color:green;font-size: .6rem;text-align: center;position: absolute;bottom: .7rem;left: 15%;}
+
+.tan_wrap .cd-popup-container2{top:50%; margin-top: -76%;}
+.tan_wrap .cd-popup-close1{background: none;top:.75rem;line-height: 0;}
+.tan_wrap .cd-popup-container2{border:none;background: #000;}
+.tan{padding-bottom: 2rem;}
+.tan .tan_ti{width: 80%;margin:0 auto;}
+.tan .ipt1{background:#fff;outline:none;border:1px solid #fdd000;float: left;border-radius:1rem 0 0 1rem;height:1.8rem;line-height: 1.8rem;width: 70%;padding-left:.8rem;}
+.tan a{display: block;background: #f8c31a;float: left;border-radius:0 1rem 1rem 0;height:1.8rem;line-height: 1.8rem;width: 30%;color: #000;}
+/*弹窗带二维码弹出*/
+.cd-popup,.cd-popup1,.cd-popup2{position: fixed; left: 0;top: 0;height: 100%;width: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0;visibility: hidden;z-index:99999999;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.cd-popup.is-visible,.cd-popup1.is-visible1,.cd-popup2.is-visible1{opacity: 1;visibility: visible;-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;-moz-transition: opacity 0.3s 0s, visibility 0s 0s;transition: opacity 0.3s 0s, visibility 0s 0s;}
+.cd-popup-container2,.cd-popup-container1 {/*  border: 2px solid #f5a201; */position: absolute;width:92%;height:auto;top:50%;left: 50%;margin-left:-46%;margin-top: -50%;background: #FFF;text-align: center;box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(60px);-moz-transform: translateY(60px);-ms-transform: translateY(60px);-o-transform: translateY(60px);transform: translateY(60px);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;-moz-transition-property: -moz-transform;transition-property: transform;
+    -webkit-transition-duration: 0.3s;-moz-transition-duration: 0.3s;-ms-transition-duration: 0.3s;-o-transition-duration: 0.3s;transition-duration: 0.3s;
+}
+.is-visible .cd-popup-container2,.is-visible1 .cd-popup-container1 {-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}
+.cd-popup-container2 p,.cd-popup-container1 p{font-size: .65rem;padding-top: 1rem;}
+
+.cd-popup-close{ position: relative; z-index: 10;right:0px;top:0px;height: auto; display: block;width: 100%;color: #111;background: #f5a201;line-height: 1.5;text-align: right;font-size: 2em;padding-right: 5px;}
+.queding{  z-index: 10;height: auto; display: block;width: 30%;color: #111;background: #f5a201;line-height: 2.3;margin: 0px auto 16px;font-size: .65rem;text-align: center}
+.cd-popup-container2 img,.cd-popup-container1 img{width: 100%;}
+
+/* ==============================================咨询加表单============================================== */
+/* 0元入学 */
+.floor21_wrap{background: url('../images/hunhe/bg_img1.jpg')no-repeat center center;background-size: 100% 100%;padding: 3.1rem 0 1rem 0;}
+
+/* 滚动 */
+.gun_wrap{background: url('../images/hunhe/bg_img2.jpg')no-repeat center center;background-size: 100% 100%;height: 1.85rem;line-height: 1.85rem;}
+
+/* 为什么选择做私教 */
+.floor22_wrap{background: url('../images/hunhe/bg_img3.jpg')no-repeat center center;background-size: 100% 100%;padding-top: 2.55rem;}
+
+/* 做私教为什么选择赛普 */
+.floor32_top{background: url('../images/hunhe/bg_img4.jpg')no-repeat center center;background-size: 100% 100%;}
+.floor32_bom{background: url('../images/hunhe/bg_img5.jpg')no-repeat center center;background-size: 100% 100%;}
+
+/* 从入学到入职 */
+.floor42_top{background: url('../images/hunhe/bg_img6.jpg')no-repeat center center;background-size: 100% 100%;padding:2.75rem 2.4rem .95rem 2.4rem;}
+.enrol2{background: url('../images/hunhe/bg_img7.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem 1.25rem 2.2rem;}
+.enrol21{background: url('../images/hunhe/bg_img8.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol22{background: url('../images/hunhe/bg_img9.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol32{background: url('../images/hunhe/bg_img10.jpg')no-repeat center center;background-size: 100% 100%;}
+.enrol42{background: url('../images/hunhe/bg_img11.jpg')no-repeat center center;background-size: 100% 100%;}
+
+/* 用实力赢得信赖 */
+.floor52_top{background: url('../images/hunhe/bg_img12.jpg')no-repeat center center;background-size: 100% 100%;padding:3rem 2.4rem 1.5rem 2.4rem;}
+.floor52_lun{background: url('../images/hunhe/bg_img13.jpg')no-repeat center center;background-size: 100% 100%;padding:0 1.5rem;}
+
+/* 图片 */
+.floor62_pic{background: url('../images/hunhe/bg_img14.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1.25rem;padding-left: 1.9rem;padding-right: 1.9rem;}
+.floor62_pic1{background: url('../images/hunhe/bg_img15.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor62_pic2{background: url('../images/hunhe/bg_img16.jpg')no-repeat center center;background-size: 100% 100%;padding-top:.75rem;}
+.floor62_pic3{background: url('../images/hunhe/bg_img17.jpg')no-repeat center center;background-size: 100% 100%;padding-top:1rem;padding-bottom: 2.25rem;}
+
+
+
+@media (max-width: 320px){
+	.con_title{margin:0 .2rem;}
+	.con_title p{letter-spacing:-0.06rem;}
+
+	.floor3_bom_con ul{padding:0 1rem;}
+}
+
+
+@media (min-width: 750px){
+	
+}

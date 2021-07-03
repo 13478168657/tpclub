@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>我的收藏-图文</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper.min.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body>
+<div class="bgcolor_fff plr30">
+
+    <!--列表 start-->
+    <div class="list-art" id="list">
+        <ul>
+            <li class="ptb40">
+                <a href="">
+                    <h3 class="lt f30 color_333 text-overflow2">世界形体小姐的极塑美臀课世界形体小姐</h3>
+                    <div class="weui-cells nobefore noafter padding0 art-list-title mt0">
+                        <div class="weui-cell nobefore noafter padding0 mt10">
+                            <div class="weui-cell__bd">
+                                <p class="color_gray9b f22 fz">
+                                    <img class="border-radius50 d-in-black img-width44 img-middle mr20" src="../images/xy.png">
+                                    <span class="color_gray666 mr30 f28">浪客剑心</span>
+                                    <span class="color_gray9b">2018.09.25</span>
+                                </p>
+                            </div>
+                            <div class="weui-cell__ft fz f20 color_gray9b yudu-img">
+                                <span class=""><img src="../images/icon-xiao-xihuan.png" alt="">300</span>
+                                <span class="pl20"><img src="../images/icon-xiao-yuedu.png" alt="">300</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="ptb40">
+                <a href="">
+                    <h3 class="lt f30 color_333 text-overflow2">世界形体小姐的极塑美臀课世界形体小姐世界形体小姐的极塑美臀课世界形体小姐</h3>
+                    <div class="weui-cells nobefore noafter padding0 art-list-title mt0">
+                        <div class="weui-cell nobefore noafter padding0 mt10">
+                            <div class="weui-cell__bd">
+                                <p class="color_gray9b f22 fz">
+                                    <img class="border-radius50 d-in-black img-width44 img-middle mr20" src="../images/xy.png">
+                                    <span class="color_gray666 mr30 f28">浪客剑心</span>
+                                    <span class="color_gray9b">2018.09.25</span>
+                                </p>
+                            </div>
+                            <div class="weui-cell__ft fz f20 color_gray9b yudu-img">
+                                <span class=""><img src="../images/icon-xiao-xihuan.png" alt="">300</span>
+                                <span class="pl20"><img src="../images/icon-xiao-yuedu.png" alt="">300</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+   </div>
+
+<!--列表 end-->
+
+<!--加载更多-->
+<div class="weui-loadmore more text_center fz ptb30">
+    <i class="weui-loading"></i>
+    <span class="weui-loadmore__tips">正在加载</span>
+</div>
+
+
+ <br><br>
+</div><!--白色背景层 end-->
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+
+</script>
+                   
+                                
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+<script>
+    var loading = false;
+    $(document.body).infinite().on("infinite", function() {
+        if(loading) return;
+        loading = true;
+        setTimeout(function() {
+            $("#list").append("" +
+                    "<li class='ptb40'>" +
+                    "<a href=''>"+
+                    "<h3 class='lt f30 color_333 text-overflow2'>世界形体小姐的极塑美臀课世界形体小姐世界形体小姐的极塑美臀课世界形体小姐</h3>" +
+                    "<div class='weui-cells nobefore noafter padding0 art-list-title mt0'>" +
+                    "<div class='weui-cell nobefore noafter padding0 mt10'>" +
+                    "<div class='weui-cell__bd'>" +
+                    "<p class='color_gray9b f22 fz'>" +
+                    "<img class='border-radius50 d-in-black img-width44 img-middle mr20' src='../images/xy.png'>" +
+                    "<span class='color_gray666 mr30 f28'>浪客剑心</span>" +
+                    "<span class='color_gray9b'>2018.09.25</span>" +
+                    " </p>" +
+                    "</div>" +
+                    " <div class='weui-cell__ft fz f20 color_gray9b yudu-img'>" +
+                    "<span class=''><img src='../images/icon-xiao-xihuan.png' alt=''>300</span>" +
+                    "<span class='pl20'><img src='../images/icon-xiao-yuedu.png' alt=''>300</span>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>" +
+                    "</a>" +
+                    "</li>");
+
+
+            loading = false;
+        }, 2000);
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<title>赛普社区-投放页面</title>
+<meta name="author" content="啾啾" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+	<!--mmenu.css start-->
+<link href="../lib/mmenu/css/jquery.mmenu.all.css"  rel="stylesheet" />
+<link href="../lib/mmenu/css/jquery.mhead.css"  rel="stylesheet" />
+<link href="../css/nav-mmenu-public.css" rel="stylesheet" />
+	<!--end-->
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/font-num40.css" rel="stylesheet" >
+
+	<!--本css-->
+	<!--<link rel="stylesheet" href="../css/zt/zt_kecheng.css">-->
+	<style>
+		/* 选项卡css -------------------------------------- */
+		.tabBox .hd{position:fixed;bottom: 0;width:94%;height:2.45rem;background-color: #fff;/*margin-top: 3.925rem;*//*157px*/;left: 3%}
+		.tabBox .hd ul{ /*position:absolute;  top:0; overflow:hidden;*/width: 100%; }
+		.tabBox .hd ul li{ float:left; width: 32%;}
+		.tabBox .hd ul li:nth-child(2){/*margin: 0 .375rem*/margin:0 2%;}
+		.tabBox .hd ul li a{ display: block; height:2.45rem;  font-size: 0.75rem; color: #9b9b9b;line-height: 1.6rem;text-align: center;border: 1px solid #999999;}
+		.tabBox .hd ul li a span{ display:block;line-height: .3rem}
+		.tabBox .hd ul .on a{ color: #333;font-weight: bold;border: 1px solid #333;}
+		.tabBox .hd ul .on a span{color: #666 }
+
+
+		.tabBox{margin-top: 20%;}
+
+
+
+		/*对话*/
+		.huihua{margin-bottom: 3rem;/*120px*/}
+		.huihua dl dt{width: 1.9rem;}
+		.huihua dl dt img{width: 1.9rem;}
+		.huihua dl dd{;width: 76%;line-height: 1rem;}
+
+
+		.er-miss{}
+		.er-miss img{width: 10rem;display: block;margin: 0 auto}
+
+
+	</style>
+
+<script>
+(function(){
+	var html = document.documentElement;
+	var hWidth = html.getBoundingClientRect().width;
+	html.style.fontSize=hWidth/18.75+'px';
+})()
+</script>
+</head>
+<body ontouchstart>
+
+<!---导航右侧带导航弹出---->
+
+<div id="page"><!--导航大盒子id=page 开始  【结束在最底部】-->
+
+	<!--头部导航 start-->
+	<div class="mh-head Sticky">
+
+		<div class=" menu-bg-logo">
+			<span class="mh-btns-left">
+				<a class="icon-menu icon-sousuo" href="javascript:;"></a>
+			</span>
+			<span class="mh-btns-right">
+				<a class="icon-menu" href="#menu"></a>
+				<a class="icon-menu" href="#page"></a>
+			</span>
+		</div>
+	</div>
+
+	<!--隐藏导航内容-->
+	<nav id="menu">
+		<div class="text_center  fz">
+			<ul>
+				<li><a href="javascript:void (0)">首页</a></li>
+				<li><a href="javascript:void (0)">正在学习</a></li>
+				<li><a href="javascript:void (0)">我的</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!--头部导航 end-->
+
+
+
+
+	<div class="plr30"><!--边距30 开始-->
+
+
+		<!--会话 start-->
+		<!--<div class="huihua pt40">
+			<dl class="clearfix">
+				<dt class="fl mr20"><img src="../images/zt/group.png" alt=""></dt>
+				<dd class="fl ptb30 plr30 bgcolor_gray border-radius-img text-jus f26 fz">
+					购买课程出现问题，对课程有疑问，想了解更多课程信息，想和小伙伴、讲师深度交流，可以入群讨论。</dd>
+			</dl>
+		</div>-->
+		<!--会话 end-->
+
+
+	<!--选项卡 start-->
+	<div>
+
+		<!-- 本例主要代码 Start ================================ -->
+		<div id="leftTabBox" class="tabBox">
+
+			<div class="bd" id="tabBox1-bd">
+				<div class="con">
+					<!--二维码 start-->
+					<div class="er-miss text_center">
+						<img src="../images/zt/group-er1.png" alt="">
+						<p class="mt20 fz f30">长按识别添加管理员微信<br>由管理员拉您入群</p>
+						<h3 class="lt f34 pt40">添加好友请填写备注：增肌</h3>
+					</div>
+					<!--二维码 end-->
+				</div>
+				<div class="con">
+					<!--二维码 start-->
+					<div class="er-miss text_center">
+						<img src="../images/zt/group-er1.png" alt="">
+						<p class="mt20 fz f30">长按识别添加管理员微信<br>由管理员拉您入群</p>
+						<h3 class="lt f34 pt40">添加好友请填写备注：增肌</h3>
+					</div>
+					<!--二维码 end-->
+				</div>
+				<div class="con">
+					<!--二维码 start-->
+					<div class="er-miss text_center">
+						<img src="../images/zt/group-er1.png" alt="">
+						<p class="mt20 fz f30">长按识别添加管理员微信<br>由管理员拉您入群3</p>
+						<h3 class="lt f34 pt40">添加好友请填写备注：增肌</h3>
+					</div>
+					<!--二维码 end-->
+				</div>
+			</div>
+			<div class="hd fz mb30">
+				<ul>
+					<li><a class="border-radius-img fz f28" href="javascript:void 0;">增肌群<span class="f24">(何翔宇)</span></a></li>
+					<li><a class="border-radius-img fz f28" href="javascript:void 0;">减脂塑形群<span class="f24">(田坤坤)</span></a></li>
+					<li><a class="border-radius-img fz f28" href="javascript:void 0;">功能性群<span class="f24">(陈学森)</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="../js/TouchSlide.1.1.js"></script>
+		<script type="text/javascript">TouchSlide({ slideCell:"#leftTabBox",
+
+			endFun:function(i){ //高度自适应
+				var bd = document.getElementById("tabBox1-bd");
+				bd.parentNode.style.height = bd.children[i].children[0].offsetHeight+"px";
+				if(i>0)bd.parentNode.style.transition="200ms";//添加动画效果
+			}
+		}); </script>
+		<!-- 本例主要代码 End ================================ -->
+
+	</div>
+	<!--选项卡 end-->
+
+
+
+
+
+</div>
+
+
+
+
+</div><!--导航大盒子id=page 结束-->
+
+
+
+<br><br><br>
+
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+
+
+	/**/
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../lib/jqweui/js/jquery-weui.min.js"></script>
+<script src="../lib/layer/layer.js"></script>
+
+<!--nav logo menu 导航条-->
+<script src="../lib/mmenu/js/nav-mmenu-public.js"></script>
+<script src="../lib/mmenu/js/jquery.mmenu.all.js"></script>
+<script src="../lib/mmenu/js/jquery.mhead.js"></script>
+<!--end-->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="htmlH100">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<title>登录</title>
+<meta name="author" content="络绎" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/my.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="page_login pt0" ontouchstart>
+<!-- 登录 start -->
+<img src="../images/my/logoImg.png" class="logoImg" alt="" />
+<div class="form_container">
+	<h4 class="yellow fs15 mb10">登录PT-Club</h4>
+	<form method="post" action="" id="regForm">
+		<ul>
+			<li>
+				<div class="wrap clearfix">
+					<input type="text" id="tel" placeholder="请输入您的手机号码" class="ipt tel" />
+				</div>
+				<div class="tip">请输入有效的手机号码</div>
+			</li>
+			<li>
+				<div class="wrap clearfix">
+					<input type="password" placeholder="请填写6-20位字符组成的密码" class="ipt password"  id="password">
+				</div>
+				<div class="tip">用户名与密码不匹配</div>    
+			</li>
+			<li>
+				<input type="submit" value="登录" class="weui-btn submitBtn bgc_yellow grey" />
+				<div class="wrap2 clearfix">
+					<a href="register.html" class="fl">还没有账号？去注册</a>
+					<a href="javascript:void(0)" class="fr open-popup" data-target="#full">忘记密码</a>
+				</div>
+			</li>
+		</ul>				
+	</form>
+	<a href="#" class="weui-btn bgc_grey1 grey">随便逛逛</a>
+</div>
+<!-- 登录 end -->
+
+
+<!-- 注册登录弹出框 start -->
+<div id="full" class='weui-popup__container page_login'>
+    <div class="weui-popup__overlay"></div>
+    <div class="weui-popup__modal bgc_white">
+        <img src="../images/my/logoImg.png" class="logoImg" alt="" />
+		<div class="form_container">
+			<h4 class="yellow fs15 mb10">重置密码</h4>
+			<form method="post" action="">
+				<ul>
+					<li>
+						<div class="wrap clearfix">
+							<input type="text" placeholder="请输入您的手机号码" class="ipt tel" id="tel" />
+						</div>
+						<div class="tip">请输入有效的手机号码</div>
+					</li>
+					<li>
+						<div class="wrap clearfix">
+							<input type="text" placeholder="请输入您的验证码" class="ipt vcode" />
+							<span class="weui-btn vcodeBtn bgc_yellow grey">获取验证码</span>
+						</div>
+						<div class="tip">验证错误，请重新获取</div>
+					</li>
+					<li>
+						<div class="wrap clearfix">
+							<input type="password" placeholder="设置新密码" class="ipt password">
+						</div>
+						<div class="tip">密码必须在6-20位字符之间</div>    
+					</li>
+					<li>
+						<div class="wrap clearfix">
+							<input type="password" placeholder="确认新密码" class="ipt password">
+						</div>
+						<div class="tip">两次密码输入不相符，请重新输入</div>    
+					</li>
+					<li>
+						<input type="submit" value="保存" class="weui-btn submitBtn bgc_yellow grey" />
+					</li>
+				</ul>				
+			</form>
+		</div>
+        <a href="javascript:;" class="colseBtn close-popup"></a>
+    </div>
+</div>
+<!-- 注册登录弹出框 end -->
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../lib/jqweui/js/jquery-weui.min.js"></script>
+<script src="../lib/icheck/js/icheck.min.js"></script>
+<script src="../lib/layer/layer.js"></script>
+<script src="../js/js.js"></script>
+<script>
+	$(function(){
+		//发送验证码
+		$('.vcodeBtn').click(function (){
+			var tel = $('#tel').val();
+			if(!tel || !/13[0-9]{9}$|14[0-9]{9}|15[0-9]{9}$|17[0-9]{9}$|18[0-9]{9}$/.test(tel)){
+				layer.msg('请输入有效的手机号码');
+			}else{
+				settime($('.vcodeBtn'),60);
+			}
+		})
+
+		//单选按钮
+		$('.radio').iCheck({
+			//checkboxClass: 'icheckbox_square-green',
+			radioClass: 'iradio',
+			increaseArea: '20%'
+		});
+   })
+</script>
+</body>
+</html>

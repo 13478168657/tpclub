@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>支付记录</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body style="background: #fff;">
+<!-- 支付记录 satrt -->
+<ul class="spb_details mlr30 fz">
+    <div id="list">
+        <li>
+            <div class="weui-cells nobefore noafter mt0">
+                <a class="weui-cell weui-cell_access ptb30 xueyuan_install nobefore noafter" href="javascript:;">
+                    <div class="weui-cell__bd f24 color_gray666">
+                        <p class="color_4a f26 pb15">提现</p>
+                        <span class="color_gray999 f20">2018/04/12 14:19</span>
+                    </div>
+                    <div class="lt">
+                        <p class="f26 color_red">-199.0元</p>
+                    </div> 
+                </a>
+            </div> 
+        </li>
+        <li>
+            <div class="weui-cells nobefore noafter mt0">
+                <a class="weui-cell weui-cell_access ptb30 nobefore noafter" href="javascript:;">
+                    <div class="weui-cell__bd f24 color_gray666 fz">
+                        <p class="color_4a f26 pb15">提现</p>
+                        <span class="color_gray999 f20">2018/04/12 14:19</span>
+                    </div>
+                    <div class="lt">
+                        <p class="f26 color_red">-199.0元</p>
+                    </div> 
+                </a>
+            </div> 
+        </li>        
+    </div>  
+</ul>
+<!-- 支付记录 end -->
+
+<!--加载更多-->
+<div class="weui-loadmore more text_center fz ptb30">
+    <i class="weui-loading"></i>
+    <span class="weui-loadmore__tips">正在加载</span>
+</div>
+
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+<script>
+    var loading = false;
+    $(document.body).infinite().on("infinite", function() {
+        if(loading) return;
+        loading = true;
+        setTimeout(function() {
+            $("#list").append("" +
+                    "<li><div class='weui-cells nobefore noafter mt0'>" +
+                    "<a class='weui-cell weui-cell_access ptb30 nobefore noafter' href='javascript:;'>" +
+                    "<div class='weui-cell__bd f24 color_gray666 fz'> "+
+                    "<p class='color_4a f26 pb15'>提现</p>" +
+                    "<span class='color_gray999 f20'>2018/04/12 14:19</span>" +
+                    "</div>"+
+                    "<div class='lt'><p class='f26 color_red'>-199.0元</p>" +
+                    "</div>" +
+                    "</a>" +
+                    "</div>"+
+                    "</li>"
+                    );
+            loading = false;
+        }, 2000);
+    });
+</script>
+</body>
+</html>

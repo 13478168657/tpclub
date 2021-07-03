@@ -1,0 +1,17 @@
+
+body{background: #FDD000;}
+img{display: block;width: 100%}
+
+/* 邀请预定排行榜 */
+.yq_user a img{width: 3.1rem;border-radius: 50%;margin:0 auto;}
+.yq_phb{padding:0 .9rem;}
+.yq_phb_user img{width: 1.25rem;height: 1.4rem;margin-right: .5rem;display: inline-block;vertical-align: middle;}
+.yq_phb p{margin-top:.2rem;}
+.yq_phb li{border-bottom: 1px solid #DEDEDE;}
+.yq_phb .yq_noun span{display: inline-block;background: url('../../images/zt/yaoqing/icon_img4.png')no-repeat center center;background-size: 100% 100%;width: 1.25rem;height: 1.4rem;margin-right: .3rem;line-height: 1.7rem;}
+.yq_phb a{display: block;}
+
+
+
+
+

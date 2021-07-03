@@ -1,0 +1,68 @@
+[2018-08-08 13:38:32][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:53,function:ERROR]{}
+[2018-08-08 13:38:59][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:53,function:ERROR]{}
+[2018-08-08 13:57:03][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:53,function:ERROR]{}
+[2018-08-08 14:00:28][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:00:49][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:01:19][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:14:34][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:15:05][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:17:10][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:54,function:ERROR]{}
+[2018-08-08 14:17:48][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:17:53][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:18:46][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:23:22][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:57,function:ERROR]{}
+[2018-08-08 14:23:40][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:58,function:ERROR]{}
+[2018-08-08 14:24:04][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:26:22][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:34:11][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:38:13][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:39:54][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:40:03][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:50:03][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:57:19][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:58:17][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:59,function:ERROR]{}
+[2018-08-08 14:58:47][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:58:47][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:58:58][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 14:59:07][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:27:18][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:27:29][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:28:47][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:29:19][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:29:37][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:30:39][debug] begin notify
+[2018-08-08 15:30:39][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 15:30:59][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:31:29][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:31:56][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:32:24][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:36:08][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:36:48][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:45:46][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:46:10][error] [,file:/home/ptclub/htdocs/tpclub/public/wxpay/example/jsapi.php,line:55,function:ERROR]{}
+[2018-08-08 15:47:59][debug] begin notify
+[2018-08-08 15:47:59][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 15:48:16][debug] begin notify
+[2018-08-08 15:48:16][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 15:48:32][debug] begin notify
+[2018-08-08 15:48:32][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 15:49:02][debug] begin notify
+[2018-08-08 15:49:02][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 15:52:02][debug] begin notify
+[2018-08-08 15:52:02][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:04:45][debug] begin notify
+[2018-08-08 16:04:45][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:05:01][debug] begin notify
+[2018-08-08 16:05:01][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:05:16][debug] begin notify
+[2018-08-08 16:05:16][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:05:46][debug] begin notify
+[2018-08-08 16:05:46][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:08:47][debug] begin notify
+[2018-08-08 16:08:47][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:22:04][debug] begin notify
+[2018-08-08 16:22:04][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:38:47][debug] begin notify
+[2018-08-08 16:38:47][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2018-08-08 16:52:05][debug] begin notify
+[2018-08-08 16:52:05][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>

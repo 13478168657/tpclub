@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>扫描二维码</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body class="bgcolor_fff">
+<div class="saomiao ">
+    <p><img src="../images/bm_success.png" alt=""></p>
+    <p><img src="../images/qr.png" alt=""></p>
+    <p class="text_center pt40 fz f32">扫描二维码获得课程提醒</p>
+</div>
+
+<!--大按钮-->
+<div class="Btn nobefore noafter fix_btn">
+    <a href="javascript:;" class="weui-btn nobefore noafter bgcolor_orange fz color_333 f34">提交评价</a>
+</div>
+
+
+<!--大按钮-->
+<div class="Btn nobefore noafter fix_btn">
+    <a href="javascript:;" class="weui-btn nobefore noafter bgcolor_dedede fz color_333 f34">暂不关注</a>
+</div>
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+
+</body>
+</html>

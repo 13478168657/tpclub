@@ -1,0 +1,139 @@
+/*
+  ˙œﬂª¨∂Ø
+ …¡∂Ø
+*/
+/*=========================*/
+
+/*ª¨*/
+a.hua{
+    overflow: hidden;outline: none;cursor: pointer;
+    position: relative;
+    transition: all .5s;
+}
+a.hua span{
+    position: absolute;
+    display: block;
+}
+a.hua span:nth-child(1){
+    height: 3px;
+    /*width:200px;*/
+    width:100%;
+    top:0px;
+    left:-100%;
+    background: linear-gradient(to right, rgba(255,255,255,0), #ff4e00);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span1 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes span1{
+    0%{
+        left:-100%;
+    }
+    100%{
+        left:100%;
+    }
+}
+a.hua span:nth-child(2){
+    /*height: 70px;*/
+    height: 2rem;
+    width: 3px;
+    top:-2rem;
+    right:0px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #ff4e00);
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span2 2s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes span2{
+    0%{
+        top:-2rem;
+    }
+    100%{
+        top:2rem;
+    }
+}
+a.hua span:nth-child(3){
+    height:3px;
+    width:100%;;
+    right:-100%;
+    bottom: 0px;
+    background: linear-gradient(to left, rgba(255,255,255,0), #ff4e00);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    animation: span3 2s linear infinite;
+    animation-delay: 3s;
+}
+@keyframes span3{
+    0%{
+        right:-100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+
+a.hua span:nth-child(4){
+    height:2rem;
+    width:3px;
+    bottom:-2rem;
+    left:0px;
+    background: linear-gradient(to top, rgba(255,255,255,0), #ff4e00);
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    animation: span4 2s linear infinite;
+    animation-delay: 4s;
+}
+@keyframes span4{
+    0%{
+        bottom: -2rem;
+    }
+    100%{
+        bottom:2rem;
+    }
+}
+/**/
+
+
+/*…¡*/
+.animation_btn{width: 94%!important;display:block;margin: 0 auto;-webkit-animation: breathingLight .4s infinite; animation: breathingLight .4s infinite;}
+@-webkit-keyframes 'breathingLight' {
+    0% {
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    30% {
+        -webkit-transform:scale(1.02);
+        transform:scale(1.02);
+    }
+    70% {
+        -webkit-transform:scale(1.02);
+        transform:scale(1.02);
+    }
+    100% {
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+
+@keyframes 'breathingLight' {
+    0% {
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+    30% {
+        -webkit-transform:scale(1.02);
+        transform:scale(1.02);
+    }
+    70% {
+        -webkit-transform:scale(1.02);
+        transform:scale(1.02);
+    }
+    100% {
+        -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+/*=========================*/

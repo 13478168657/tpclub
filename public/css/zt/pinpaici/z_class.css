@@ -1,0 +1,81 @@
+/*/40*/
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+.display-block{display: block}
+.pt180{padding-top: 4.5rem;}
+.pb180{padding-bottom: 4.5rem;}
+.pb120{padding-bottom:3rem;}
+.pt110{padding-top:2.75rem;}
+.pt120{padding-top:3rem;}
+.pt118{padding-top: 2.95rem;}
+.plr50{padding-left: 1.25rem;padding-right: 1.25rem;}
+.plr65{padding-left: 1.625rem;padding-right: 1.625rem;}
+.pt50{padding-top:1.25rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pt70{padding-top: 1.75rem;}
+.pb70{padding-bottom: 1.75rem;}
+.pb238{padding-bottom: 5.95rem;}
+.pt75{padding-top: 1.875rem;}
+.ptb100{padding:2.5rem 0}
+.mb100{margin-bottom: 2.5rem;}
+.mt100{margin-top:2.5rem;}
+.pt100{padding-top: 2.5rem;}
+.pb100{padding-bottom: 2.5rem;}
+.pt44{padding-top: 1.1rem;}
+.pb44{padding-bottom: 1.1rem;}
+.ml52{margin-left: 1.3rem;}
+
+
+/*color bgcolor*/
+.color-fdd000{color:#fdd000;}
+.color_fff{color: #fff;}
+.color_3b3738{color: #3b3738;}
+.color_020202{color: #020202;}
+.color_010101{color: #010101;}
+.bg{background: #dcdddd;}
+
+/*进一步了解 css*/
+
+/* 高级私教课程 */
+.senior_wrap{margin-top:2rem;border-radius: 1.5rem 0 0 0;}
+.senior{padding-top: 2.12rem;}
+.senior p{line-height: 1.2rem;padding-left: 4.35rem;}
+.module{border-left: 1px solid #000;margin:0 1.05rem 0 .625rem;}
+.module_one{position: relative;}
+.circle_orange{width: .75rem;height: .75rem;border-radius: 50%;position: absolute; top:0;left: -.375rem;}
+.module h3{padding-left: .8rem;}
+.module .module_con{padding: .875rem 0 0 .875rem;}
+/*.module .module_con .module_con_img{background: url('../images/z_class/module_img1.jpg')no-repeat center center;background-size: 100% 100%;padding-top:2.25rem;}*/
+.module .module_con p.p_CPR{line-height: 1rem;}
+.module_con_img5 p:nth-child(1),.module_con_img8 p:nth-child(1){padding-bottom:.9rem;}
+.module_con1{margin:0 1.05rem 0 1.3rem;}
+h3.h3_sijiao{margin-left: 1.3rem;}
+.module .module_con .module_con_img2{background: url('../../../images/zt/pinpaici/z_class/module_img2.jpg')no-repeat center center;background-size: 100% 100%;padding:1.875rem 0 1.5rem 0;}
+.module_con_img3{background: url('../../../images/zt/pinpaici/z_class/module_img3.jpg')no-repeat center center;background-size: 100% 100%;padding:1.875rem 0 1.75rem 0;}
+.module_con_img4{background: url('../../../images/zt/pinpaici/z_class/module_img4.jpg')no-repeat center center;background-size: 100% 100%;padding:2.2rem 0 1.5rem 0;}
+.module_con_img5{background: url('../../../images/zt/pinpaici/z_class/module_img5.jpg')no-repeat center center;background-size: 100% 100%;padding:2rem 0 1.5rem 0;}
+.module_con_img6{background: url('../../../images/zt/pinpaici/z_class/module_img6.jpg')no-repeat center center;background-size: 100% 100%;padding:1.65rem 0 1.85rem 0;}
+.module_con_img7{background: url('../../../images/zt/pinpaici/z_class/module_img7.jpg')no-repeat center center;background-size: 100% 100%;padding:2.05rem 0 1.55rem 0;}
+.module_con_img8{background: url('../../../images/zt/pinpaici/z_class/module_img8.jpg')no-repeat center center;background-size: 100% 100%;padding:2.2rem 0 1.5rem 0;}
+.module_con_img9{background: url('../../../images/zt/pinpaici/z_class/module_img9.jpg')no-repeat center center;background-size: 100% 100%;padding:2.2rem 0 1.5rem 0;}
+
+/* 轻松学习 */
+.learn{border-radius:0 0 1.5rem 0;}
+
+/*中级私教课程*/
+.middle_wrap{margin-top: 3.75rem;}
+ 
+/* 训练教室 */
+
+
+/*食堂环境 专业健身营养餐*/
+
+
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

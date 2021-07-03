@@ -1,0 +1,389 @@
+
+/*全部评论*/
+.cat_pl {border-bottom: 1px solid #DEDEDE;}
+.list_comment li {background-color: #fff;}
+.list_comment li .user_photo {float: left;display: block;width: 1.65rem;height: 1.65rem;border-radius: 50%;overflow: hidden;}
+.list_comment li .user_photo img {display: block;width: 100%;height: 100%;}
+.list_comment li .info {line-height: 1.65rem;}
+.list_comment li .info .name {margin-left: 0.75rem;}
+.list_comment li .info .date {margin-left: 0.5rem;}
+.list_comment li p.cont {clear: both;line-height: 1.05rem;margin: 0.5rem 0 0 0;font-size: 0.7rem;}
+.list_comment li .pl_item {position: relative;padding: 0.75rem;}
+.list_comment li .pl_item .btn_reply {float: right;margin-top: 0.25rem;}
+.list_comment li .pl_item .btn_reply span {display: block;width: 2.5rem;height: 1.1rem;line-height: 1.1rem;border-radius: 0.25rem;border: 1px solid #333;text-align: center;font-size: 0.6rem;}
+.list_comment li .pl_item:after {content: '';position: absolute;left: 0.75rem;right: 0.75rem;bottom: 0;height: 1px;background-color: #DEDEDE;}
+.list_comment li .hf_item {padding: 0.75rem 0.75rem 0.25rem 2.45rem;}
+.list_comment li .hf_item .btn_reply2 {display: block;width: 2.5rem;height: 1.1rem;line-height: 1.1rem;border-radius: 0.25rem;background-color: #e8e8e8;margin-left: 0.75rem;text-align: center;font-size: 0.6rem;}
+.list_comment li .foot {padding: 0.5rem 0;}
+.list_comment li .foot .weui-cell__ft div {display: inline-block;padding-left: 0.75rem;margin-left: 0.5rem;}
+.list_comment li .foot .weui-cell__ft div.pl {background: url(../images/ask/ico_pl.png) 0 center no-repeat;background-size: 0.55rem 0.55rem;}
+.list_comment li .foot .weui-cell__ft div.zt {background: url(../images/ask/ico_zt.png) 0 center no-repeat;background-size: 0.55rem 0.55rem;}
+.nomore {padding-top: 1.25rem;padding-bottom: 1.25rem;}
+
+
+
+/*底部 [ 添加评论，赞同，没帮助，分享，收藏 ]*/
+.fixed_bar_ask{height: 3.125rem;width: 100%;box-shadow: 0px 0 5px rgba(0,0,0,.16);}
+.fixed_bar_ask ul li{float: left;height: 2.25rem;line-height: 2.25rem;margin-top: .43rem;}
+.fixed_bar_ask ul li:first-child{width: 55%}
+.fixed_bar_ask ul li:last-child{width: 45%;}
+.fixed_bar_ask ul li .tianjia a{width: 88%;margin: 0 auto;height: 2.25rem;line-height: 2.25rem;}
+.fixed_bar_ask ul li .tianjia img{width: .8rem;vertical-align: middle;margin-right: .125rem}
+
+.fixed_bar_ask ul li:last-child .tj-more{width: 100%;}
+.fixed_bar_ask ul li:last-child .tj-more ol li{margin-top: .1rem/*0*/;width: 33.33%;line-height: .8rem/*1rem*/;}
+.fixed_bar_ask ul li:last-child .tj-more ol li img{width: 1rem/*.925rem*/;}
+
+.pos-num{position: absolute;top: -.4rem;right: -.23rem;}
+
+/*动态点赞开始*/
+.clickZan{
+    cursor: pointer;
+    position: relative;
+}
+.praise,.buzantong,.fx,.sc{
+    width: 1rem;
+    height: 1.28rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.clickZan img.animation{
+    animation: myfirst 0.5s;
+    -moz-animation: myfirst 0.5s;	/* Firefox */
+    -webkit-animation: myfirst 0.5s;	/* Safari 和 Chrome */
+    -o-animation: myfirst 0.5s;	/* Opera */
+}
+img.animation{
+    animation: myfirst 0.5s;
+    -moz-animation: myfirst 0.5s;	/* Firefox */
+    -webkit-animation: myfirst 0.5s;	/* Safari 和 Chrome */
+    -o-animation: myfirst 0.5s;	/* Opera */
+}
+
+
+.add-num{display:none;}
+.add-num .add-animation{
+    color: #000;
+    position:absolute;
+    top:-15px;
+    left: 10px;
+    font-size: .375rem;
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    -moz-opacity:0;
+    animation: mypraise 0.5s ;
+    -moz-animation: mypraise 0.5s ;	/* Firefox */
+    -webkit-animation: mypraise 0.5s ;	/* Safari 和 Chrome */
+    -o-animation: mypraise 0.5s ;	/* Opera */
+    font-style:normal;
+    z-index: 999999;
+}
+/*.clickZan .hover , .add-num .add-animation.hover , .praise-txt.hover ,.zan-font.hover{
+    color: #EB4F38!important;
+}*/
+.hover_red{
+    color: #EB4F38!important;
+}
+
+/*点赞图标放大动画开始*/
+@keyframes myfirst
+{
+    0%{
+        width:1rem;
+        height:1rem;
+    }
+    50%{
+        width:1.1rem;
+        height:1.1rem;
+    }
+    100% {
+        width:1rem;
+        height:1rem;
+    }
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%{
+        width:1rem;
+        height:1rem;
+    }
+    50%{
+        width:1.1rem;
+        height:1.1rem;
+    }
+    100% {
+        width:1rem;
+        height:1rem;
+    }
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    0%{
+        width:1rem;
+        height:1rem;
+    }
+    50%{
+        width:1.1rem;
+        height:1.1rem;
+    }
+    100% {
+        width:1rem;
+        height:1rem;
+    }
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0%{
+        width:1rem;
+        height:1rem;
+    }
+    50%{
+        width:1.1rem;
+        height:1.1rem;
+    }
+    100% {
+        width:1rem;
+        height:1rem;
+    }
+}
+/*点赞图标放大动画结束*/
+/*点赞数量加减动画开始*/
+@keyframes mypraise
+{
+    0%{
+        top:-15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+    25%{
+        top:-20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    50%{
+        top:-25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity:1;
+    }
+    75%{
+        top:-30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    100% {
+        top:-35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+}
+
+@-moz-keyframes mypraise /* Firefox */
+{
+    0%{
+        top:-15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+    25%{
+        top:-20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    50%{
+        top:-25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity:1;
+    }
+    75%{
+        top:-30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    100% {
+        top:-35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+}
+
+@-webkit-keyframes mypraise /* Safari 和 Chrome */
+{
+    0%{
+        top:-15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+    25%{
+        top:-20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    50%{
+        top:-25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity:1;
+    }
+    75%{
+        top:-30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    100% {
+        top:-35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+}
+
+@-o-keyframes mypraise /* Opera */
+{
+    0%{
+        top:-15px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+    25%{
+        top:-20px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    50%{
+        top:-25px;
+        opacity: 1;
+        filter: Alpha(opacity=100);
+        -moz-opacity:1;
+    }
+    75%{
+        top:-30px;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        -moz-opacity:0.5;
+    }
+    100% {
+        top:-35px;
+        opacity: 0;
+        filter: Alpha(opacity=0);
+        -moz-opacity:0;
+    }
+}
+/*点赞数量加减动画结束*/
+/*动态点赞结束*/
+
+
+/*弹出文本编辑样式*/
+.text_ask_chuangjian textarea{width: 100%;padding: 1rem 0 0.75rem 0;letter-spacing: 0.8px;border: none;resize:none;}
+.text_ask_chuangjian .zhuanti_name{border-bottom: 1px solid #DEDEDE;}
+
+textarea::-webkit-input-placeholder {color: #c9c7c7;}
+textarea::-moz-placeholder{color: #c9c7c7;}
+textarea:-ms-input-placeholder {color: #c9c7c7;}
+
+.text-adaption {
+    width: 100%;
+    /* height: 34px;*/
+    overflow: hidden;
+    padding: 5px 10px;
+    resize: none;
+    line-height: 24px;
+    /*font-size: 12px;*/
+    color: #666;
+    /*border: 1px solid #ccc;*/
+    border: none;
+    outline: 0 none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+
+/*清单 start*/
+
+.pb40{padding-bottom: 1rem;}
+.mt62{margin-top: 1.55rem;}
+.mlr40{margin-left: 1rem;margin-right: 1rem;}
+.border-rad2rem{border-radius: 2rem;}
+.border-rad100{border-radius: 100%;overflow: hidden;}
+.border-b-dedede{border-bottom: 1px solid #DEDEDE;}
+.line28{line-height: .7rem;}
+.line30{line-height: .75rem;}
+.line36{line-height: .9rem;}
+.line40{line-height: 1rem;}
+
+/*查看更多详情*/
+.step .jump img{width: .75rem;vertical-align: text-top;margin-left: .3rem;}
+
+/*清单标签*/
+.Qtag ul li a{float: left;height: 1.25rem;margin-right: .75rem;margin-bottom:.25rem;padding:0 1.4rem;}
+/*清单用户关注*/
+.Qfollow .weui-cell__hd img{height: 2.5rem;width: 2.5rem;}
+.Qfollow .follows a{height: 1.25rem;padding:0 .8rem;line-height: 1.25rem;}
+
+/*视频 */
+.video {position: relative;width: 100%;height: 7.95rem;}
+.video .box {position: absolute;width: 100%;height: 100%;z-index: 100;}
+.video .box img {display: block;width: 100%;height: 100%;}
+.video .box .mask {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: .5;}
+.video .box .btn_play {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 1.95rem;height: 1.95rem;background: url(../images/bofang.png) 0 0 no-repeat;background-size: 1.95rem 1.95rem;}
+.video video {position: absolute;left: 0;top: 0;width: 100%;height: 7.95rem;}
+
+
+/*教练清单页面*/
+.Qnav{border-top: 1px solid rgba(222,222,222,.5)/*#DEDEDE*/;border-bottom: 1px solid rgba(222,222,222,.5);padding:.5rem 0;}
+.Qnav ul li{float: left;padding-left: 1rem;padding-right: 1rem;}
+.Qnav ul li a{}
+.Qnav ul li img{width: .25rem;vertical-align: middle;opacity: .5;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.Dbox2{width: 100%;border-bottom: 1px solid rgba(222,222,222,.5)/*#DEDEDE*/;padding:.25rem .75rem;}
+.Dbox2 ul{margin-top: 2%;}
+.Dbox2 ul li{float: left;width: 22%;margin-right: 4%;margin-bottom: 2%;}
+.Dbox2 ul li:nth-child(4n){margin-right:0;}
+.Dbox2 ul li a{height: 1.25rem;line-height: 1.25rem;background-color: #f2f2f2;}
+.Dbox2 ul li.on a{background-color: #fdd000;}
+
+/*点赞更多*/
+.dianzanMore{position: absolute;right: 0;top: 20%;width: 3.75rem/*150*/;height: 1.25rem;/*50*/line-height: 1.3rem;border-bottom-left-radius: 2rem;border-top-left-radius: 2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

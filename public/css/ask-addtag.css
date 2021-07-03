@@ -1,0 +1,304 @@
+
+body {
+  color: #333;
+}
+.max750 {
+  max-width: 18.75rem;
+  margin: 0 auto;
+}
+.bgc_white {
+  background-color: #fff !important;
+}
+.text_center {
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+.img100 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+::-webkit-input-placeholder{color: #c9c7c7;}
+:-moz-placeholder{ color: #c9c7c7;}
+::-moz-placeholder{color: #c9c7c7;}
+:-ms-input-placeholder{ color: #c9c7c7;} 
+
+
+.page_ask_addtag .header_bar {
+  height: 2.2rem;
+  line-height: 2.2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.page_ask_addtag .header_bar .btn_cancel {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  padding-left: 0.5rem;
+}
+.page_ask_addtag .header_bar .btn_link {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  padding-right: 0.5rem;
+}
+.page_ask_addtag .header_bar .cat1 {
+  height: 2.2rem;
+  line-height: 2.2rem;
+  padding: 0 2.7rem;
+  text-align: center;
+}
+.page_ask_addtag .ask_con {
+  padding: 0 0.75rem;
+}
+.page_ask_addtag .ask_con .iptBox {
+  padding: 1rem 0;
+}
+.page_ask_addtag .ask_con .iptBox input {
+  width: 100%;
+  line-height: 1.05rem;
+  border: none;
+}
+.page_ask_addtag .textareaBox {
+  border-top: 1px solid #F2F2F2;
+}
+.page_ask_addtag .textareaBox textarea {
+  display: block;
+  width: 100%;
+  height: 8rem;
+  line-height: 1rem;
+  margin: 0.75rem 0 0.5rem;
+  border: none;
+  color: #666;
+  font-size: 0.7rem;
+  overflow: hidden;
+}
+.page_ask_addtag .weui-cells_form .weui-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+.page_ask_addtag .weui-cells_form .weui-uploader__files li {
+  position: relative;
+  float: left;
+  width: 5.4rem;
+  height: 5.4rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+.page_ask_addtag .weui-cells_form .weui-uploader__files li img {
+  width: 100%;
+  height: 100%;
+}
+.page_ask_addtag .weui-cells_form .weui-uploader__files li .operation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.page_ask_addtag .weui-cells_form .weui-uploader__files li .operation .btn_del {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../images/ico_del1.png) center center no-repeat;
+  background-size: 0.65rem 0.65rem;
+}
+.page_ask_addtag .weui-uploader__input-box {
+  float: left;
+  position: relative;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 5.4rem;
+  height: 5.4rem;
+  border: none;
+  background-color: #F9F9F9;
+}
+/*标签列表*/
+.page_ask_addtag .tags {
+  position: fixed;
+  left: 0;
+  bottom: 2.5rem;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+.page_ask_addtag .tags li {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.25rem;
+}
+.page_ask_addtag .tags li b {
+  display: block;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #FDD000;
+  padding: 0 1.5rem 0 0.75rem;
+  font-size: 12px;
+  color: #FDD000;
+  overflow: hidden;
+}
+.page_ask_addtag .tags li span {
+  position: absolute;
+  top: 0.325rem;
+  right: 0.325rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(/images/ico_close.png) center center no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+
+
+/*底部固定条*/
+.fixed_bar_bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 900;
+}
+.fixed_bar_bottom .btn_wrap {border-top: 1px solid #F8F8F8;}
+.fixed_bar_bottom .btn_wrap a {display: block;height: 2.2rem;line-height: 2.2rem;}
+
+
+
+.ask_addtag_popup{ z-index: 9999; }
+.ask_addtag_popup header{ position: absolute; width: 100%; height: 2.4rem; line-height: 2.4rem;}
+.ask_addtag_popup header .title{ text-align: center;}
+.ask_addtag_popup header .btn_link{ position: absolute; right: 0; top: 0; height: 2.4rem; padding: 0 1.5rem; color: #F5A623;}
+/*添加标签*/
+.ask_addtag_popup .add_tags{height: auto; /*height: 20.0rem; padding: 0 2.0rem; margin-top: 2.4rem; overflow-y: auto;*/}
+.ask_addtag_popup .inputWrap .input {
+  position: relative;
+  width: 100%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0.5rem;
+  font-size: 0.7rem;
+}
+.ask_addtag_popup .tagsWrap .input {
+  padding: 0 2rem 0 1.35rem;
+}
+.ask_addtag_popup .tagsWrap .ico_zoom {
+  display: block;
+  position: absolute;
+  top: 0.55rem;
+  left: 0.25rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../images/btn_ss.png) 0 0 no-repeat;
+  background-size: 1.1rem 1.1rem;
+  z-index: 100;
+}
+.ask_addtag_popup .tagsWrap .btn_addtags {
+  display: block;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  width: 1.75rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
+.ask_addtag_popup .tagsWrap ul {
+  padding: 0.5rem 0;
+}
+.ask_addtag_popup .tagsWrap ul li {
+  position: relative;
+  float: left;
+  /*width: 33.33%;*/
+  widht:auto;
+  padding: 0 0.25rem;
+  margin-top: .25rem;
+}
+.ask_addtag_popup .tagsWrap ul li b {
+  display: block;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #FDD000;
+  padding: 0 1.5rem 0 0.75rem;
+  font-size: 12px;
+  color: #FDD000;
+  overflow: hidden;
+}
+.ask_addtag_popup .tagsWrap ul li span {
+  position: absolute;
+  top: 0;
+  right: 0.325rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../images/ico_close.png) center center no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+.ask_addtag_popup .tagsWrap ul .has span {
+  display: block;
+}
+.ask_addtag_popup .autocompleteWrap {
+  position: relative;
+}
+.ask_addtag_popup .autocompleteWrap .ui-widget-content {
+  display: block !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  border: none !important;
+  position: relative;
+}
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item {
+  position: relative;
+  height: 2.5rem;
+  padding: 0 0.7rem;
+  list-style-image: none;
+  overflow: hidden;
+}
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item > div.ui-menu-item-wrapper {
+  float: left;
+  line-height: 1rem;
+  padding: 0 0.5rem;
+  border: 1px solid #FDD000;
+  border-radius: 5px;
+  margin: 0.75rem 0;
+  font-size: 12px;
+}
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .ui-state-active,
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .ui-widget-content .ui-state-active,
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .ui-widget-header .ui-state-active,
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item a.ui-button:active,
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .ui-button:active,
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .ui-button.ui-state-active:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #333;
+}
+.ask_addtag_popup .autocompleteWrap .ui-widget-content .ui-menu-item .btn_add1 {
+  /*position: absolute;
+  top: 0.7rem;
+  right: 0.75rem;
+  display: block;*/
+  float: right;
+  width: 3.0rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  background-color: #FDD000;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #000;
+}

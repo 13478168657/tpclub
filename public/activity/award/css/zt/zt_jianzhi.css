@@ -1,0 +1,29 @@
+/*
+社区下专题
+*/
+body{background: #f3c91e!important }
+img{display: block;width: 100%}
+.lin-x{border-bottom: 2px dashed rgba(0,0,0,.6)}
+.bgcolor_000{background: #000}
+.color_fff{color:#fff}
+.border1px000{border: 1px solid #333;}
+
+
+
+/*本页面   css*/
+.B-content{margin-top: 2.325rem;}
+.icon-B:after,
+.icon-B:before{content: '◆';font-size: .2rem;vertical-align: middle;padding:0 .72rem;}
+/*表单*/
+.form{padding-left: 2.5rem;padding-right: 2.5rem;}
+.input{width: 100%;}
+.input input{width: 100%;height: 2.175rem;line-height: 2.175rem;background: none;padding-left: .8rem;padding-right: .8rem;}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #000;}
+input:-ms-input-placeholder{/*IE*/color:#000;}
+input::-moz-placeholder{/*Firfox*/color: #000}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;margin-bottom: 2.925rem;}
+.tip{margin-top: 0.3rem;margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+
+
+.form .btn{border: 1px solid red;background:#000 url("../../images/zt/kunkun/zhua.png")no-repeat 8.7rem center;background-size: 6% auto;z-index: 999999}
+

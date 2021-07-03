@@ -1,0 +1,511 @@
+/*/40*/
+.max750 {
+    max-width: 18.75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+
+.footer{position: fixed;bottom: 0 ;left: 0;width: 100%;padding: .625rem 0;background: rgba(255,255,255,.6)/*background: rgba(0,0,0,.6)*/;z-index: 99999}
+.footer ul li{width: 48%;height: 2.125rem;line-height: 2.125rem;}
+.footer ul li a{display: block;/*padding-left: 1.2rem;*/text-shadow: 1px 2px 5px rgba(0,0,0,.3)}
+/*.footer ul li:first-child{background: #1cc50c url("../../../images/zt/pinpaici/weixin.png")no-repeat 1.2rem center;background-size: 16% auto}
+.footer ul li:last-child{background: #fdd000 url("../../../images/zt/pinpaici/zixun.png")no-repeat 1.2rem center;background-size: 16% auto;}*/
+.footer ul li:first-child{background: #1cc50c}
+.footer ul li:last-child{background: #fdd000}
+.footer ul li img{display: inline-block;vertical-align: middle;margin-right: .2rem;}
+.footer ul li:first-child img{width: 1.6rem;}
+.footer ul li:last-child img{width: 1.5rem;}
+
+/*弹出 start*/
+.bm_success_layer_wrap {
+    width: 13.75rem !important;
+    height: 18.15rem !important;
+    border-radius: 0.25rem !important;
+}
+
+.bm_success_layer_wrap .layui-layer-setwin .layui-layer-close2 {right: 0rem;top: 0rem;width: 1.1rem;height: 1.1rem;background: url(../../../images/zt/pinpaici/close.png) no-repeat center center;background-size: 1.3rem 1.3rem;z-index: 99999; }
+.bm_success_layer_wrap .bm_success {
+    display: block;
+  /*  width: 9rem;
+    height: auto;*/
+ /*   margin: .5rem auto 0rem;*/
+}
+
+
+.tan-font{}
+.tan-font ul{}
+.tan-font ul li{width: 43%;position: relative;}
+.tan-font ul li:nth-child(2){width: 57%;}
+.tan-font ul li:nth-child(1):after{content: '｜';position: absolute;right: -.44rem;top: .5rem;color: #cfcfcf;}
+/*弹出 end*/
+
+
+
+/*悬浮导航*/
+.btn_fanhui{position: fixed;top: 0rem;display: block;width: 3.6rem;height: 2.3rem;line-height: 2.3rem;background-color: rgba(102,102,102,.8);color: #fff;text-align: center;z-index: 9999;border-bottom-right-radius: .3rem;border-top-right-radius: .3rem;}
+
+
+
+
+
+/*首页视频 */
+.video-wrap{background: url("../../../images/zt/pinpaici/diannao.jpg")no-repeat center center;background-size: 100% 100%;height: 14.025rem;padding-top:.5rem;}
+.con {width: 15.26rem;margin: 0 auto}
+.con .video {position: relative;width: 15.26rem;height: 9.3rem;overflow: hidden}
+.con .video .box2 {position: absolute;width: 100%;height: 100%;z-index: 9;}
+.con .video .box2 img {display: block;width: 100%;height: 100%;}
+.con .video video {position: absolute; left: 0; top: 0; width: 15rem; height: 8.925rem;}
+.con .video .mask{}
+
+
+/*导师下的视频*/
+.video-wrap2{background: none}
+.video-wrap2 .con {width: 100%;margin: 0 auto;}
+.video-wrap2 .con .video {width: 100%;}
+.video-wrap2 .con .video video {width: 100%;}
+
+
+/*课程下的视频*/
+.video-wrap-class,
+.video-wrap-class .video,
+.video-wrap-class .con,
+.video-wrap-class .video video {height: 6.75rem;padding-top: 0}
+
+
+/*加微信的视频*/
+.video-wrap-weixin,
+.video-wrap-weixin .video,
+.video-wrap-weixin .con,
+.video-wrap-weixin .video video {height: 8.625rem;padding-top: 0}
+
+/*课程下加微信视频{加了外边距需要变高度}*/
+.video-wrap-weixin-class,
+.video-wrap-weixin-class .video,
+.video-wrap-weixin-class .con,
+.video-wrap-weixin-class .video video {height: 6.875rem;padding-top: 0}
+
+
+/*每个页面公共跳转导航*/
+.public-nav{}
+.public-nav ul li{float: left;width: 20%;border-right: 2px solid #fff;height: 2.2rem;line-height: 2.2rem;}
+.public-nav ul li:last-child{float: right;border-right: none;}
+.public-nav ul li a{display: block;background: #fdd000;color: #333}
+.public-nav ul li.public_cur a{ background: #000;display: block;color: #fdd000;border-top: 1px solid #000;border-bottom: 1px solid #000}
+
+
+
+/* 证书、课程*/
+/*喵点导航*/
+.card-nav{}
+.card-nav ul li{float: left;width: 25%;border: 1px solid #fdd000;height: 2.2rem;line-height: 2.2rem;}
+/*.card-nav ul li:nth-child(2){margin:0 2%;}*/
+.card-nav ul li:last-child{float: right;}
+.card-nav ul li a{display: block;background: #000}
+.card-nav ul li.cur a{ background: #fdd000;display: block;color: #333}
+
+.class-nav ul li{width: 33.33%;height: auto!important;line-height: 2.2rem;}
+
+
+
+/*问*/
+.wen{}
+.wen ul li{}
+.wen ul li span{width: 1rem;height: 1rem;text-align: center;line-height: 1rem;margin-right: .3rem;display: inline-block}
+.wen ul li a{display: block}
+.right:after{content: "»";font-size: 1rem;}
+
+
+/*优惠信息的样式 【card下的优惠信息样式 /class下样式修改 /环境下样式修改】*/
+.ban_youhui_btn{}
+.ban_youhui_btn a{position: absolute;bottom: 1.2rem;right: 2rem;}
+.ban_youhui_btn_xiaotu a{bottom: .8rem;}/*class页面下的样式修改*/
+
+
+
+
+.empty{ height: 0.9333rem;}
+.card-nav.navFix {position: fixed;top: 0;left: 0;width: 100%;z-index: 99999;}
+
+/*导航菜单向上滑动*/
+.slideUp {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    transition: transform .5s ease-out;
+}
+/*导航菜单向下滑动*/
+.slideDown {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: transform .5s ease-out;
+}
+
+
+
+/*返回顶部*/
+p#back-to-top {position: fixed;bottom: 30%;right: .5rem;z-index: 999999}
+p#back-to-top a {
+    text-align: center;
+    text-decoration: none;
+    color: #d1d1d1;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.75rem;
+    background: rgba(155,155,155,.8);
+
+
+}
+p#back-to-top a img{width: 64%;margin:.3rem auto;text-align: center}
+
+
+
+
+
+
+
+
+
+
+    /*微信动画*/
+.footer .service-icon {
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+    /*animation-iteration-count:2;
+    animation-delay:2s;*/
+}
+
+@-webkit-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+
+/*咨询跳动样式与动画*/
+.zizi{vertical-align: middle;}
+.qipao{
+    display: inline-block;vertical-align: top;
+    top: 0.3rem;
+    position: relative;
+    width: 1.5rem;
+    height: 1.525rem;
+    background: url(../../../images/zt/pinpaici/zixun.png) 0 0 no-repeat;
+    background-size: 1.5rem 1.525rem;
+}
+.jump{position: absolute;top: -0.3rem;left: 0.15rem;width: 1.5rem; line-height: 1;}
+
+/*.jump{position: absolute;top: -.4rem;left: 1.23rem;width: 1.5rem;}*/
+.jump span{float:left;position: relative;color: #fff;}
+
+.jump span:nth-child(1){
+    -webkit-animation:jump 1s linear 0s infinite alternate;
+    -moz-animation:jump 1s linear 0s infinite alternate;
+    -o-animation:jump 1s linear 0s infinite alternate;
+    animation:jump 1s linear 0s infinite alternate;
+}
+
+.jump span:nth-child(2){
+    -webkit-animation:jump 1s linear 0.2s infinite alternate;
+    -moz-animation:jump 1s linear 0.2s infinite alternate;
+    -o-animation:jump 1s linear 0.2s infinite alternate;
+    animation:jump 1s linear 0.2s infinite alternate;
+}
+
+.jump span:nth-child(3){
+    -webkit-animation:jump 1s linear 0.4s infinite alternate;
+    -moz-animation:jump 1s linear 0.4s infinite alternate;
+    -o-animation:jump 1s linear 0.4s infinite alternate;
+    animation:jump 1s linear 0.4s infinite alternate;
+}
+
+
+@-webkit-keyframes jump
+{
+    0%{
+
+        top:0px;
+    }
+    4%{
+
+        top:-1px;
+    }
+    50%{
+        top:6px;
+
+    }
+    100%{
+        top:3px;
+
+    }
+    /*100%{
+        top:3px;
+
+    }*/
+}
+
+@-moz-keyframes jump
+{
+    0%{
+
+        top:0px;
+    }
+    4%{
+
+        top:-1px;
+    }
+    50%{
+        top:6px;
+
+    }
+    100%{
+        top:3px;
+
+    }
+    /*100%{
+        top:3px;
+
+    }*/
+}
+
+@-o-keyframes jump
+{
+    0%{
+
+        top:0px;
+    }
+    4%{
+
+        top:-1px;
+    }
+    50%{
+        top:6px;
+
+    }
+    100%{
+        top:3px;
+
+    }
+    /*100%{
+        top:3px;
+
+    }*/
+}
+
+@keyframes jump
+{
+    0%{
+
+        top:0px;
+    }
+    4%{
+
+        top:-1px;
+    }
+    50%{
+        top:6px;
+
+    }
+    100%{
+        top:3px;
+
+    }
+    /*100%{
+        top:3px;
+
+    }*/
+}
+
+
+
+
+
+.firstBox,.content{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s
+}
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+@media (max-width: 320px) {
+
+}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

@@ -1,0 +1,37 @@
+
+/*成功弹出 页面*/
+.mt50{margin-top: 1.25rem;}
+.color_FA6C11{color: #FA6C11;}
+.codeW_layer_success{overflow: inherit!important;}
+.codeW_layer_success .layui-layer-page .layui-layer-content{overflow: inherit;}
+.codeW_layer_success #codeW_layer{overflow: inherit!important;}
+.codeW_layer_success a.Wjump{position: absolute;top: -34%;right: -9%;border: 1px solid #666666;padding:0 .6rem;height: 1rem;line-height: 1rem;opacity: .7;}
+.codeW_layer_success .hideWImg img{width: 66%;}
+
+.stamp {position: relative;}
+.stamp:after {
+    content: '';
+    background: url(../../images/zt/just_do_it/baoming.png)no-repeat center;
+    background-size: 100% auto;
+    opacity: 0;
+    position: absolute;
+    width: 4.65rem;
+    height: 3.65rem;
+    margin: 0 auto;
+    top: -20%;
+    right: -13%;
+    text-transform: uppercase;
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: rotate(-2deg) scale(5);
+    transition: all 0.3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    z-index: 99999;
+}
+.loaded .stamp:after {
+    opacity: .75;
+    transform: rotate(-0deg) scale(1);
+    z-index: -1;
+}
+
+/*还不能投票*/
+.codeW_layer_success a.no_Wjump{position: absolute;top: -20%;right: -3%;border: 1px solid #fff;padding:0 .6rem;height: 1rem;line-height: 1rem;opacity: .7;}

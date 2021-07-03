@@ -1,0 +1,92 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;outline:none;}
+input.hidefocus::-moz-focus-inner {border:none;}
+table{border-collapse:collapse;border-spacing:0;empty-cells:show;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup,b{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#5A5A5A;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+i,em{font-style:normal}
+small{font-size:12px;display: block;}
+
+
+body { font:12px/24px "方正兰亭纤黑简体","兰亭粗黑简","兰亭黑简",Microsoft YaHei,Arial Narrow,sans-serif;}
+a{ text-decoration:none; color:#333; outline:medium none;}
+a:hover{ color:#666;}
+a:focus{
+    outline: none;
+    outline-offset: 0;
+}
+
+@font-face {
+    font-family: 方正兰亭纤黑简体; /*说明调用字体名字*/
+    src: url('../fonts/方正兰亭纤黑简体.ttf'); /*字体文件路径*/
+}
+
+@font-face {
+    font-family: 兰亭粗黑简; /*说明调用字体名字*/
+    src: url('../fonts/兰亭粗黑简.TTF'); /*字体文件路径*/
+}
+@font-face {
+    font-family: 兰亭黑简; /*说明调用字体名字*/
+    src: url('../fonts/兰亭黑简.TTF'); /*字体文件路径*/
+}
+
+
+.mt10{ margin-top:10px;}
+.mt15{ margin-top:15px;}
+.mt20{ margin-top:20px;}
+.mt30{ margin-top:30px;}
+.mt40{ margin-top:40px;}
+.mt50{ margin-top:50px;}
+.mt70{ margin-top:70px;}
+.mb8{ margin-bottom:8px;}
+.mb10{ margin-bottom:10px;}
+.mb15{ margin-bottom:15px;}
+.mb20{ margin-bottom:20px;}
+.mb25{ margin-bottom:25px;}
+.mb30{ margin-bottom:30px;}
+.mb50{ margin-bottom:50px;}
+.mb70{ margin-bottom:70px;}
+.mlr20{margin:0 20px;}
+.mlr15{margin:0 15px;}
+.mlr10{margin:0 10px;}
+.mlr5{margin:0 5px;}
+
+
+
+.pt10{ padding-top:10px;}
+.pt15{ padding-top:15px;}
+.pt20{ padding-top:20px;}
+.pt30{ padding-top:30px;}
+.pt40{ padding-top:40px;}
+.pt50{ padding-top:50px;}
+.pb15{ padding-bottom:15px;}
+.pb20{ padding-bottom:20px;}
+.pb30{ padding-bottom:30px;}
+.pb40{ padding-bottom:40px;}
+.pb50{ padding-bottom:50px;}
+.plr10{padding-left: 10px;padding-right: 10px;}
+.plr15{padding-left: 15px;padding-right: 15px;}
+.plr20{padding-left: 20px;padding-right: 20px;}
+.plr30{padding-left: 30px;padding-right: 30px;}
+.ptb15{padding-top:15px;padding-bottom: 15px;}
+.ptb25{padding-top:25px;padding-bottom: 25px;}
+.ptb10{padding-top:10px;padding-bottom: 10px;}
+.ptb6{padding-top:6px;padding-bottom: 6px;}
+
+
+/*清除浮动开始*/
+.clear{clear:both; height:0; overflow:hidden;}
+.clearfix:after{ visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+*html .clearfix{zoom : 1;} /*兼容ie6*/
+*:first-child+html .clearfix{ zoom:1;} /*兼容ie7*/

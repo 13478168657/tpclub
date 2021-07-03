@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<title>我的（已登录）</title>
+<meta name="author" content="络绎" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/my.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="pb100" ontouchstart>
+<!-- 头部条 start -->
+<div class="fixed_bar_top">
+	<header class="header_bar bgc_grey relative">
+		<!-- <a href="javascript:history.go(-1);" class="btn_back"><i class="icon iconfont icon-fenxiang2"></i></a> -->
+		<h1 class="cat">我的</h1>
+		<!-- <a href="javascript:void(0)" class="btn_link red" id="edit">编辑</a> -->
+	</header>
+</div>
+<!-- 头部条 end -->
+
+<!-- 用户登录头像信息 start -->
+<div class="weui-cells photo_info bgc_white logged">
+	<div class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<a href="baseinfo.html" class="user_photo"><img src="../images/my/test/photo.jpg" alt="" /></a>
+			<ul class="info info-saipubi">
+				<li>id&nbsp;<a href="baseinfo.html"><img src="../images/my/ico_bianji.png" /></a></li>
+				<li class="pt10"><a href="#"><img src="../images/my/ico_saipubi.png" alt="">赛普币100</a></li>
+			</ul>
+		</div>
+		<div class="weui-cell__ft">
+			<a href="homepage.html" class="btn_info">个人主页</a>
+		</div>
+	</div>
+</div>
+<!-- 用户登录头像信息 end -->
+
+
+<!-- 功能条 start -->
+<div class="weui-flex grid_wrap bgc_white">
+	<div class="weui-flex__item">
+		<a href="#">
+		
+		</a>
+		<p>
+			<span class="text_center">19</span>
+			<b>关注</b>
+		</p>
+	</div>
+	<div class="weui-flex__item">
+		<p>
+			<span class="text_center">9</span>
+			<b>粉丝</b>
+		</p>
+	</div>
+	<div class="weui-flex__item">
+		<p>
+			<span class="text_center">3</span>
+			<b>互粉</b>
+		</p>
+	</div>
+</div>
+<!-- 功能条 end -->
+
+<!-- 功能列表 start -->
+<div class="weui-cells mt10">
+	<a href="#" class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<div class="tit"><img src="../images/my/ico_xuexi.png" class="icoImg mr5" />正在学习</div>
+		</div>
+		<div class="weui-cell__ft"></div>
+	</a>
+	<a href="#" class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<div class="tit"><img src="../images/my/ico_fabu.png" class="icoImg mr5" />发布的课程</div>
+		</div>
+		<div class="weui-cell__ft"></div>
+	</a>
+	<a href="#" class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<div class="tit"><img src="../images/my/ico_shoucang.png" class="icoImg mr5" />收藏的课程</div>
+		</div>
+		<div class="weui-cell__ft"></div>
+	</a>
+</div>
+<div class="weui-cells mt10">
+	<a href="#" class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<div class="tit"><img src="../images/my/ico_zhinan.png" class="icoImg mr5" />新手指南</div>
+		</div>
+		<div class="weui-cell__ft"></div>
+	</a>
+	<a href="#" class="weui-cell weui-cell_access">
+		<div class="weui-cell__bd">
+			<div class="tit"><img src="../images/my/ico_guanyu.png" class="icoImg mr5" />关于PT-Club</div>
+		</div>
+		<div class="weui-cell__ft"></div>
+	</a>
+</div>
+<!-- 功能列表 end -->
+
+<!-- 底部固定导航条 start -->
+<div class="fixed_bar_bottom">
+	<div class="weui-tabbar">
+		<a href="#" class="weui-tabbar__item">
+			<div class="weui-tabbar__icon"></div>
+			<p class="weui-tabbar__label">首页</p>
+		</a>
+		<a href="#" class="weui-tabbar__item">
+			<div class="weui-tabbar__icon"></div>
+			<p class="weui-tabbar__label">正在学习</p>
+		</a>
+		<a href="#" class="weui-tabbar__item weui-bar__item--on">
+			<div class="weui-tabbar__icon"></div>
+			<p class="weui-tabbar__label">我的</p>
+		</a>
+	</div>
+</div>
+<!-- 底部固定导航条 end -->
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../lib/jqweui/js/jquery-weui.min.js"></script>
+<script src="../lib/layer/layer.js"></script>
+</body>
+</html>

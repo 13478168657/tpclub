@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+<title>在线咨询</title>
+<meta name="author" content="络绎" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/xueyuan-detail2.css" rel="stylesheet" type="text/css" />
+<script>
+(function(){
+	var html = document.documentElement;
+	var hWidth = html.getBoundingClientRect().width;
+	html.style.fontSize=hWidth/18.75+'px';
+})()
+</script>
+</head>
+<body ontouchstart>
+<!-- 头部条 start -->
+<div class="fixed_bar_top">
+	<header class="header_bar bgc_grey relative">
+		<a href="javascript:history.go(-1);" class="btn_back"><i></i></a>
+		<h1 class="cat text_left black">Saipu class-在线咨询</h1>
+	</header>
+</div>
+<!-- 头部条 end -->
+
+<div class="bgc_white overflow">
+	<!-- 对话框 start -->
+	<div class="dialog_item container clearfix wow animated fadeIn"  data-wow-duration="1s" data-wow-delay="0s">
+		<div class="user_photo"><img src="../images/xy.png" alt="" class="img100"></div>
+		<div class="con">
+			<p>同学你好</p>
+		</div>
+	</div>
+	<div class="dialog_item container clearfix wow animated fadeIn"  data-wow-duration="1s" data-wow-delay="0.8s">
+		<div class="user_photo"><img src="../images/xy.png" alt="" class="img100"></div>
+		<div class="con">
+			<p>果您想了解课程内容，想知道课程是否适合自己，不想错过精品课程优惠信息，请留下您的微信号，我会为您答疑解惑，帮您省钱！</p>
+		</div>
+	</div>
+	<!-- 对话框 end -->
+</div>
+
+<!-- 底部固定条 start -->
+<div class="fixed_bar_bottom">
+	<div class="container wxForm">
+		<h3>选择你想要达成的目标</h3>
+		<ul class="clearfix">
+			<li class="on"><span>增肌</span></li>
+			<li><span>减脂</span></li>
+			<li><span>瘦腿</span></li>
+			<li><span>翘臀</span></li>
+			<li><span>塑形</span></li>
+			<li><span>有氧</span></li>
+			<li><span>健美比赛</span></li>
+			<li><span>成为私教</span></li>
+		</ul>
+		<div class="iptWrap">
+			<input class="weui-input" type="text" placeholder="输入微信号">
+		</div>
+		<div class="pt15 pb15">
+			<a href="javascript:void(0);" class="roy_btn bgc_yellow payBtn">立即付款</a>
+		</div>
+	</div>	  
+</div>	  
+<!-- 底部固定条 end -->
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<link href="../lib/wow/animate.css" rel="stylesheet" type="text/css" />
+<script src="../lib/wow/wow.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../lib/jqweui/js/jquery-weui.min.js"></script>
+<script src="../lib/layer/layer.js"></script>
+<script type="text/javascript">
+	new WOW().init();
+	$(function (){
+		//多选
+		$('.wxForm li').click(function(){
+			$(this).toggleClass('on')
+		})
+		//付款成功
+		$('.payBtn').click(function(){
+			layer.msg('付款成功', function (){
+				window.history.go(-1);
+			})
+		})
+	})
+</script>
+</body>
+</html>

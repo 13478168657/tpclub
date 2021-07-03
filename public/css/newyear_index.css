@@ -1,0 +1,239 @@
+body{max-width:18.75rem;}
+img{width: 100%;display: block;}
+.bg_e7a14c{background: #e7a14c;}
+.bg_da463c{background: #da463c!important;}
+.bg_c93126{background: #c93126;}
+.bg_e16354{background: #e16354;}
+.bg_e15347{background: #e15347;}
+.bg_ed9891{background: #ed9891;}
+.bg_ffd5b4{background: #ffd5b4;}
+.bg_f8f8f8{background: #f8f8f8;}
+.color_7a4300{color:#7a4300;}
+.color_cb7d1d{color: #cb7d1d;}
+.color_c93126{color: #c93126;}
+.color_da463c{color:#da463c;}
+.color_ffd5b4{color:#ffd5b4;}
+
+.f60{font-size: 1.5rem;}
+.f66{font-size: 1.65rem;}
+.f74{font-size: 1.85rem;}
+.plr45{padding:0 1.125rem;}
+.pt70{padding-top: 1.75rem;}
+.pb136{padding-bottom: 3.4rem;}
+.mt88{margin-top:2.2rem;}
+.mt50{margin-top: 1.25rem;}
+.mt60{margin-top: 1.5rem;}
+.mt70{margin-top: 1.75rem;}
+.mb70{margin-bottom: 1.75rem;}
+.mt100{margin-top:2.5rem;}
+.mb100{margin-bottom: 2.5rem;}
+.mb80{margin-bottom: 2rem;}
+
+.mh-head.mh-sticky{z-index:99999999!important;}
+.btn_com{border-radius: 1rem 0 0 1rem;padding:0 .5rem 0 .9rem;}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*新学期充电福利 助你钱途无量（好友人数）*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/* banner */
+.banner .banner1 a{height: 1.55rem;line-height: 1.55rem;position: absolute;right: 1px;bottom: 0;}
+.banner .banner2 a{padding:.25rem 0;width: 76%;position: absolute;bottom: 0;left: 12%;letter-spacing: 2px;}
+
+/* 福利一 */
+.welfare_wrap .welfare_top{background:url("/images/new_year/bg_welfare.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: .825rem;}
+.welfare_wrap .welfare_top h2{width: 40%;height: 1.55rem;line-height: 1.55rem;margin:0 auto;}
+.welfare_wrap .welfare{padding:0 1.35rem;}
+.jiang{width: 2.05rem;height: 2.3rem;border-radius: .25rem 0 0 0;}
+.welfare_wrap .get{margin-top:-.8rem;}
+
+.con {width: 14.5rem;margin:0 auto;}
+.con .video {position: relative;width: 14.5rem;height: 6.875rem;overflow: hidden;}
+.con .video .box2{position: absolute;width: 100%;height: 100%;z-index: 9;}
+.con .video .box2 .box2_txt{padding:2.4rem 0 2.3rem 0;background: url('/images/new_year/ke_img1.jpg')no-repeat center center;background-size: 100% 100%;}
+.con .video video{position: absolute; left: 0; top: 0; width: 14.5rem;height: 6.875rem;}
+
+.welfare_wrap .btn_b{position: absolute;bottom: .45rem;right: 0;height: 1.4rem;line-height: 1.4rem;}
+
+/* 文字滚动 */
+.list{overflow:hidden; position:relative;padding:1.2rem 2.5rem;}
+.list ul li{color: rgba(255, 255, 255, .7);margin-bottom: .5rem;}
+.list .bd ul li p{width: 70%;}
+
+/* 福利二 */
+.welfare2_wrap{margin: 2.85rem 0 3.25rem 0;}
+.welfare2{box-shadow: 0px 0px 30px #c93129;}
+.title p{padding-top:.6rem;}
+.title a{padding:0 1rem;}
+.welfare2_txt{padding:0 2.85rem 2rem 2.85rem;}
+.welfare2_wrap .yao{margin-top:1.4rem;}
+.welfare2_wrap .ling{color: rgba(255, 255, 255, .6);}
+
+/* 福利三 */
+.award_yujia{padding:0 1.5rem;margin-top:-.8rem;}
+.award_img1{width: 10.15rem;margin:0 auto;}
+
+/* 福利四 */
+.welfare3_txt{padding:0 1.55rem 2rem 1.9rem;}
+.welfare3_txt p:nth-child(2){margin: 0 1.6rem;}
+
+/* 固定底部 */
+.fixed_wrap{position: fixed;width: 100%;bottom: 0;left: 0;background: #fdd000;z-index: 9999999;}
+.fixed_wrap ul li{width: 50%;float: left;height: 2.25rem;line-height: 2.25rem;}
+.fixed_wrap ul li:nth-child(1){background: url('/images/new_year/line.png')no-repeat right center;background-size: auto 100%;}
+
+/* 微信 */
+.code{position: fixed;bottom: 2.7rem;right: 1px;z-index:9999;}
+.code a{display: block;padding:.25rem .5rem .375rem 1.2rem;border-radius: 1.5rem 0 0 1.5rem;}
+.code img{width: 1.75rem;margin-left: .4rem;}
+.code .service-icon {
+    -webkit-animation: icon-bounce 5s ease-in-out 0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out 0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out 0s infinite;
+    animation: icon-bounce 5s ease-in-out 0s infinite;
+}
+
+@-webkit-keyframes icon-bounce {
+    0%, 100% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    3% {-moz-transform: rotate(60deg);-ms-transform: rotate(60deg);-webkit-transform: rotate(60deg);transform: rotate(60deg);}
+    6% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    9% {-moz-transform: rotate(30deg);-ms-transform: rotate(30deg);-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+    12% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    15% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+@-moz-keyframes icon-bounce {
+    0%, 100% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    3% {-moz-transform: rotate(60deg);-ms-transform: rotate(60deg);-webkit-transform: rotate(60deg);transform: rotate(60deg);}
+    6% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    9% {-moz-transform: rotate(30deg);-ms-transform: rotate(30deg);-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+    12% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    15% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+@-o-keyframes icon-bounce {
+   0%, 100% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    3% {-moz-transform: rotate(60deg);-ms-transform: rotate(60deg);-webkit-transform: rotate(60deg);transform: rotate(60deg);}
+    6% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    9% {-moz-transform: rotate(30deg);-ms-transform: rotate(30deg);-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+    12% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    15% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+@keyframes icon-bounce {
+    0%, 100% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    3% {-moz-transform: rotate(60deg);-ms-transform: rotate(60deg);-webkit-transform: rotate(60deg);transform: rotate(60deg);}
+    6% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    9% {-moz-transform: rotate(30deg);-ms-transform: rotate(30deg);-webkit-transform: rotate(30deg);transform: rotate(30deg);}
+    12% {-moz-transform: rotate(-2deg);-ms-transform: rotate(-2deg);-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+    15% {-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+
+
+/*弹出二维码 */
+.bm_success_layer_wrap{width: 13.25rem !important;height: 21rem !important;border-radius: 0.25rem !important;}
+.bm_success_layer_wrap1{width: 13.25rem !important;height: 16rem !important;}
+.bm_success_layer_wrap .layui-layer-setwin .layui-layer-close2 {right: 0rem;top: 0rem;width: 1.5rem;height: 1.5rem;background: url(../images/code.png) no-repeat center center;background-size: 1.5rem 1.5rem;z-index: 99999; }
+.bm_success{display: block;width: 60%;margin:0 auto;}
+.bm_success_layer .sao{line-height: 1.2rem;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*注册页*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.register_top{}
+.register_top a img{width: 6.775rem;margin:.5rem 0 0 1.1rem;}
+
+.form .input{width: 100%;}
+.form .input input{width: 100%;height: 2.175rem;line-height: 2.175rem;padding-left: .8rem;padding-right: .8rem;border:none}
+.form .input input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+.form .input input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+.form .input input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.form .tip{margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+.form .btn{border: none}
+
+/*注册页面下输入验证码*/
+.yzm{width: 64% !important}
+.yzm-huoqu{width: 33% !important;height: 2.175rem;line-height: 2.175rem;}
+
+.rule_yao{letter-spacing: 1.22px;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*红包20*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.pocket{background: url('/images/new_year/bg_hot.jpg')no-repeat center center;background-size: 100% 100%;padding:2.4rem .7rem 1.5rem .7rem;}
+
+/* 距离活动结束还有 */
+.dis_title{margin-top:3.75rem;}
+/* 倒计时 */
+.conton{margin: 0 auto;box-shadow: 0px 5px 5px #9d332b;}
+.conton p{display: inline-block;}
+
+.dis_wrap{padding:1.5rem .75rem 1.25rem 1rem;}
+.dis_con span{width: 70%;}
+.dis_head{padding-bottom: 4.75rem;}
+.dis_head img{width: 2.45rem;position: absolute;top:1.5rem;}
+.dis_head img.head_img1{left: .5rem;z-index: 999999;border-radius: 50%;}
+.dis_head img.head_img2{left:2.6rem;z-index: 99999;border-radius: 50%;}
+.dis_head img.head_img3{left:4.8rem;z-index: 9999;border-radius: 50%;}
+.dis_head img.head_img4{left:7rem;z-index: 999;border-radius: 50%;}
+.dis_head img.head_img5{left:9.2rem;z-index: 99;border-radius: 50%;}
+.dis_head img.head_img6{left:11.4rem;z-index: 9;border-radius: 50%;}
+.distance .dist_txt{color:rgba(255, 213, 180, .6);}
+.dist_txt i{display: inline-block;height: 1px;width: 20%;background: rgba(255, 213, 180, .6);margin-right: 5%;vertical-align: middle;}
+.dist_txt i:nth-child(2),.dist_txt1 i:nth-child(2){margin-left: 5%;}
+/* 活动规则 */
+.activity h2{width: 50%;margin:0 auto;}
+.activity .act_txt{padding:1.5rem 1.75rem;}
+.activity .act_txt p{line-height: 1.2rem;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*红包100*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.pocket_hb img{width: 70%;margin:0 auto;}
+.distance_hb p img{display: inline-block;vertical-align: middle;margin-right: .5rem;width: 2.45rem;border-radius: 50%;}
+.distance_hb p{width: 56%;}
+.distance_hb span{width: 44%;color: #ffd5b4;vertical-align: middle;margin-top:.6rem;}
+.distance_hb1 span{color: #c93126;}
+.dist_txt1{color:rgba(255, 255, 255, .6);}
+.dist_txt1 i{display: inline-block;height: 1px;width: 20%;background: rgba(255, 255, 255, .6);margin-right: 4%;vertical-align: middle;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*家用减脂瑜伽垫*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.yoga{background: #fff;}
+.yoga_txt{padding:1.5rem 1.25rem 2.5rem .75rem;}
+.yoga_txt p{line-height: 1.5rem;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*好友助力课程*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.dis_head1{padding-left: .75rem;padding-right: .75rem;}
+.dis_head1 li{margin-right: 1.3rem;}
+.dis_head1 li:last-child{margin-right: 0;}
+.dis_head1 li img{width: 2.45rem;border-radius: 50%;}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*好友助力成功*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.success_top{background: url('/images/new_year/success_img1.jpg')no-repeat center center;background-size: 100% 100%;padding:2.35rem 0 1.25rem 0;}
+.success_c{background: url('/images/new_year/success_img2.jpg')no-repeat center center;background-size: 100% 100%;}
+.success_c img{width: 60%;margin:0 auto;}
+.success_b p{width: 70%;margin:0 auto;}
+
+/* 表单*/
+.success_form{padding:2rem .95rem .8rem .95rem;}
+.success_form .succ input{border:none;width: 100%;height: 2.25rem;line-height: 2.25rem;padding-left: .8rem;padding-right: .8rem;}
+.success_form .succ input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #bbb;}
+.success_form .succ input:-ms-input-placeholder{/*IE*/color:#bbb;}
+.success_form .succ input::-moz-placeholder{/*Firfox*/color: #bbb;}
+.success_form .succ .tip{margin-bottom: 0.5rem;color: #fff;padding-left: .6rem;}
+
+
+.btn {
+    display: block;
+    height: 2.175rem;
+    line-height: 2.175rem;
+    width: 100%;
+    border:none;
+}
+
+

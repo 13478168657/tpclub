@@ -1,0 +1,64 @@
+body.BgColorPink{background-color: #fdf3e6;}
+/*活动规则*/
+.guizeBg{background: url("../../images/zt/tiwensongke/bgwith.jpg")no-repeat top center;background-size: 100% 100%;padding:2rem 2.375rem 1.7rem 2.375rem;/*80 95 68 95*/}
+.guizeBg h3{}
+.guizeBg h3 i,
+.lingqu .titBg h3 i{border-top: 1px solid #999;display: inline-block;vertical-align: middle;width: 3rem;margin-right: .8rem;margin-left: .8rem;}
+.guizeBg ul li{margin-bottom: .875rem/*35*/}
+.guizeBg ul li .wrap span{display: block;position: absolute;left: 3%;top: 50%;transform: translate(-50%, -50%);}
+.guizeBg ul li .wrap p{padding-left: 1.2rem;line-height: 1rem;}
+
+
+/*领取课程*/
+.color_red_dd1f36{color: #dd1f36;}
+.BG_red_dd1f36{background-color: #dd1f36;}
+.BG_gray_999{background-color: #999;}
+.lingqu{}
+.lingqu .titBg{background: url("../../images/zt/tiwensongke/lingquBg.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 1.65rem/*66*/;padding-bottom: .75rem;}
+.lingqu .titBg p span{color: #dd1f36;}
+
+.list{}
+.list .listBg{background: url("../../images/zt/tiwensongke/listBg.jpg")no-repeat top center;background-size: 100% 100%;padding:1.575rem 1.7rem 2rem .825rem /*63 68 80 33*/}
+
+.list .listBox{;min-height: 7.1rem/*284*/}
+.list .listBox .listLeft{float: left;width: 42%;}
+.list .listBox .listLeft img{padding-left: 1rem/*45*/;padding-right: .3rem/*12*/}
+.list .listBox .listLeft .posHfont{background: url("../../images/zt/tiwensongke/jiaojiao.png")no-repeat top center;background-size: 100% 100%;padding-top: 1.125rem/*45*/;padding-bottom: .65rem/*26*/; position: absolute;top: 2.95rem;left: 0;width: 100%;}
+.list .listBox .listRight{float: right;width: 58%;padding-top: 1rem/*40*/;padding-left: .25rem;padding-right: .25rem;}
+.list .listBox .listRight h2{line-height: 1rem;}
+.list .listBox .listRight p.p{line-height: .95rem;padding-bottom: .7rem/*28*/}
+.list .listBox .listRight .btnLing{padding-left: .75rem;}
+.list .listBox .listRight .btnLing .lingBtn{height: 1.375rem;line-height: 1.5rem;/*55*/;padding:0 1rem;margin-left: .5rem;}
+
+/*解释权归赛普所有*/
+.suo{width: 100%;}
+.suo i{border-top: 1px solid #999;display: inline-block;vertical-align: middle;width: 2rem;margin-right: .3rem;margin-left: .3rem;}
+
+
+/*以下为弹窗样式*/
+.songke_layer_wrap {
+    width: 13.88rem!important;
+    height: 15rem !important;/*600*/
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+.pt190{padding-top: 4.75rem;}
+.pt115{padding-top: 2.875rem;}
+.pb70{padding-bottom: 1.75rem;}
+.plr65{padding-left: 1.625rem;padding-right: 1.625rem;}
+.line1{line-height: 1rem;}
+/*弹出按钮*/
+.jump button{border: none;width: 60%;height: 2rem;line-height: 2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+

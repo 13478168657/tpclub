@@ -1,0 +1,100 @@
+/*/40*/
+
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+.display-block{display: block}
+.pt176{padding-top: 4.4rem;}
+.pb176{padding-bottom: 4.4rem;}
+.pb120{padding-bottom:3rem;}
+.pt118{padding-top: 2.95rem;}
+.plr50{padding-left: 1.25rem;padding-right: 1.25rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pb70{padding-bottom: 1.75rem;}
+.pb238{padding-bottom: 5.95rem;}
+.pt75{padding-top: 1.875rem;}
+.border1{border:1px solid #000}
+.line-h60{line-height: 1.8rem;}
+.ptb100{padding:2.5rem 0}
+.mt100{margin-top:2.5rem;}
+/*color bgcolor*/
+
+.bgcolor-eeeded{background-color: #eeeded;}
+.bgcolor-fbfbfb{background-color: #fbfbfb;}
+.color-fdd000{color:#fdd000;}
+.color_fff{color: #fff}
+
+
+/*进一步了解 css*/
+.further{}
+.further::after{content: '>';margin-left: .3rem}
+
+
+/*上市机构*/
+.bg-banner{background: url("../../../images/zt/pinpaici/z_prize/banner2.jpg")no-repeat top center;background-size: 100% 100%;padding-left: 68%}
+.bg-banner h2,.bg-banner h3,.bg-banner h4{line-height: .7rem;}
+
+
+
+/*赛普优势和规模*/
+h1{padding-top: 4.3rem;}
+
+
+
+/*校区图*/
+.school{}
+.school .school-bg{padding-top: 3.75rem;}
+.school .school-bg-bottom{padding-top: 2.5rem;padding-bottom: 3.125rem;}
+.school .school-bg-img1{background: url("../../../images/zt/pinpaici/xiaoqu_img1.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img2{background: url("../../../images/zt/pinpaici/xiaoqu_img2.jpg")no-repeat top center;background-size:100% 100%;}
+.school .school-bg-img3{background: url("../../../images/zt/pinpaici/xiaoqu_img3.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img4{background: url("../../../images/zt/pinpaici/xiaoqu_img4.jpg")no-repeat top center;background-size:100% 100%;}
+.school .school-bg-img5{background: url("../../../images/zt/pinpaici/xiaoqu_img5.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img6{background: url("../../../images/zt/pinpaici/xiaoqu_img6.jpg")no-repeat top center;background-size:100% 100%;}
+
+
+
+/*课程*/
+
+.list-class{}
+.list-class ul.bg1{background: url("../../../images/zt/pinpaici/kc_img1.jpg")no-repeat center center;background-size: 100% 100%}
+.list-class ul.bg2{background: url("../../../images/zt/pinpaici/kc_img2.jpg")no-repeat center center;background-size: 100% 100%}
+.list-class ul.bg3{background: url("../../../images/zt/pinpaici/kc_img3.jpg")no-repeat center center;background-size: 100% 100%}
+.list-class ul li{width: 46%;}
+.list-class ul li:last-child{width: 54%;}
+
+
+/*师资*/
+.bg-ter{background: url("../../../images/zt/pinpaici/shizi1.jpg")no-repeat center center;background-size: 100% 100%;padding-top: 2.5rem;}
+
+
+
+/*证书*/
+.bg-card1{background: url("../../../images/zt/pinpaici/zheng_img2.jpg")no-repeat center center;background-size: 100% 100%;}
+.bg-card2{background: url("../../../images/zt/pinpaici/zheng_img5.jpg")no-repeat center center;background-size: 100% 100%;}
+.bg-card3{background: url("../../../images/zt/pinpaici/zheng_img7.jpg")no-repeat center center;background-size: 100% 100%;padding-top:3.75rem;padding-bottom: 2.5rem;}
+.bg-card4{background: url("../../../images/zt/pinpaici/zheng_img8.jpg")no-repeat center center;background-size: 100% 100%;padding-top:4.55rem;padding-bottom: 2.8rem;}
+
+
+/*环境*/
+.huan1{background: url("../../../images/zt/pinpaici/huanimg1.jpg")no-repeat center center;background-size: 100% 100%;padding-top:5.5rem;padding-bottom:3.25rem;}
+.huan2{background: url("../../../images/zt/pinpaici/huanimg2.jpg")no-repeat center center;background-size: 100% 100%;padding-top:7.175rem;padding-bottom:3.75rem;}
+.huan3{background: url("../../../images/zt/pinpaici/huanimg3.jpg")no-repeat center center;background-size: 100% 100%;padding-top:4.75rem;padding-bottom:4.4rem;}
+
+
+
+
+
+.firstBox,.content{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s
+}
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

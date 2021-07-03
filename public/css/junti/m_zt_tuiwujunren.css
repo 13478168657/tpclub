@@ -1,0 +1,95 @@
+img{width: 100%;display: block;}
+body{background: #fff;}
+
+.italic{font-style:italic;} 
+.uppercase{text-transform: uppercase;} 
+.text-indent{text-indent: 1em;}
+.color_ff9000{color: #ff9000;} 
+.color_fff{color: #fff;} 
+.color_010003{color: #010003;} 
+.bg_efefef{background: #efefef;}
+.f60{font-size: 1.5rem;} 
+.f73{font-size: 1.825rem;line-height: 1.825rem;}
+.plr40{padding-left: 1rem;padding-right: 1rem;}
+.plr60{padding-left: 1.5rem;padding-right: 1.5rem;}
+
+.pt50{padding-top: 1.25rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pb40{padding-bottom: 1rem;}
+.pt70{padding-top: 1.75rem;}
+.pb70{padding-bottom: 1.75rem;}
+.mt60{margin-top:1.5rem;}
+.mb60{margin-bottom: 1.5rem;}
+.pt130{padding-top:3.25rem;}
+.pt120{padding-top:3rem;}
+.lh38{line-height: .95rem;}
+.lh40{line-height: 1rem;}
+
+/* title */
+.title{width: 11.8rem;margin:0 auto;}
+.title_txt{position: absolute;left: 50%;top: 86%;transform: translate(-50%, -86%);text-align: center;width: 100%;}
+.title_txt .circle_num{background: #ff9000;border-radius: 50%;width: .75rem;height: .75rem;display: inline-block;line-height: .75rem;margin-right: .25rem;}
+
+/* 健身教练你知道多少 */
+.know_sp{border:1px solid #e5e5e5;padding:1.5rem 1.25rem 1.25rem 1.25rem;}
+.know_sp li{float: left;width: 48%;margin-right: 4%;margin-bottom: .375rem;}
+.know_sp li:nth-child(2n){margin-right: 0;}
+
+/* 为什么健身教练的发展前景这么好 */
+.veteran_why_wrap{margin-top:2.55rem;}
+.veteran_good{background: url('../images/m_tuiwujunren/bg_tuiwu.png')no-repeat center center; background-size: 100% 100%;}
+.veteran_why h2{padding-left:.5rem;border-left: .25rem solid #ff9000;margin-bottom: .6rem;}
+.veteran_why_guo li{width: 48%;}
+.veteran_why_num span{color:#d50000;}
+.btn a{background: #ffb400;box-shadow:0 4px #ff9000;height: 1.5rem;line-height: 1.7rem;display: inline-block;padding:0 1rem;}
+
+/* 私人教练的职业发展路径 */
+.vocation_wrap .veteran_good{background-size: 84% 84%;}
+
+/* 私人教练的从业条件是什么？ */
+.factor_wrap .veteran_good{background-size: 90% 90%;}
+
+/* 已经有两万战友选择赛普 */
+.title3{width: 14.45rem;}
+.veteran_select .line{height: 5px;background: #e5e5e5;margin:0 .1rem;}
+.veteran_select_now,.veteran_select_xue li p {line-height: 1.1rem;}
+.veteran_select_xue li{background: #eee;padding:.7rem;}
+.veteran_select_xue li dl dt,.veteran_select_xue li dl dd{width: 49%;}
+.veteran_select_xue li dl dt{margin-right: 2%;}
+.veteran_select_xue li h3{border-bottom: 2px solid #000;padding-bottom: .25rem;width: 5.2rem;}
+.veteran_select_xue li p span i{color: #fd0000;}
+
+/* 十万补贴迎老兵快速入学选赛普 */
+.title10{width: 100%;padding:0 1.6rem;}
+.sub_btn{position: absolute;left: 50%;top: 84%;transform: translate(-50%, -84%);}
+.sub_btn a{background: #cb0dd2;height: 1rem;line-height: 1rem;padding:0 .5rem;display: block;}
+
+.youhui li{float: left;width: 60%;border-right: 1px solid #dcdcdc;padding-right: .5rem;}
+.youhui li:last-child{width: 40%;border-right: 0;padding-right: 0;}
+.youhui li h4{background: url('../images/m_tuiwujunren/ling_img1.jpg')no-repeat center center;background-size: 100% 100%;height: 1.05rem;line-height: 1.05rem;width: 4.95rem;}
+.youhui li:last-child h4{background: url('../images/m_tuiwujunren/ling_img2.jpg')no-repeat center center;background-size: 100% 100%;width: 5.75rem;margin:0 auto;}
+
+/* 成立十年  赛普致力于健身改变人生 */
+.set_sp{line-height: .9rem;text-indent: 2em;}
+
+/* 底部 */
+.bottom_scan_wrap{background: #ffb400;width: 100%;height: 2.25rem;position: relative;margin-top: 4.25rem;}
+.bottom_scan_l{position: absolute;left: 1.9rem;bottom: 1rem;}
+.bottom_scan_l img{width: 4.55rem;margin-right: 1rem;}
+.bottom_scan_r{position: absolute;bottom: .6rem;right: 1.9rem;}
+.bottom_scan_r p{line-height: 1.6rem;}
+
+
+
+@media (max-width: 320px) {
+	.title{width: 12.4rem;margin:0 auto;}
+}
+
+
+
+@media (min-width: 768px) {
+	html{ font-size: 20px !important;}
+}
+
+
+

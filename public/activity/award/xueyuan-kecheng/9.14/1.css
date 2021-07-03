@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*二维码扫描页面*/
+.saomiao{}
+.saomiao p{margin: auto}
+.saomiao p:nth-child(1){width:5.35rem; margin: 2.85rem auto;}
+.saomiao p:nth-child(2){width:10.425rem;}
+
+/*=============================以下为活动页面css start==========================================================*/
+.plr40{padding:0 1rem;}
+.line_m{text-decoration:line-through;}
+.huodong-a{}
+.huodong-a a{display: block;padding:.025rem .4rem;float: left;border-radius: .25rem;font-size: .5rem;border: 1px solid #979797;margin-right: .4rem;}
+.huodong-a .huodong-a-border-no{border: none;padding:.18rem .6rem;margin: 0!important;font-size: .6rem;}
+.huodong-weui-cell__ft .weui-cell__ft{margin-right: 0rem!important;}
+.mt-weui-cell{ margin: .9rem auto .1rem!important;}
+.huodong-weui-cells-bg-no{background: none!important;}
+.line-hei{line-height: .8rem!important;}
+.p6{font-size: .6rem;}
+
+@media (max-width: 320px){
+    .huodong-a a{padding:.025rem .3rem!important;}
+}
+/*=============================活动页面css end=================================================================*/

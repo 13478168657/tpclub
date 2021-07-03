@@ -1,0 +1,157 @@
+/*/40*/
+
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+.display-block{display: block}
+.pt176{padding-top: 4.4rem;}
+.pb176{padding-bottom: 4.4rem;}
+.pb120{padding-bottom:3rem;}
+.pt118{padding-top: 2.95rem;}
+.plr50{padding-left: 1.25rem;padding-right: 1.25rem;}
+.plr35{padding-left: .875rem;padding-right: .875rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pb70{padding-bottom: 1.75rem;}
+.pb238{padding-bottom: 5.95rem;}
+.pt75{padding-top: 1.875rem;}
+.border1{border:1px solid #000}
+.line-h60{line-height: 1.8rem;}
+.ptb100{padding:2.5rem 0}
+.mt100{margin-top:2.5rem;}
+.mt50{margin-top:1.25rem;}
+/*color bgcolor*/
+
+.bgcolor-eeeded{background-color: #eeeded;}
+.bgcolor-fbfbfb{background-color: #fbfbfb;}
+.color-fdd000{color:#fdd000;}
+.color_fff{color: #fff}
+.h20grey{height: .5rem;background: #f2f2f2;}
+
+
+
+
+/*进一步了解 css*/
+.further{}
+.further::after{content: '>';margin-left: .3rem}
+
+
+
+
+/*上市机构*/
+.bg-banner{background: url("../../../images/zt/pinpaici/z_prize/banner2.jpg")no-repeat top center;background-size: 100% 100%;padding-left: 68%}
+.bg-banner h2,.bg-banner h3,.bg-banner h4,.bg-banner h1{line-height: .7rem;}
+
+
+
+/*校区图*/
+.school{}
+.school .school-bg{padding-top: 3.75rem;}
+.school .school-bg-bottom{padding-top: 2.5rem;padding-bottom: 3.125rem;}
+.school .school-bg-img1{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img1.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img2{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img2.jpg")no-repeat top center;background-size:100% 100%;}
+.school .school-bg-img3{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img3.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img4{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img4.jpg")no-repeat top center;background-size:100% 100%;}
+.school .school-bg-img5{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img5.jpg")no-repeat top center;background-size:100% 100%; }
+.school .school-bg-img6{background: url("../../../images/zt/pinpaici/z_prize/xiaoqu_img6.jpg")no-repeat top center;background-size:100% 100%;}
+
+
+
+/**/
+.biye-bg{background: url("../../../images/zt/pinpaici/z_prize/biye.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 5.125rem;}
+
+
+
+/**/
+ul.outside{ list-style-position: outside;}
+ul.outside li{list-style-type:disc;line-height: .96rem;margin-top: .3rem;}
+ul.outside li.no-disc{list-style-type:none;}
+
+
+/*教师荣誉*/
+.tea-bg{background: url("../../../images/zt/pinpaici/z_prize/teaimg2.jpg")no-repeat top center;background-size: 100% 100%;}
+
+
+.list-wrap{}
+.list-wrap ul li:nth-child(1){background: url("../../../images/zt/pinpaici/z_prize/list-wrap-bg1.jpg")no-repeat top center;background-size: 100% 100%;padding-right:.5rem; }
+.list-wrap ul li:nth-child(2){background: url("../../../images/zt/pinpaici/z_prize/list-wrap-bg2.jpg")no-repeat top center;background-size: 100% 100%;padding-right:.5rem;}
+.list-wrap ul li:nth-child(3){background: url("../../../images/zt/pinpaici/z_prize/list-wrap-bg3.jpg")no-repeat top center;background-size: 100% 100%;padding-right:.5rem;}
+.list-wrap img{width: 1.825rem;}
+.right-list{width: 86%}
+
+
+
+
+
+/*师资*/
+.bg-ter{background: url("../../../images/zt/pinpaici/z_prize/shizi1.jpg")no-repeat center center;background-size: 100% 100%;padding-top: 2.5rem;}
+
+
+
+/*证书*/
+.bg-card1{background: url("../../../images/zt/pinpaici/z_prize/zheng_img2.jpg")no-repeat center center;background-size: 100% 100%;}
+.bg-card2{background: url("../../../images/zt/pinpaici/z_prize/zheng_img5.jpg")no-repeat center center;background-size: 100% 100%;}
+.bg-card3{background: url("../../../images/zt/pinpaici/z_prize/zheng_img7.jpg")no-repeat center center;background-size: 100% 100%;padding-top:3.75rem;padding-bottom: 2.5rem;}
+.bg-card4{background: url("../../../images/zt/pinpaici/z_prize/zheng_img8.jpg")no-repeat center center;background-size: 100% 100%;padding-top:4.55rem;padding-bottom: 2.8rem;}
+
+
+/*环境*/
+.huan1{background: url("../../../images/zt/pinpaici/z_prize/huanimg1.jpg")no-repeat center center;background-size: 100% 100%;padding-top:5.5rem;padding-bottom:3.25rem;}
+.huan2{background: url("../../../images/zt/pinpaici/z_prize/huanimg2.jpg")no-repeat center center;background-size: 100% 100%;padding-top:7.175rem;padding-bottom:3.75rem;}
+.huan3{background: url("../../../images/zt/pinpaici/z_prize/huanimg3.jpg")no-repeat center center;background-size: 100% 100%;padding-top:4.75rem;padding-bottom:4.4rem;}
+
+
+
+/*高薪就业*/
+.job{}
+.job ul li{float: left;width: 48%;border-radius: .25rem;overflow: hidden;margin-bottom: 1.5rem;}
+.job ul li:nth-child(2),
+.job ul li:nth-child(4),
+.job ul li:nth-child(6){float: right}
+.job{}
+
+
+
+/*更多荣誉*/
+.rongyu-more{ max-height:47.375rem;/*设置默认高度*/overflow: hidden; position:relative;}
+.unfold-field{position:absolute;font-size: 0;bottom:0;width:100%;height:124px;z-index: 3;}
+.unfold-field .unflod-field_mask {
+    height: 78px;
+    width: 100%;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,hsla(0,0%,100%,0)),to(#fff));
+    background-image: linear-gradient(-180deg,hsla(0,0%,100%,0),#fff);
+}
+.unfold-field_text{cursor: pointer;width:100%;color: #406599;;height:46px;/*line-height: 46px;*/}
+.unfold-field_text span{display:inline-block;height:46px;/*line-height: 46px;*/line-height: 28px;}
+.unfold-field_text span::after{display: block;content:"";margin: 0 auto;vertical-align: middle;background:url(../../../images/zt/pinpaici/z_prize/bottom.png);background-size: contain;background-repeat: no-repeat;width: 14px;height: 11px;/*width: 9px;height: 6px;display: inline-block;margin-left: 5px;*/
+    -webkit-animation: bounce-down 1.5s linear infinite;animation: bounce-down 1.5s linear infinite;
+}
+
+@-webkit-keyframes bounce-down {
+    25% {-webkit-transform: translateY(-2px);}
+    50%, 100% {-webkit-transform: translateY(0);}
+    75% {-webkit-transform: translateY(2px);}
+}
+
+@keyframes bounce-down {
+    25% {transform: translateY(-2px);}
+    50%, 100% {transform: translateY(0);}
+    75% {transform: translateY(2px);}
+}
+
+
+
+
+
+.firstBox,.content{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: all 300ms ease-out 0s;
+    transition: all 300ms ease-out 0s
+}
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

@@ -1,0 +1,162 @@
+img{display: block;width: 100%;margin: 0 auto;}
+
+.f64{font-size: 1.6rem;}
+.mt70{margin-top: 1.75rem!important;}
+.mb50{margin-bottom: 1.25rem;}
+.pt70{padding-top: 1.75rem !important;}
+.ptb13{padding-top: .325rem!important;padding-bottom: .325rem!important;}
+.plr44{padding-left: 1.1rem!important;padding-right: 1.1rem!important;}
+.plr56{padding-left: 1.4rem!important;padding-right: 1.4rem!important;}
+.ptb65{padding-top: 1.625rem!important;padding-bottom: 1.625rem!important;}
+.mlr50{margin-left: 1.25rem!important;margin-right: 1.25rem!important;}
+.pt105{padding-top: 2.625rem;}
+.pb136{padding-bottom: 3.4rem!important;}
+.plr45{padding-right: 1.125rem;padding-left: 1.125rem;}
+
+.color_red-{color: #D0021B;!important;}
+.bg262626{background: #262626;}
+.text-intent3{text-indent: 1.6rem;}
+
+
+.banner{background: url("../../images/zt/assistance/banner.png")no-repeat top center;background-size: 100% 100%;padding-top: 2.575rem;padding-bottom: 2rem;}
+.banner p:last-child i{display: inline-block;border-bottom:1px solid #fdd000;width: 8%;vertical-align: middle;margin: 0 .3rem;}
+
+/*第一期 */
+.one-qi{;margin-left:3.85rem;margin-right:3.85rem;}
+.one-qi i{;display: inline-block;font-size: .3rem;vertical-align: middle;margin: 0 .5675rem;}
+
+
+/*视频*/
+/*首页视频 */
+.video {position: relative;width: 100%/*16.25rem*/;height: 7.5rem;margin: 0 auto}
+.video .box2 {position: absolute;width: 100%;height: 100%;z-index: 100;}
+.video .box2 img {display: block;width: 100%;height: 100%;}
+.video .box2 .mask {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);opacity: .3;}
+.video .box2 .btn_play {position: absolute;left: 50%;top: 45%;transform: translate(-50%, -50%);width: 1.95rem;height: 1.95rem;background: url(../../images/zt/assistance/play.png) 0 0 no-repeat;background-size: 1.95rem 1.95rem;}
+.video .box2 .look{position: absolute;left: 70%;top: 70%;transform: translate(-70%, -70%);color: #fff;z-index: 111;width: 100%}
+.video video {position: absolute;left: 0;top: 0;width: 100%/*16.25rem*/;height: 7.5rem;}
+
+/*列表*/
+.list{overflow:hidden; position:relative;}
+.list ul li{margin-bottom: .25rem;}
+.list ul li p{width: 62%;}
+.list ul li span{width: 38%;display: block}
+
+
+/*倒计时*/
+.fff-opt{background: rgba(255,255,255,.19);}
+.fff-opt1{background: rgba(255,255,255,.1);}
+.conton{margin: 0 auto}
+.conton p{display: inline-block;margin-right: .55rem;}
+.conton p:last-child{margin-right: 0;}
+.conton p span{padding-right: .2rem;}
+
+
+.portrait{}
+.portrait ul li{width: 2.5rem;height: 2.5rem;background: url("../../images/zt/assistance/hui.png")no-repeat top center;background-size: 100% 100%;}
+.portrait ul li img{width: 2.5rem;height: 2.5rem;border-radius: 1.25rem;overflow: hidden}
+.portrait ul li:nth-child(2){margin-right: 1.25rem;margin-left: 1.25rem;}
+.portrait ul li:nth-child(3){margin-right: 1.25rem;}
+
+
+.btn{}
+.btn a{display: block;height: 2.2rem;line-height: 2.2rem;}
+.btn a img{width: .9rem;vertical-align: middle;display: inline-block}
+
+
+
+
+
+/* 选项卡css -------------------------------------- */
+.tabBox .hd{ position:relative; top: 0; width:100%; height:2.45rem; border-top: 1px solid #F2F2F2; border-bottom: 1px solid #F2F2F2; background-color: #fff;}
+.tabBox .hd ul{ position:absolute; width: 100%; top:0; overflow:hidden; }
+.tabBox .hd ul li{ float:left; width: 50%;position: relative;}
+.tabBox .hd ul li:first-child a:after{content: '|';display: inline;position: absolute;right: -3px;color: rgba(155,155,155,.2);}
+.tabBox .hd ul li a{ display: block; height:2.45rem; line-height:2.45rem; font-size: 0.75rem; color: #9b9b9b; text-align: center}
+.tabBox .hd ul li a span{ display:inline-block; height: 2.125rem; border-bottom: 3px solid transparent;}
+.tabBox .hd ul .on a{ color: #333;font-weight: bold}
+.tabBox .hd ul .on a span{ border-bottom: 3px solid #FDD000;}
+
+
+.tabBox .bd ul{}
+.tabBox .bd .ul1 li{width: 100%;background: url("../../images/zt/icon-shipin.png")no-repeat left center;background-size: 5.6%;}
+.tabBox .bd .ul1 li:first-child{width: 100%;background: url("../../images/zt/icon-bofang.png")no-repeat left center;background-size: 5.6%;}
+.tabBox .bd .ul1 li a{padding-left: 1.6rem;}
+
+
+/*悬浮底部*/
+.footer-x{ position: fixed;bottom: 0;left: 0;width: 100%}
+.footer-x ul{}
+.footer-x ul li{height: 2.45rem;line-height: 2.45rem;width: 50%;}
+.footer-x ul li a{width: 100%;}
+.footer-x ul li:first-child{border-right: 1px solid rgba(255,255,255,.6)}
+
+
+.footer-x2 ul li{width: 100%}
+
+
+/*表单*/
+.form{}
+.input{width: 100%;}
+.input input{width: 100%;height: 2.175rem;line-height: 2.175rem;padding-left: .8rem;padding-right: .8rem;border:none}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.tip{margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+.form .btn{border: none}
+
+
+/*注册页面下输入验证码*/
+.yzm{width: 64% !important}
+.yzm-huoqu{width: 33% !important;height: 2.175rem;line-height: 2.175rem;}
+
+/*弹出 start*/
+.bm_success_layer_wrap {
+    width: 13.75rem !important;
+    height: 18.15rem !important;
+    border-radius: 0.25rem !important;
+}
+
+.bm_success_layer_wrap .layui-layer-setwin .layui-layer-close2,
+.bm_success_layer_wrap2 .layui-layer-setwin .layui-layer-close2
+{right: 0rem;top: 0rem;width: 1.1rem;height: 1.1rem;background: url(../../images/icon_x.png) no-repeat center
+center;background-size: 1.3rem 1.3rem;z-index: 99999; }
+.bm_success_layer_wrap .bm_success {
+    display: block;
+    /*  width: 9rem;
+      height: auto;*/
+    /*   margin: .5rem auto 0rem;*/
+}
+.bm_success_layer_wrap2{height: auto!important;}
+.bm_success_layer_wrap2 .layui-layer-content img{height: 22.5rem!important;}
+
+
+/*弹出 end*/
+
+/*图片高度修改*/
+.tempWrap1{overflow:hidden; position:relative;}
+.tempWrap1 ul{width: 7500px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition-duration: 200ms; transform: translate(-3000px, 0px) translateZ(0px);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

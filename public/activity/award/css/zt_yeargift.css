@@ -1,0 +1,103 @@
+img{display: block;width: 100%;margin: 0 auto;}
+
+.f64{font-size: 1.6rem;}
+.mt70{margin-top: 1.75rem!important;}
+.mb50{margin-bottom: 1.25rem;}
+.pt70{padding-top: 1.75rem !important;}
+.ptb13{padding-top: .325rem!important;padding-bottom: .325rem!important;}
+.plr44{padding-left: 1.1rem!important;padding-right: 1.1rem!important;}
+.plr56{padding-left: 1.4rem!important;padding-right: 1.4rem!important;}
+.ptb65{padding-top: 1.625rem!important;padding-bottom: 1.625rem!important;}
+.mlr50{margin-left: 1.25rem!important;margin-right: 1.25rem!important;}
+.pt105{padding-top: 2.625rem;}
+.pb136{padding-bottom: 3.4rem!important;}
+.plr45{padding-right: 1.125rem;padding-left: 1.125rem;}
+
+.color_red-{color: #D0021B;!important;}
+.bg262626{background: #262626;}
+.text-intent3{text-indent: 1.6rem;}
+
+
+/*列表图文页面*/
+.list{}
+.list li{border-bottom: 1px solid #dedede}
+.list li:last-child{border-bottom: none}
+.list li dt{ float:left; width:4.55rem; margin-right:10px;position: relative;height: 5.5rem;}
+.list li dt span{position: absolute;bottom: 0;left: 0;width: 100%;display: inline-block;height: 1rem;line-height: 1rem;padding: .12rem 0;font-size: .55rem;}
+.list li dt img{ display:block; width:100%;}
+.list li dd{ margin-left:/*50px*/1.25rem;}
+.list li dd h3{ font-size:.75rem; height:/*44px*/1.1rem; line-height:1.25rem;}
+.list li dd p:nth-child(2){font-size: .6rem; height:/*20px*/1.25rem; line-height:1.25rem;}
+/*.list li dd p:nth-child(3){height:/!*20px*!/1rem; line-height:1.2rem;margin: .75rem auto .25rem;font-size: .55rem;border: 1px solid red;}*/
+.list li dd .weui-cell{padding:0;margin: .65rem auto .25rem;height:1rem; line-height:1.2rem;font-size: .55rem;}
+.list li dd .weui-cell__ft{margin-right: 1.625rem;font-size: .7rem;}
+.list .more a{font-size: .6rem;display: block;color: #666}
+
+
+.swiper-container {	height: 1.25rem;}
+.swiper-slide {
+    width: 26%!important;
+    border-radius: .25rem;
+    background: #f2f2f2;
+    line-height: .25rem;
+    font-size: .6rem;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*表单*/
+.form{}
+.input{width: 100%;}
+.input input{width: 100%;height: 2.175rem;line-height: 2.175rem;padding-left: .8rem;padding-right: .8rem;border:none}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.tip{margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+.form .btn{border: none}
+
+
+/*注册页面下输入验证码*/
+.yzm{width: 64% !important}
+.yzm-huoqu{width: 33% !important;height: 2.175rem;line-height: 2.175rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+
+.color_orange_f5a623{color: #F5A623;opacity: .9;}
+.ptb26{padding-top: .65rem;padding-bottom: .65rem;}
+.ml25{margin-left: .625rem;}
+.ml30{margin-left: .75rem;}
+.mr10{margin-right: .25rem;}
+
+
+/*顶部微信*/
+.ptb35{padding-top: .875rem;padding-bottom: .875rem;}
+.weixinBox{padding-left: .75rem;box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);}
+.weixinBox .weui-cell__hd img{height: 2.5rem;width: 2.5rem;}
+.weixinBox .weixins{padding:.22rem .5rem 0rem .75rem;height: 2.5rem;line-height: 1rem;border-top-left-radius: 2rem;border-bottom-left-radius: 2rem;}
+.weixinBox .weixins img{height: 1.15rem;margin: 0 auto;display: block;
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+    /*animation-iteration-count:2;
+   animation-delay:2s;*/
+}
+
+
+/*公共黄条*/
+.h80{height: 2rem;line-height: 2rem;background: rgba(253,208,0,.2);}
+
+/*日期，星期*/
+.week .fontopt{color: rgba(102,102,102,0.80);letter-spacing: 1.85px; }
+
+/*文章列表*/
+.qikan_list ul li{margin-bottom: 1.25rem;}
+.qikan_list ul li img{display: block;width: 100%;}
+.qikan_list ul li h3{line-height: 1rem;}
+
+
+
+/*期刊弹出样式*/
+.codeW_layer_wrap_qikan{overflow: inherit!important;}
+.codeW_layer_wrap_qikan img.user{width: 3.125rem;height: 3.125rem;border-radius: 2rem;padding:.25rem;overflow: hidden;background-color:#fff;position: absolute;top: -1.36rem;left: 50%;transform: translate(-50%, -50%);z-index: 99999}
+.codeW_layer_wrap_qikan .layui-layer-content{overflow: inherit!important;}
+
+
+
+
+/*==== 期刊活动=====================================================================*/
+body.bgcolor_000{background-color: #000;}
+.mlr45{margin-left: 1.125rem;margin-right: 1.125rem;}
+.plr45{padding-left: 1.125rem;padding-right: 1.125rem;}
+.opt60{opacity: .6;}
+.bor-line{border-top: 1px dashed #ddd;}
+.bgcolor_1a{background-color: #1a1a1a;}
+
+.qikan_zhongbang{padding-bottom: 1.5rem;border-bottom-left-radius: .25rem;border-bottom-right-radius: .25rem;}
+.qikan_zhongbang p{line-height: 1.4rem;}
+
+
+/*按钮*/
+.qikan_btn{}
+.qikan_btn a{height: 3rem;/*120*/;box-shadow: 6px 6px 0 #ff6700;}
+.qikan_btn .qikan_font-box{padding-top: .375rem;}
+.qikan_btn .qikan_font-box img{vertical-align: text-bottom;width: .75rem;margin-left: .1rem;}
+
+
+
+/*如何制作电子名片*/
+.qikan_dianzi{}
+.qikan_dianzi h3{}
+.qikan_dianzi h3 i{border-top: 1px solid #fff;display: inline-block;width: 2rem;vertical-align: middle;}
+.qikan_dianzi h3 i:first-child{margin-right: .3rem;}
+.qikan_dianzi h3 i:last-child{margin-left: .3rem;}
+
+.qikan_dianzi .qikan_bu{}
+.qikan_dianzi .qikan_bu dl{height: 3.95rem;/*150*/;}
+.qikan_dianzi .qikan_bu dl dt{width: 24%;float: left;padding-top: 1.16rem;}
+.qikan_dianzi .qikan_bu dl dt span{border: 1px solid #fff;border-left: none;width: 94%;display: inline-block;padding: .2rem 0 .2rem .6rem;border-bottom-right-radius: 2rem;border-top-right-radius: 2rem;}
+.qikan_dianzi .qikan_bu dl dd{width: 76%;float: left;line-height: 3.95rem;padding-left: .3rem;}
+
+/*图片上传*/
+.qikan_upload .upload_img{}
+.qikan_upload .upload_img .uplaod_img_btn{margin: 0 auto;width: 3.8rem;text-align: center}
+.qikan_upload .upload_img .weui-uploader__input-box{ width: 3.7rem; height: 3.7rem; /*border:none;*/ margin:0px; background-color: #333;border: 1px solid rgba(255,255,255,.1);}
+.qikan_upload .upload_img .weui-uploader__input-box:before{content: "点击上传"; width: 1.5rem;height: 1.5rem; line-height:1.2; background-color:transparent; color: #999; text-align:center;}
+.qikan_upload .upload_img .weui-uploader__input-box:after{ display:none;}
+.qikan_upload .upload_img .upload_fm{width: 10.5rem;height: 9.5rem;/*300*/;overflow: hidden;border:1px solid #333;margin: 0 auto;padding-top: 1rem;overflow: hidden;}
+.qikan_upload .upload_img .upload_fm img{width: 7.5rem;height:7.5rem;margin: 0 auto;overflow: hidden;}
+/*添加删除*/
+.qikan_upload .up_close{position: absolute;top: 0;right: 0;width: 1.3rem!important;height: 1.3rem!important;}
+.qikan_upload .up_close > img{width: 1.3rem!important;height: 1.3rem!important;}
+
+
+/*按钮*/
+.qikan_btn2{}
+.qikan_btn2 button{border:none;width: 100%;height: 2.2rem;line-height: 2.2rem;}
+
+
+
+
+
+
+
+

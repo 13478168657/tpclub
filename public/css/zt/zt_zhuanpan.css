@@ -1,0 +1,23 @@
+body{border: 1px solid red;background: cornflowerblue}
+img{display: block;width: 100%;margin: 0 auto;}
+.plr10{padding-left: .25rem;padding-right: .25rem;}
+/*右侧悬浮牛---滑动浏览*/
+.right_browse_bg{border: 1px solid red;position: fixed;right: 0;top: 50%;background: url("../../bg_browse.png")no-repeat center center;background-size: 100% 100%;width: 5.6rem;padding-top: 3.95rem;padding-bottom: .1rem;z-index: 999999;}
+.right_browse_bg p.browse_txt{line-height: .78rem;height: 1.5rem;}
+
+.browse_jindutiao{width: 100%;}
+.browse_jindutiao .progress{
+    width: 78%;
+    height: 7px;
+    background: rgb(255, 255, 255);
+    margin-top: .36rem;
+    border-radius: 2rem;
+}
+#bar{
+    width: 1%;
+    height: 7px;
+    background: #fdd000;
+    border-radius: 2rem;
+}
+
+.browse_time{width: 22%;height: .9rem;line-height: 1rem;}

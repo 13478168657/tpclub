@@ -1,0 +1,65 @@
+/*2019-10-11 新增*/
+/*课程分类 start========================*/
+/*选项卡页*/
+.kechengfenlei{height: 100%;}
+.act_top_fixed{height: 2rem;line-height: 2rem;text-align: center;text-indent: -999px;border-bottom: 1px solid rgba(236,236,236,.6)/*#ececec*/;}
+.act_con_wrap{position:fixed;left:0; top:0;width:100%;height:100%;padding-top: 4.6rem;}
+.act_con_wrap .act_fenlei{height: 100%;}
+.act_con_wrap .act_fenlei .maple-tab{width: 33.3%;height: 100%;box-shadow: 0 2px 10px 5px rgba(232,229,229,0.50);}
+.act_con_wrap .act_fenlei .maple-tab ul li{padding-top: .7625rem;padding-bottom: .7625rem;/*30.5*//*padding-top:1.575rem;*/}
+.act_con_wrap .act_fenlei .maple-tab ul li:first-child{margin-top: 1rem;}
+.act_con_wrap .act_fenlei .maple-tab ul li:last-child{margin-bottom: 2rem;}
+.act_con_wrap .act_fenlei .maple-tab .active{font-weight: bold;font-size: .75rem;}
+.act_con_wrap .act_fenlei .list_weo{width: 66.7%;padding-left: .5rem;padding-right: .5rem;height:100%; overflow-y:auto;}
+.act_con_wrap .act_fenlei .list_weo .swiper-container{ overflow:auto;}
+.act_con_wrap .act_fenlei .list_weo .swiper-wrapper .swiper-slide{padding: 0;margin: 0;background-color: #fff;;display: none;}
+.act_con_wrap .act_fenlei .list_weo .swiper-wrapper .swiper-slide:first-child{display: block;}
+.act_con_wrap .act_fenlei .list_weo .swiper-wrapper .swiper-slide .content_div{}
+.act_con_wrap .act_fenlei .list_weo .box_li{}
+.act_con_wrap .act_fenlei .list_weo .box_li ul li{margin-top: .5rem;height: 3rem;background:rgba(255,238,161,.5);/*#FFEEA1*/;position: relative;}
+.act_con_wrap .act_fenlei .list_weo .box_li ul li a{height: 3rem;line-height: 3rem;}
+.act_con_wrap .act_fenlei .list_weo .box_li ul li:last-child{margin-bottom: 2.3rem;}
+.act_con_wrap .act_fenlei .list_weo .box_li ul li .pos-tag-img{width: .7rem;position: absolute;right: .375rem;top: 0;}
+
+/* 滚动条~~~*/
+.gundongtiao{/*max-height: 20rem;*/;
+    width:100%;
+    height:auto;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+/*兼容IE*/
+.gundongtiao{
+    scrollbar-face-color: rgba(0,0,0,0.6)/*#000*/;/*移动滑块颜色*/
+    scrollbar-shadow-color: rgba(0,0,0,0.6)/*#000*/;/*移动滑块边框颜色*/
+    scrollbar-track-color: rgba(204,204,204,.2);/*#ccc*/;/*背景颜色*/
+    scrollbar-arrow-color: #ddd;/*箭头颜色*/
+}
+.gundongtiao::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    background-color: rgba(204,204,204,.3)/*#ccc*/;
+}/* 滚动条的滑轨背景颜色 */
+.gundongtiao::-webkit-scrollbar{
+    width: 2px;
+    background-color: rgba(204,204,204,.2)/*#ccc*/;
+}
+
+.gundongtiao::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.6)/*#000*/;
+}
+
+
+/*健身攻略-私教学院页*/
+.kc-nav{}
+.kc-nav ul{display: flex;flex-wrap: wrap;width: 100%;}
+.kc-nav ul li{float: left;flex-grow: 1;height: 1.45rem;line-height: 1.45rem;margin-bottom: .6rem;}
+.kc-nav ul li a{display: block;padding: 0 .75rem;margin:0 .375rem;height: 1.45rem;line-height: 1.45rem;}
+.kc-nav ul li.on a{border: 1px solid #333;color:#333;font-weight: bold;}
+
+.kc-list ul li{margin-bottom: 1rem;}
+.kc-list ul li .kc-img{}
+.kc-list ul li .kc-img img{}
+.kc-list ul li .kc-img span{position: absolute;bottom: 0;left: 0;padding:0 1.175rem;height: 1rem;line-height: 1rem;}
+
+
+/*课程分类 end========================*/

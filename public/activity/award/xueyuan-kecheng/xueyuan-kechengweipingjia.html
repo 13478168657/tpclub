@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>课程未评价</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body style="background: #fff;">
+<div class="kc_evaluate mb26">
+    <p class="f24 color_gray9b text_center mb30">给老师的课程打个分</p>
+    <div id="star" class="text_center"></div>
+</div>
+
+<div class="yijianfankui mlr30 pt40">
+   <div class="yjfk">
+       <div class="weui-cell yijian nobefore">
+           <div class="weui-cell__bd">
+               <textarea class="weui-textarea" placeholder="请填写10字以上评语……" rows="8" id="yijian"></textarea>
+           </div>
+       </div>
+   </div>
+
+    <!--大按钮-->
+    <div class="Btn nobefore noafter fix_btn">
+        <a href="javascript:;" class="weui-btn nobefore noafter bgcolor_dedede fz">提交评价</a>
+    </div>
+</div>
+
+<!--<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>-->
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+
+<script>
+$(function (){
+    var jianjie=$("#yijian");
+    wordLimit1(jianjie,$("#yijian_words"),150)
+})
+</script>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/star_jquery.raty.min.js"></script>
+<script>
+    /*星星点亮*/
+    $(function (){
+        $.fn.raty.defaults.path = '../images/img/';
+        $('#star').raty({});
+})
+</script>
+</body>
+</html>

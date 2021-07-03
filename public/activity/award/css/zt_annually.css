@@ -1,0 +1,111 @@
+
+
+img{width: 100%;display: block;}
+
+.bgcolor-fff5e2{background: #fff5e2;}
+.bgcolor-ffb200{background: #ffb200!important;}
+
+.color-020202{color:#020202!important;}
+.color-ffb200{color: #ffb200!important;}
+
+
+.pt103{padding-top:2.575rem;}
+.pb111{padding-bottom: 2.775rem;}
+.pt50{padding-top:1.25rem; }
+.pt80{padding-top: 2rem;}
+.pt117{padding-top: 2.925rem;}
+.mt117{margin-top: 2.925rem;}
+.pl180{padding-left: 4.5rem!important;}
+.plr40{padding-left: 1rem!important;padding-right: 1rem!important;}
+
+
+
+/* 选项卡css -------------------------------------- */
+.tabBox .hd{ position:relative; top: 0; width:100%; height:2.45rem;  background-color: #fff;border: 2px solid #ffb200;}
+.tabBox .hd ul{ position:absolute; width: 100%; top:0; overflow:hidden; }
+.tabBox .hd ul li{ float:left; width: 33.33%;position: relative;}
+/*.tabBox .hd ul li:first-child a:after{content: '|';display: inline;position: absolute;right: -3px;color: rgba(155,155,155,.2);}*/
+.tabBox .hd ul :nth-child(2){border-left:2px solid #ffb200; border-right:2px solid #ffb200; }
+.tabBox .hd ul li a{ display: block; height:2.45rem; line-height:2.45rem; font-size: 0.75rem;font-weight: bold; color: #ffb200; text-align: center}
+.tabBox .hd ul li a span{ display:inline-block; height: 2.125rem; border-bottom: 3px solid transparent;}
+.tabBox .hd ul .on a{ color: #fff;font-weight: bold;background: #ffb200; ;}
+.tabBox .hd ul .on a span{}
+
+
+/*初*/
+.position-tit{position: absolute;top:-.9rem;left: 0;width: 100%;}
+.position-tit span{padding: .5rem 1.6rem;display: inline-block}
+.xian{border: 1px solid #ffb200;}
+
+
+.nav_wrap{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 60px;
+
+}
+
+#nav_keleyi_com{position:relative;top:0;z-index: 9999999;left:0}
+/*导航菜单向上滑动*/
+.slideUp {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    transition: transform .5s ease-out;
+}
+/*导航菜单向下滑动*/
+.slideDown {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: transform .5s ease-out;
+}
+
+
+
+
+
+
+/*========================================================================================*/
+.bg-img1{background: url("../../images/zt/annually/hunimg1.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 7.1rem;padding-bottom: .875rem;line-height: 1rem;}
+.bg-img2{background: url("../../images/zt/annually/hunimg2.jpg")no-repeat top center;background-size: 100% 100%;}
+
+
+.bg-more{background: url("../../images/zt/annually/j2.png")no-repeat top center;background-size: 100% 100%;padding-top:1.525rem;padding-bottom: 1.925rem;padding-left: 1.675rem;}
+.bg-more p{background: url("../../images/zt/annually/bo.jpg")no-repeat left center;background-size: auto 70%;padding-left:1.575rem;vertical-align: middle}
+
+
+
+/*表单*/
+.form{}
+.input{width: 100%;}
+.input input{width: 99%;height: 2.175rem;line-height: 2.175rem;padding-left: .8rem;padding-right: .8rem;border:none;box-shadow: 2px 2px 2px #ff9834}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.tip{margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+.form .btn{border: none}
+
+/*注册页面下输入验证码*/
+.yzm{width: 64% !important}
+.yzm-huoqu{width: 33% !important;height: 2.175rem;line-height: 2.175rem;}
+
+
+
+/*登陆成功二维码*/
+.imgw{width: 7.75rem;margin: 0 auto}
+
+
+/*底部大按钮*/
+.btnbtn{height: 2.2rem;line-height: 2.2rem;}
+.btnbtn a{display: block;width: 100%;height: 2.2rem;line-height: 2.2rem;position: fixed;bottom: 0;left: 0;}
+
+
+
+
+
+
+
+
+

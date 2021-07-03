@@ -1,0 +1,70 @@
+body {
+    line-height: 1.6;
+    /* spadding-top: 2.2rem; */
+    background-color: #F2F2F2;
+    font-family: "Î¢ÈíÑÅºÚ", Microsoft YaHei, Arial Narrow, sans-serif;
+    color: #333;
+}
+/*µ×²¿¹Ì¶¨Ìõ*/
+/*底部固定导航条*/
+.fixed_bar_bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 900;
+}
+.weui-tabbar {
+  height: 2.5rem;
+  border-top: 1px solid #E0DFE2;
+  background-color: #fff;
+}
+.nav-tabbar .weui-tabbar__item {
+  padding-top: 0;
+}
+.nav-tabbar span {
+  display: block;
+  height: 100%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.nav-tabbar .ico_home {
+  background-image: url(../images/my/ico_shouye_tabbar.png);
+}
+.nav-tabbar .weui-bar__item--on .ico_home {
+  background-image: url(../images/my/ico_shouye_tabbar_cur.png);
+}
+.nav-tabbar .ico_study {
+  background-image: url(../images/my/ico_xuexi_tabbar.png);
+}
+.nav-tabbar .weui-bar__item--on .ico_study {
+  background-image: url(../images/my/ico_xuexi_tabbar_cur.png);
+}
+.nav-tabbar .ico_my {
+  background-image: url(../images/my/ico_wode_tabbar.png);
+}
+.nav-tabbar .weui-bar__item--on .ico_my {
+  background-image: url(../images/my/ico_wode_tabbar_cur.png);
+}
+
+
+/*底部固定导航条*/
+.fixed_bottom_4{position: fixed;bottom: 0px;
+  left: 0;border-top: 1px solid  #F2F2F2;background-color: #fff;width: 100%;z-index: 9999999;height: 2.5rem;
+  /* border: 1px solid pink; */
+}
+.fixed_bottom_4 a{background: #fff;display: block;float: left;width: 20%;height: 2.5rem;}
+.fixed_bottom_4 span{display: block;height: 2.5rem;background-position: center 0;background-repeat: no-repeat;background-size: auto 100%;}
+.fixed_bottom_4 .icon-home {background-image: url(../images/my/ico_shouye_tabbar.png);}
+.fixed_bottom_4 .icon-find {background-image: url(../images/my/ico_faxian_tabbar.png);}
+.fixed_bottom_4 .icon-study {background-image: url(../images/my/ico_xuexi_tabbar.png);}
+.fixed_bottom_4 .icon-my {background-image: url(../images/my/ico_wode_tabbar.png);}
+.fixed_bottom_4 .icon-ask {background-image: url(../images/my/ico_ask.png);}
+
+.fixed_bottom_4 .on .icon-home {background-image: url(../images/my/ico_shouye_tabbar_cur.png);}
+.fixed_bottom_4 .on .icon-find {background-image: url(../images/my/ico_faxian_tabbar_cur.png);}
+.fixed_bottom_4 .on .icon-study {background-image: url(../images/my/ico_xuexi_tabbar_cur.png);}
+.fixed_bottom_4 .on .icon-my {background-image: url(../images/my/ico_wode_tabbar_cur.png);}
+.fixed_bottom_4 .on .icon-ask {background-image: url(../images/my/ico_ask_cur.png);}
+/*============================我的===============================*/

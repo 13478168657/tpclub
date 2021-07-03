@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>我的赛普币</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body style="background: #fff;">
+<!-- 赛普币 satrt -->
+<div class="mlr30 pt30 xueyuan_spb">
+    <div class="weui-cells  nobefore noafter mt0 pb30">
+        <a class="weui-cell weui-cell_access xueyuan_money nobefore noafter" href="javascript:;">
+            <div class="weui-cell__hd f26"><img src="../images/my/ico_saipubi.png" alt=""></div>
+            <div class="weui-cell__bd f34 color_000 lt">
+                <p>赛普币100</p>
+            </div>
+            <div class="right f24 color_gray666">
+                赛普币规则
+            </div>
+        </a>
+     </div>
+</div>
+<!-- 赛普币 end -->
+
+<!-- 赛普币明细 satrt -->
+<ul class="spb_details mlr30 fz">
+    <li class="color_gray9b f24 pb22">赛普币明细</li>
+    <div id="list">
+        <li>
+            <div class="weui-cells nobefore noafter mt0">
+                <a class="weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter" href="javascript:;">
+                    <div class="weui-cell__hd f26"><img src="../images/icon_install.png" alt=""></div>
+                    <div class="weui-cell__bd fz">
+                        <p class="f28 color_4a">完善资料</p>
+                    </div>
+                    <div class="f24 color_gray666">
+                        <p class="color_4a f26 pb15 fz bold text_right">+20</p>
+                        <span class="color_gray999 f20">2018/08/09</span>
+                    </div>
+                </a>
+            </div> 
+        </li>
+        <li>
+            <div class="weui-cells nobefore noafter mt0">
+                <a class="weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter" href="javascript:;">
+                    <div class="weui-cell__hd f26"><img src="../images/icon_install.png" alt=""></div>
+                    <div class="weui-cell__bd fz">
+                        <p class="f28 color_4a">分享课程</p>
+                    </div>
+                    <div class="f24 color_gray666">
+                        <p class="color_4a f26 pb15 fz bold text_right">+20</p>
+                        <span class="color_gray999 f20">2018/08/09</span>
+                    </div>
+                </a>
+            </div> 
+        </li>
+        <li>
+            <div class="weui-cells nobefore noafter mt0">
+                <a class="weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter" href="javascript:;">
+                    <div class="weui-cell__hd f26"><img src="../images/icon_install.png" alt=""></div>
+                    <div class="weui-cell__bd fz">
+                        <p class="f28 color_4a">注册赛普健身社区</p>
+                    </div>
+                    <div class="f24 color_gray666">
+                        <p class="color_4a f26 pb15 fz bold text_right">+20</p>
+                        <span class="color_gray999 f20">2018/08/09</span>
+                    </div>
+                </a>
+            </div> 
+        </li>
+    </div>  
+</ul>
+<!-- 赛普币明细 end -->
+
+<!--加载更多-->
+<div class="weui-loadmore more text_center fz ptb30">
+    <i class="weui-loading"></i>
+    <span class="weui-loadmore__tips">正在加载</span>
+</div>
+
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+<script>
+    var loading = false;
+    $(document.body).infinite().on("infinite", function() {
+        if(loading) return;
+        loading = true;
+        setTimeout(function() {
+            $("#list").append("" +
+                    "<li><div class='weui-cells nobefore noafter mt0'>" +
+                    "<a class='weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter' href='javascript:;'>" +
+                    "<div class='weui-cell__hd f26'><img src='../images/icon_install.png' alt=''></div>" +
+                    "<div class='weui-cell__bd fz'><p class='f28 color_4a'>注册赛普健身社区</p>" +
+                    "</div>" +
+                    "<div class='f24 color_gray666 spb_time'><p class='color_4a f26 pb15'>+20</p><span class='color_gray999 f20'>2018/08/09</span>" +
+                    "</div>" +
+                    "</a>" +
+                    "</div>"+
+                    "</li>"
+                    );
+            loading = false;
+        }, 2000);
+    });
+
+
+</script>
+</body>
+</html>

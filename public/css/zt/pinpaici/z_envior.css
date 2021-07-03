@@ -1,0 +1,69 @@
+/*/40*/
+body{ height:100%;font-size: .6rem; margin: 0 auto;max-width: 18.75rem}
+img{width: 100%;display: block;margin: 0 auto}
+.display-block{display: block}
+.pt180{padding-top: 4.5rem;}
+.pb180{padding-bottom: 4.5rem;}
+.pb120{padding-bottom:3rem;}
+.pt110{padding-top:2.75rem;}
+.pt120{padding-top:3rem;}
+.pt118{padding-top: 2.95rem;}
+.plr50{padding-left: 1.25rem;padding-right: 1.25rem;}
+.plr65{padding-left: 1.625rem;padding-right: 1.625rem;}
+.pb50{padding-bottom: 1.25rem;}
+.pt50{padding-top: 1.25rem;}
+.pt70{padding-top: 1.75rem;}
+.pb70{padding-bottom: 1.75rem;}
+.pb238{padding-bottom: 5.95rem;}
+.pt75{padding-top: 1.875rem;}
+.ptb100{padding:2.5rem 0}
+.mb100{margin-bottom: 2.5rem;}
+.mt100{margin-top:2.5rem;}
+.pt100{padding-top: 2.5rem;}
+.pb100{padding-bottom: 2.5rem;}
+.pb44{padding-bottom: 1.1rem;}
+.pb40{padding-bottom: 1rem;}
+
+/*color bgcolor*/
+.color-fdd000{color:#fdd000;}
+.color_fff{color: #fff}
+.color_3b3738{color: #3b3738;}
+.color_010101{color: #010101;}
+/* 灰色的边框 */
+.hui{background: #f0f0f0;height: .5rem;}
+
+/* 一线城市 聚集，全国优秀老师 */
+.banner_wrap{background: #000;}
+.banner_img{background: url("../../../images/zt/pinpaici/z_envior/banner2.jpg")no-repeat center center;background-size:100% 100%;}
+
+/* 开学典礼 */
+.ceremony{background: url("../../../images/zt/pinpaici/z_envior/kx_img2.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 2.5rem;}
+.ceremony2{background: url("../../../images/zt/pinpaici/z_envior/kx_img3.jpg")no-repeat center center;background-size:100% 100%;}
+.p_mask{background: rgba(0, 0, 0, .5);margin:0 3.75rem 0 3rem;}
+.p_mask2{margin:0 1rem 0 1.6rem;}
+
+/*校区环境*/
+.school .school-bg-img1{background: url("../../../images/zt/pinpaici/z_envior/xq_img2.jpg")no-repeat center center;background-size:100% 100%;}
+.school .school-bg-img2{background: url("../../../images/zt/pinpaici/z_envior/xq_img5.jpg")no-repeat center center;background-size:100% 100%;}
+.school .school-bg-img3{background: url("../../../images/zt/pinpaici/z_envior/xq_img8.jpg")no-repeat center center;background-size:100% 100%;}
+ 
+/* 训练教室 */
+.xunlian{background: url("../../../images/zt/pinpaici/z_envior/xl_img2.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 2.125rem;}
+.xunlian2{background: url("../../../images/zt/pinpaici/z_envior/xl_img4.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 2.7rem;}
+.xunlian3{background: url("../../../images/zt/pinpaici/z_envior/xl_img6.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 7rem;}
+.xunlian4{background: url("../../../images/zt/pinpaici/z_envior/xl_img8.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 3.8rem;}
+.xunlian5{background: url("../../../images/zt/pinpaici/z_envior/xl_img10.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 1.925rem;}
+
+/*食堂环境 专业健身营养餐*/
+.huan{background: url("../../../images/zt/pinpaici/z_envior/hj_img3.jpg")no-repeat center center;background-size:100% 100%;padding-bottom: 1.9rem;}
+.fruit{padding-bottom: 3.65rem;}
+
+
+
+.foot{text-align: center;background: #fff;font-size: .6rem;padding: .6rem 0;}
+
+
+/*html没有字号 ,写max-width:18.75不管用*/
+@media (min-width: 768px) {
+    html{ font-size: 20px !important;}
+}

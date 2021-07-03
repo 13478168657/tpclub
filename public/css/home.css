@@ -1,0 +1,309 @@
+.mr10{margin-right: .25rem;}
+
+.bTop{border-top: 1px solid #dedede;}
+
+/*公共点赞数与观看数图片大小样式*/
+img.width40{width: 1.1rem;}
+.yudu-img img{width: .65rem;vertical-align: middle;margin-right: .2125rem;}
+
+/*公共视频线样式*/
+.boxbox{padding-top: .75rem;border-top: 1px solid #dedede;}
+.boxbox:first-child{padding-top: 0;border-top: 0;}
+
+
+/* banner 轮播 */
+.banner_wapper{ position:relative;cursor:pointer;max-width: 750px;margin: 0 auto}
+.banner_wapper .slideBox{ position:relative; width:100%; height:auto; overflow:hidden; margin:0 auto; }
+.banner_wapper .slideBox .hd{ position:absolute; left:0; bottom:-5px; width:100%; height:40px; padding-top:12px;/* background-color:#000; opacity:0.3;filter:alpha(opacity=30);*/  z-index:1; text-align:center;display: block;}
+.banner_wapper .slideBox .hd li{ display:inline-block; width:8px; height:8px; border:1px solid #fff; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; text-indent:-9999px; overflow:hidden; margin:0 6px; box-shadow: 0px 1px 3px #333;}
+.banner_wapper .slideBox .hd li.on{ /*background:#fff;*/ background-color:#C9AD66; /*color:#fff;*/}
+.banner_wapper .slideBox .bd{ position:relative; z-index:1; }
+.banner_wapper .slideBox .bd li{ position:relative;}
+.banner_wapper .slideBox .bd li img{ display:block;  width:100%;}
+.banner_wapper .slideBox .bd .about_r .about_ry{}
+.banner_wapper .slideBox .bd .about_r .about_ry li{width: 33.33%;background: #d2d1d1;color: #fff;font-size: 1.2em;float: left;text-align: center;}
+.banner_wapper .slideBox .bd .about_r .about_img{background: #fff;padding:20px 0 40px 0;}
+.banner_wapper .slideBox .bd .about_r .about_img li{width: 33.33%;box-sizing:border-box;padding:0 10px;float: left;}
+.banner_wapper .tempWrap {overflow:hidden; position:relative;}
+.banner_wapper .tempWrap ul{width: 7500px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition-duration: 200ms; transform: translate(-3000px, 0px) translateZ(0px);}
+
+/*选择适合自己的教练成长训练营*/
+/*顶部按钮*/
+.xz_a{border: 1px solid #F5A623;width: 100%;height: 1.3rem;line-height: 1.3rem;/*52*/;background: #FFFCED;color: #F5A623;}
+/*第N天任务*/
+.home_now_canjia_box{}
+.home_now_canjia_box .h_page{}
+.home_now_canjia_box .h_page a{height: 1.25rem;/*50*/line-height: 1.3rem;;padding:0 .6rem;border-radius: .25rem;}
+.home_now_canjia_box .h_page a:last-child{margin-left: .5rem;}
+
+/*列表*/
+.home_list_box{/*border-top: 1px solid #dedede;*/}
+.home_list_box .list-art li{border-bottom: 1px solid #dedede;}
+.home_list_box .list-art li:last-child{border-bottom: 1px solid #dedede;}
+.home_list_box .list-art li dt{ float:left; width:7.5rem; margin-right:10px;position: relative;height: 4.55rem;overflow: hidden}
+.home_list_box .list-art li dt img{ display:block; width:100%;}
+.home_list_box .list-art li dd{ margin-left:/*50px*/1.25rem;}
+.home_list_box .list-art li dd h3{line-height:1rem;height: 2rem;}
+.home_list_box .list-art a{display: block}
+
+/*视频*/
+.home_listSP_box{}
+.home_listSP_box .video {position: relative;width: 100%;height: 10rem;}
+.home_listSP_box .video .box2 {position: absolute;width: 100%;height: 100%;z-index: 100;}
+.home_listSP_box .video .box2 img {display: block;width: 100%;height: 100%;}
+.home_listSP_box .video .box2 .mask {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: .5;}
+.home_listSP_box .video .box2 .btn_play {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 1.95rem;height: 1.95rem;background: url(../images/bofang.png) 0 0 no-repeat;background-size: 1.95rem 1.95rem;}
+.home_listSP_box .video video {position: absolute;left: 0;top: 0;width: 100%;height: 10rem;}
+
+
+/*首页顶部滑动模块*/
+.swiper-container-HomeTag {width: 100%;overflow: hidden;z-index: 1;}
+.swiper-container-HomeTag .swiper-slide {/*width: 3.2rem*/width: auto!important;background: none;
+    /* Center slide text vertically */padding:0 .3rem;
+    display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;
+    -webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
+.swiper-container-HomeTag .swiper-slide img{width: 2.2rem;height: 2.2rem!important;display: block;margin: 0 auto;}
+.swiper-container-HomeTag .swiper-slide a{width: 100%;}
+.listHomeTag p{width: 100%;line-height: .8rem;margin-top: .325rem;}
+
+
+/*查看过去精选 按钮*/
+.chakanBtn img{width:.8rem;vertical-align: text-top;margin-left:.3rem;}
+
+
+
+/*免费线上训练营*/
+.home_listMFXS_box{}
+.home_listMFXS_box ul li{overflow: hidden;margin-bottom: .75rem;
+    -webkit-border-radius: .35rem;
+    -moz-border-radius: .35rem;
+    border-radius: .35rem;}
+.home_listMFXS_box ul li img{}
+.home_listMFXS_box ul li p{height: 1.5rem;line-height: 1.5rem;/*60*/}
+
+
+/*免费单课*/
+.list{}
+.list li{border-bottom: 1px solid #dedede}
+.list li:last-child{border-bottom: none}
+.list li dt{ float:left; width:4.55rem; margin-right:10px;position: relative;height: 5.5rem;}
+.list li dt span{position: absolute;bottom: 0;left: 0;width: 100%;display: inline-block;height: 1rem;line-height: 1rem;padding: .12rem 0;font-size: .55rem;}
+.list li dt img{ display:block; width:100%;}
+.list li dd{ margin-left:/*50px*/1.25rem;}
+.list li dd h3{ font-size:.75rem; height:/*44px*/1.1rem; line-height:1.25rem;}
+.list li dd p:nth-child(2){font-size: .6rem; height:/*20px*/1.25rem; line-height:1.25rem;}
+.list li dd .weui-cell{padding:0;margin: .65rem auto .25rem;height:1rem; line-height:1.2rem;font-size: .55rem;}
+.list li dd .weui-cell__ft{margin-right: 1.625rem;font-size: .7rem;}
+.list .more a{font-size: .6rem;display: block;color: #666}
+/*右侧箭头样式*/
+.w-jian .weui-cell_access .weui-cell__ft:after{width: 8px;height: 8px;}
+
+.list .swiper-container{height: 1.25rem;}
+.list .swiper-slide{
+    /*width: 26%!important;*/
+    width: auto!important;
+    padding:0 .45rem;
+    border-radius: .25rem;
+    background: #f2f2f2;
+    line-height: .25rem;
+    font-size: .6rem;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+/*右悬浮 新人礼包*/
+.right-suspension{position: fixed;right: 0;bottom: 8.6%;z-index: 999999;background: url("../images/gift-bg.png")no-repeat top center;background-size: 100% auto;width: 4.875rem;height: 3.15rem;/*img 159*126*/}
+.right-suspension a{width: 4.875rem;height: 3.15rem;/*img 159*126*/display: block}
+.right-suspension a img{width: 1.925rem;/*img 77*71*/;position: absolute;left: 13%;top: 20%;
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+    /*animation-iteration-count:2;
+    animation-delay:2s;*/
+}
+@-webkit-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}

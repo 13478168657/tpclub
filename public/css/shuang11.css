@@ -1,0 +1,163 @@
+/*使用全局样式把滑动报错去掉*/
+* { touch-action: pan-y;}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*右悬浮 【分销】*/
+.right-Invitation{position: fixed;right: 0;bottom: 18.6%;z-index: 152;}
+.right-Invitation a{display: inline-block;border-top-left-radius: 2rem;border-bottom-left-radius: 2rem;height: 1.75rem;line-height: 1.75rem;background-color: #ff7200;padding-left: .875rem!important;}
+.right-Invitation a img{display: inline-block;vertical-align: middle;;width: .95rem;margin-right: .25rem;}
+/*右悬浮 【查看助力情况】*/
+.right-Zhuli{bottom: 11.6%;}
+
+.color_ff6d1e{color: #ff6d1e;}
+.InvBtn{}
+.InvBtn a{width: 32%;height: 2rem;line-height: 2rem;}
+.InvBtn a:nth-child(2){border: 1px solid red;margin-left: 2%;margin-right: 2%; }
+.InvBtn a img{width: .825rem;vertical-align: middle;display: inline-block;margin-right: .25rem;}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.bg_ff9a03{background: #ff9a03;color: #fff!important;border: 1px solid #ff9a03!important;}
+/*分销下关闭样式*/
+.tabbs .picker-button{
+    left: 0.925rem;
+    top: 1.15rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: url(../../images/icon_x.png) 0 0 no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.bg_ff9a03{background: #ff9a03;color: #fff!important;border: 1px solid #ff9a03!important;}
+
+/*全屏图片弹出样式*/
+.friend_layer {
+    width: 15.25rem !important;
+    height: 16.15rem !important;
+    border-radius: 0.25rem !important;
+}
+.friend_layer .layui-layer-setwin .layui-layer-close2
+{right: 0rem!important;top: 0rem!important;width: 1.1rem!important;height: 1.1rem!important;background: url(../../images/ico_del1.png) no-repeat center center;background-size: 1.3rem 1.3rem;z-index: 9999999; }
+.friend_layer .bm_success {display: block;}
+.friend_layer{height: auto!important;}
+.friend_layer .layui-layer-content img{height: 25.35rem!important;}
+
+/*底部悬浮按钮*/
+.foot_help{height: 2.35rem/*94*/;line-height: 2.35rem;}
+
+/*右侧悬浮样式更改 {--避免修改公共样式--}*/
+.right_Float_wx{bottom: 26% !important;}
+
+
+
+
+
+body{ padding-bottom: 4.0rem; background-color: #FFFAD4; font-family: "兰亭黑简";}
+.red1{ color: #C2191D; }
+.orange1{ color: #FF9000 }
+.color_222{color: #222!important;}
+.btn1{ display: block; width: 6.875rem; height: 1.6rem; line-height: 1.55rem; border: 1px solid #FF9000; border-radius: 0.25rem; background-color: #FF9000; text-align: center; font-size: 0.55rem; color: #fff;}
+.btn2{ display: block; width: 6.875rem; height: 1.6rem; line-height: 1.55rem; border: 1px solid #FF9000;border-radius: 0.25rem; background-color: #fff; text-align: center; font-size: 0.55rem; color: #FF9000;}
+
+.shuang11{ width: 18.75rem; margin: 0 auto; padding-left: 0.75rem; padding-right: 0.75rem;}
+.shuang11 .cat1{ width: 13.075rem; height: 1.9rem; margin: 0 auto; background: url(../images/shuang11/btn1.png) 0 0 no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%; text-indent: -9999px;}
+.shuang11 .wrapper{ padding: 1.25rem 0.75rem; border-bottom: 1px dashed #DEDEDE;}
+/*栏目标题1*/
+.shuang11 .tit_line{ position:relative; display:inline-block; padding:0 1.75rem; margin:0.5rem auto 0.75rem; text-align:center;}
+.shuang11 .tit_line:before{ content:''; position:absolute; left:0px; top:50%; transform:translateY(-50%); width:100%; height:1px; background-color:#000;}
+.shuang11 .tit_line span{ position:relative; display:inline-block; padding:0 15px; background-color:#fff;}
+
+/*购买此套餐立省299元*/
+.shuang11 .wrapper1 .banqi >li li.cur .btn2{ background-color: #FF9000; color: #fff;}
+.shuang11 .wrapper1 .banqi > li{ position: relative; padding: 0.625rem 0.5rem; border-radius: 0.5rem; margin-bottom: 0.875rem; background-color: #FFFAD4; overflow: hidden;}
+.shuang11 .wrapper1 .banqi > li h3{ position: relative; line-height: 0.75rem; padding-left: 0.4rem; font-size: 0.675rem;}
+.shuang11 .wrapper1 .banqi > li h3:before{ content:''; position:absolute; left:0px; top:10%; bottom: 10%; width: 0.175rem; background-color: #FF9000;}
+.shuang11 .wrapper1 .banqi > li .tag{ position: absolute; right: -0.2rem; top: -0.2rem; width: 3.475rem; height: 3.3rem; background: url(../images/shuang11/tag.png) 0 0 no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%;}
+.shuang11 .wrapper1 .banqi > li .tag span{ position: absolute; right: -0.7rem; top: 0.95rem; width: 110%; display: block; color: #fff; transform:rotate(44deg);}
+.shuang11 .wrapper1 .banqi > li li{ margin-top: 0.75rem; overflow: hidden;}
+.shuang11 .wrapper1 .banqi > li .fr{ line-height: 1.6rem;}
+.shuang11 .wrapper1 .banqi > li:last-child{ margin-bottom: 0;}
+
+/*栏目标题2*/
+.shuang11 .cat2_l{ display: inline-block; padding-left: 1.5rem; background: url(../images/shuang11/cat2_l.png) 0 bottom no-repeat; -webkit-background-size: 1.1rem 1.025rem; background-size: 1.1rem 1.025rem;}
+.shuang11 .cat2_r{ padding-right: 1.5rem; background: url(../images/shuang11/cat2_r.png) right bottom no-repeat; -webkit-background-size: 1.1rem 1.025rem; background-size: 1.1rem 1.025rem;}
+
+/*都知道女性会员最好开单*/
+.shuang11 .wrapper2{ padding-bottom: 0.5rem;}
+.shuang11 .wrapper2 ul{ margin-top: 1.125rem; }
+.shuang11 .wrapper2 ul li{ margin-bottom: 0.25rem; }
+.shuang11 .wrapper2 ul li dl dt{ line-height: 0.825rem; padding-left: 2.5rem;  background: url(../images/shuang11/one.png) 0 0 no-repeat; -webkit-background-size: auto 0.825rem; background-size: auto 0.825rem;}
+.shuang11 .wrapper2 ul li:nth-child(2) dl dt{ background-image: url(../images/shuang11/two.png);}
+.shuang11 .wrapper2 ul li:nth-child(3) dl dt{ background-image: url(../images/shuang11/three.png);}
+.shuang11 .wrapper2 ul li dl dd{ position: relative; line-height: 0.825rem; padding: 0.5rem 0 0.5rem 2.5rem; }
+.shuang11 .wrapper2 ul li dl dd:before{ content:''; position:absolute; left:1.0rem; top:0.5rem; bottom: 0.5rem; width:1px; border-left: 1px dashed #D2D2D2;}
+.shuang11 .wrapper2 ul li dl dd:after{ content:''; position:absolute; left:0.875rem; bottom: 0.5rem; width:0.25rem; height: 0.25rem; border-radius: 50%; background-color: #D2D2D2; z-index: 100;}
+.shuang11 .wrapper2 ul li dl dd p{ line-height: 1.6; padding-bottom: 0.25rem; border-bottom: 1px solid #D2D2D2; }
+
+.shuang11 .wrapper3{ position: relative; padding-top: 3.5rem; padding-bottom: 0.5rem;}
+.shuang11 .wrapper3 .cat3{ position: absolute; left: -1.5rem; right: -1.5rem; top: 0; height: 1.5rem; line-height: 1.5rem; background-color: #FF9000; color: #fff; text-align: center;}
+.shuang11 .wrapper3 .cat3:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1.5rem;
+    width: 0px;
+    height: 0;
+    border: 0.875rem solid transparent;
+    border-top: 0.75rem solid #FF9000;
+    margin-left: -0.875rem;
+}
+
+/*专为服务女性会员*/
+.shuang11 .wrapper3 .box1{ padding: 0 0.375rem; margin-top: 1.25rem; margin-bottom: 2.25rem; background: url(../images/shuang11/arrow.png) 6.5rem 5.5rem no-repeat; -webkit-background-size: 1.225rem 2.05rem; background-size: 1.225rem 2.05rem;}
+.shuang11 .wrapper3 .box1 .box_l{ float: left; width: 6.375rem;}
+.shuang11 .wrapper3 .box1 .box_l .wrap{ position: relative; width: 100%; height: 6.375rem; border: 1px solid #FF9000; border-radius: 0.25rem; overflow: hidden;}
+.shuang11 .wrapper3 .box1 .box_l .wrap:first-child{ margin-bottom: 0.5rem;}
+.shuang11 .wrapper3 .box1 .box_l .wrap img{ width: 100%; height: 100%;}
+.shuang11 .wrapper3 .box1 .box_l .wrap h3{ position: absolute; left: 50%;top: 0; transform:translateX(-50%); width: 4.825rem; height: 1.325rem; line-height: 1.325rem; background: url(../images/shuang11/tixing.png) 0 0 no-repeat; -webkit-background-size: 4.825rem 1.325rem; background-size: 4.825rem 1.325rem; color: #fff; text-align: center;}
+.shuang11 .wrapper3 .box1 .box_l .wrap h4{ position: absolute; left: 0; bottom: 0; width: 100%; height: 1.1rem; line-height: 1.1rem; background-color: rgba(255,255,255,.8); color: #FF9000; text-align: center;}
+.shuang11 .wrapper3 .box1 .box_r{ position: relative; float: right; width: 8.125rem; height: 13.25rem; border: 1px solid #FF9000; border-radius: 0.25rem; overflow: hidden;}
+.shuang11 .wrapper3 .box1 .box_r img{ width: 100%; height: 100%;}
+.shuang11 .wrapper3 .box1 .box_r h4{ position: absolute; left: 0; bottom: 0; width: 100%; line-height: 1.6; padding: 0.25rem 0; background-color: #FF9000; color: #fff; text-align: center;}
+
+/*一线大咖导师授课*/
+.shuang11 .wrapper3 .teacher{ margin: 1.25rem 0.375rem 1.625rem; }
+.shuang11 .wrapper3 .teacher > li{ padding: 1.0rem 1.5rem; border-radius: 0.25rem; margin-bottom: 0.75rem; background-color: #FFF9DD; text-align: center; overflow: hidden;}
+.shuang11 .wrapper3 .teacher > li h3{ margin-bottom: 0.75rem; font-size: 0.925rem; letter-spacing: 0.125rem;}
+.shuang11 .wrapper3 .teacher > li dl{ width: 4.25rem; margin: 0 auto 0.5rem;}
+.shuang11 .wrapper3 .teacher > li dl dt img{ display: block; width: 100%; height: 4.25rem; border-radius: 50%;}
+.shuang11 .wrapper3 .teacher > li dl dd{position: relative; width: 100%; height: 1.15rem; line-height: 1.15rem; border-radius: 0.575rem; margin-top: -0.575rem; background-color: #FF9000; color: #fff; font-size: 0.75rem;}
+.shuang11 .wrapper3 .teacher > li ul li{ line-height: 1.6; padding-left: 0.75rem; background: url(../images/shuang11/ico1.png) 0 center no-repeat; -webkit-background-size: 0.325rem 0.325rem; background-size: 0.325rem 0.325rem; color: #666; text-align: left;}
+
+/*线上学习时间更自由*/
+.shuang11 .wrapper3 .xuexi{ margin: 1.125rem 0.375rem 1.25rem;}
+.shuang11 .wrapper3 .xuexi li{ padding: 0.5rem 0.5rem 0.5rem 3.0rem; border: 1px solid #E5E5E5; border-radius: 0.25rem; margin-bottom: 0.5rem;  background: url(../images/shuang11/no1.png) 0.5rem center no-repeat; -webkit-background-size: 1.975rem 1.35rem; background-size: 1.975rem 1.35rem;}
+.shuang11 .wrapper3 .xuexi li:nth-child(2){ background-image: url(../images/shuang11/no2.png);}
+.shuang11 .wrapper3 .xuexi li:nth-child(3){ background-image: url(../images/shuang11/no3.png);}
+.shuang11 .wrapper3 .xuexi li dl{ padding-left: 1.0rem; border-left: 1px solid #D2D2D2;}
+.shuang11 .wrapper3 .xuexi li dl dd{ line-height: 1.5; margin-top: 0.25rem; font-size: 0.6rem;}
+
+/*比单独购买更加优惠*/
+.shuang11 .wrapper3 .priceList{ border-bottom: 1px dashed #DCDCDC; margin: 1.25rem 0.375rem 0; }
+.shuang11 .wrapper3 .priceList li{ margin-bottom: 0.75rem; overflow: hidden;}
+.shuang11 .wrapper3 .priceList li .fr{ padding-right: 1.25rem; background: url(../images/shuang11/arrow1.png) right center no-repeat; -webkit-background-size: 0.375rem 0.65rem; background-size: 0.375rem 0.65rem;}
+.shuang11 .wrapper3 .priceWrap{ font-size: 0; margin: 0.5rem 0.375rem;}
+.shuang11 .wrapper3 .priceWrap *{ vertical-align: middle;}
+.shuang11 .wrapper3 .priceWrap .btn1{ display: inline-block; width: auto; padding: 0 0.875rem; margin-left: 0.5rem; background-color: #F15B00; font-size: 0.7rem;}
+.price{ font-size: 1.075rem !important;}
+.price:before { font-size: 0.75rem; font-family: '微软雅黑';}
+
+/*常见Q&A*/
+.shuang11 .cat4{ display: inline-block; padding: 0 2.0rem; line-height: 1.75rem; border-radius: 0.875rem; margin-top: 1.5rem; margin-bottom: 0.9rem; background-color: #FF9000; color: #fff; font-size: 0.9rem; font-weight: bold;}
+.shuang11 .wrapper3 .qa dd{line-height: 1.5; padding: 0.2rem 0 0.4rem 1.5rem;}
+
+
+/*底部固定悬浮*/
+.fixed_bot{ position: fixed; left: 0; bottom: 0; width: 100%; }
+.fixed_bot .footer{ width: 18.75rem; height: 3.5rem; padding: 0.625rem 0.75rem; margin: 0 auto; background-color: #fdd000;}
+.fixed_bot .footer .fl .btn1{ display: inline-block; width: 4.25rem; height: 1.0rem; line-height: 1.0rem; background-color: #e4393c;}
+.fixed_bot .footer .fr .btn1{ display: inline-block; width: 7.0rem; height: 2.4rem; line-height: 2.4rem; background-color: #e4393c; font-size: 0.9rem;}
+
+.tiao{width: 50%;}
+.lin40{line-height: 1rem;}
+

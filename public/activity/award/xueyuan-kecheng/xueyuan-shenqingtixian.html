@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>申请提现</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body style="background: #fff;">
+<div class="apply">
+    <div class="apply_cash">
+        <div class="weui-cell__bd mb30">
+            <div class="f28 color_4a pb15">提现金额</div>
+            <div class="f24 color_gray999">余额超过100元后才可以提现哦～</div>
+        </div>
+       <div class="the ptb34">
+            <input type="text" placeholder="¥200.00" class="input lt color_000 f44" />
+       </div>
+       <div class="weui-cell__bd pt30 mb30 pb30">
+            <div class="f24 color_gray999">当前可提现:500元</div>
+        </div>
+    </div>
+
+  
+
+    <!--大按钮-->
+    <div class="plr30 Btn nobefore noafter">
+        <a href="javascript:;" class="weui-btn nobefore noafter bgcolor_orange color_333 f34 fz">立即申请提现</a>
+    </div>
+</div>
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+
+</body>
+</html>

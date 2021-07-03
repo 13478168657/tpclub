@@ -1,0 +1,62 @@
+body{ height:100%;font-size: .6rem;margin: 0 auto}
+img{width: 100%;display: block;margin: 0 auto}
+*{touch-action: pan-y;}
+
+.none{display: none;}
+
+.JobAsk .checkboxWrap label{display: inline-block;}
+.JobAsk  .checkboxWrap .iradio
+{display: inline-block;width: 0.8rem;height: 0.8rem;margin-right: 0.25rem;vertical-align: -0.15rem;background: url(../../images/zt/recruit/icon_box-empty.png) 0 0 no-repeat;background-size: 0.8rem 0.8rem;}
+.JobAsk .checkboxWrap .iradio.checked {background-image: url(../../images/zt/recruit/icon_box-checked.png);}
+.JobAsk .checkboxWrap .icheckbox{display: inline-block;width: 0.8rem;height: 0.8rem;margin-right: 0.25rem;vertical-align: -0.15rem;background: url(../../images/zt/recruit/icon_box-empty.png) 0 0 no-repeat;background-size: 0.8rem 0.8rem;}
+.JobAsk .checkboxWrap .icheckbox.checked {background-image: url(../../images/zt/recruit/icon_box-checked.png);}
+
+.JobAsk h3 span{color: red;margin-left: .23rem;}
+.JobAsk .input,
+.JobDay .JobDayIn{border: 1px solid #d5d5d5/*rgba(153,153,153,.5)*//*#999��ececec*/;width: 100%;height: 2.2rem;padding-left: .375rem;padding-right: .375rem;line-height: 2.2rem;}
+
+
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+
+
+.JobDay{}
+.JobDay img{width: 1.2rem;}
+.JobDay .weui-label{width: auto;}
+.JobDay .JobDayIn{}
+
+
+.select-select {display: inline-block;width: 100%;position: relative;vertical-align: middle;padding: 0;overflow: hidden;background-color: #fff;color: #333;border: 1px solid #d5d5d5;text-shadow: none;z-index: 2;}
+.select-select:before {content: "";position: absolute;width: 0;height: 0;border: 10px solid transparent;border-top-color: #ccc;top: .8rem;right: 10px;cursor: pointer;z-index: -2;}
+.select-select select ,option{height: 2.2rem;padding: 0 .5rem;width: 100%;border: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+
+}
+.select-select select:focus {outline: none;}
+
+.txk{/*border: 1px solid #d5d5d5;*/width: 100%;height: 2.2rem;padding-left: .375rem;padding-right: .375rem;line-height: 2.2rem;background-color: #ebebeb;}
+.JobBtn{width: 100%;height: 2.2rem;line-height: 2.2rem;display: block;border: none;}
+
+.mt100{margin-top: 2.5rem;}
+
+
+
+.picker-calendar-day.picker-calendar-day-selected span{background: #fdd000!important;}
+
+.weui-picker-modal{font-family: "��ͤ�ڼ�"!important;}
+
+.picker-item{font-size: .75rem;}
+.picker-button{color: #fdd000!important;}
+
+/*2020-1-13新增*/
+.checkboxWrap ul li textarea{border: 1px solid #d5d5d5;width: 100%;height: 3rem;padding:.25rem;resize: none;text-align: left!important;}
+
+
+
+/* 2020-5-12 */
+.JobAsk .checkboxWrap ul li input{border: 1px solid #d5d5d5;width: 100%;height: 2.2rem;line-height: 2.2rem;padding: 0 .6rem;}

@@ -1,0 +1,59 @@
+
+body {
+    line-height: 1.6;
+    /* padding-top: 2.2rem; */
+    background-color: #F2F2F2;
+    font-family: "微软雅黑", Microsoft YaHei, Arial Narrow, sans-serif;
+    color: #333;
+}
+
+/*顶部固定条*/
+/*.fixed_bar_top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}*/
+
+/*头部条*/
+.header_bar {
+    height: 2.2rem;
+}
+.header_bar .btn_back {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #666;
+}
+.header_bar .btn_back i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/my/ico_arrow_left.png) no-repeat center center;
+    background-size: 0.65rem 1.1rem;
+}
+.header_bar .cat {
+    height: 2.2rem;
+    line-height: 2.2rem;
+    padding: 0 2.2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+}
+.header_bar .btn_link {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}

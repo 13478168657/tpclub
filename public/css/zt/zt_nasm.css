@@ -1,0 +1,170 @@
+img{display: block;width: 100%;margin: 0 auto;}
+.f54{font-size: 1.35rem;}
+.bgcolor_ededed{background-color: #ededed;}
+.color_redff3000{color: #ff3000;}
+.bgcolor000{background-color: #000;}
+.line35{line-height: .875rem}
+.line54{line-height: 1.35rem;}
+.line075{line-height: .75rem;}
+.pb26{padding-bottom: .65rem;}
+.plr40{padding-left: 1rem!important;padding-right: 1rem!important;}
+.plr45{padding-left: 1.125rem!important;padding-right: 1.125rem!important;}
+.plr50{padding-left: 1.25rem!important;padding-right: 1.25rem!important;}
+.plr68{padding-left: 1.7rem!important;padding-right: 1.7rem!important;}
+.plr112{padding-left: 2.8rem!important;padding-right: 2.8rem!important;}
+.ptb55{padding-top: 1.375rem!important;padding-bottom: 1.375rem!important;}
+.pb80{padding-bottom: 2rem!important;}
+.mt44{margin-top: 1.1rem!important;}
+.mlr68{margin-left: 1.7rem!important;margin-right: 1.7rem!important;}
+
+.shan{text-decoration:line-through red solid;text-decoration:line-through;}
+.shan_be3f00{text-decoration:line-through #be3f00 solid;text-decoration:line-through;text-decoration-color:#be3f00;}
+.shan_ff3000{text-decoration:line-through #ff3000 solid;text-decoration:line-through;text-decoration-color:#ff3000;}
+
+
+.banimg3video{
+    background: url("../../images/zt/nasmcpt/ban3.jpg")no-repeat center center;
+    background-size: 100% 100%;
+    padding:0 2.475rem;/*99*/
+}
+/*视频 */
+.video {position: relative;width: 100%;height: 7.8rem;/*555*312*/}
+.video .box {position: absolute;width: 100%;height: 100%;z-index: 100;}
+.video .box img {display: block;width: 100%;height: 100%;}
+.video .box .mask {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: .5;}
+.video .box .btn_play {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 1.95rem;height: 1.95rem;background: url(../../images/bofang.png) 0 0 no-repeat;background-size: 1.95rem 1.95rem;}
+.video video {position: absolute;left: 0;top: 0;width: 100%;height: 7.8rem;}
+
+/*活动截止时间*/
+.bg_lin2{background: url("../../images/zt/nasmcpt/lin2.png")no-repeat center center;background-size: 100% 100%;height: 1.35rem/*54*/;line-height: 1.4rem;}
+
+/*课程大纲*/
+.bgdanggang{background: url("../../images/zt/nasmcpt/dagang2.jpg")no-repeat;background-size: 100% auto;padding:1.3rem 2.6rem 1.9rem/*52*104*78*/;}
+
+
+/*常见问题*/
+.cj{}
+.cj h4{background: url("../../images/zt/nasmcpt/lin.png")no-repeat center center;background-size: 52% .35rem;height: 1rem;line-height: 1rem;}
+
+.bg_cj1{background: url("../../images/zt/nasmcpt/cahngjian-img1.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: 2.25rem/*90*/}
+.bg_cj2{background: url("../../images/zt/nasmcpt/cahngjian-img2.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: 1.25rem/*50*/}
+.bg_cj3{background: url("../../images/zt/nasmcpt/cahngjian-img3.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: 1.575rem/*63*/}
+.bg_cj4{background: url("../../images/zt/nasmcpt/cahngjian-img4.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: 1.25rem/*50*/}
+.bg_cj5{background: url("../../images/zt/nasmcpt/cahngjian-img5.jpg")no-repeat center center;background-size: 100% 100%;padding-bottom: 1.575rem/*63*/}
+
+
+/*底部*/
+.foot{position: fixed;bottom: 0;left: 0;width: 100%;}
+.foot ul li:first-child{height: 1.2rem;line-height: 1.2rem;background-color: #ff7800;}
+.foot ul li:last-child{height: 2.2rem;line-height: 2.2rem;}
+/*底部其他页悬浮按钮*/
+.foot_btn{}
+.foot_btn ul li:first-child{height: 1.65rem;line-height: 1.65rem;}
+
+
+/*表单页面 start*/
+.biaodan{background: url("../../images/zt/nasmcpt/pub_tit22.jpg")no-repeat center center;background-size: 100% 100%;padding-top: 1.1rem/*44*/;padding-bottom: 1.95rem/*78*/}
+.biaodan .form{
+    -webkit-box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    -moz-box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    padding-top: 2.175rem/*87*/;padding-bottom: 1.85rem/*74*/}
+.biaodan .form ul li{border: 1px solid #dcdcdc;height: 2rem;border-radius: .25rem;}
+.biaodan .form ul li span,.biaodan .form ul li input{height: 2rem;line-height: 2rem;}
+.biaodan .form ul li span{width: 25%;position: relative;}
+.biaodan .form ul li span:after{content: '│';right: -8px;position: absolute;top: 0;color: #dcdcdc;}
+.biaodan .form ul li input{width: 75%;padding-left: .75rem;padding-right: .75rem;background: none;border: none;}
+
+.form_btn{margin: 0 auto;border: none;width: 90%;height: 2.25rem/*90*/;margin-top: 1.85rem/*74*/}
+.form_btn img{width: .625rem;vertical-align: middle;display: inline-block;margin-left: .2rem;}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #999;}
+input:-ms-input-placeholder{/*IE*/color:#999;}
+input::-moz-placeholder{/*Firfox*/color: #999}
+
+
+/*符合条件、不符合条件两个页面*/
+.bg_fuhe{background: url("../../images/zt/nasmcpt/pub_tit22.jpg")no-repeat center center;background-size: 100% 100%;padding-top: 4rem/*160*/;padding-bottom: 3.25rem/*130*/}
+
+
+
+/*选择课程页面*/
+.xzban{background: url("../../images/zt/nasmcpt/xzban1.jpg")no-repeat center center;background-size: 100% 100%;padding-top: 11.1rem/*444*/;}
+.xzban h3 i{display: inline-block;width: 10%;border-top: 1px solid #333;vertical-align: middle;margin: 0 .375rem;}
+.xzban .bg-lin3{background: url("../../images/zt/nasmcpt/lin3.png")no-repeat center center;background-size: 100% 100%;height: 1.875rem;line-height: 1.875rem;}
+.bg_xzClass{background: url("../../images/zt/nasmcpt/xzban2.jpg")no-repeat center center;background-size: 100% 100%;}
+.xzClass_box{
+    -webkit-box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    -moz-box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    box-shadow: 0 0px 35px -8px rgba(30, 30, 30, .3);
+    padding:1.125rem 1.375rem 1.875rem/*45 55 75*/}
+.xzClass_list{}
+.xzClass_list ul li{}
+.xzClass_list ul li img{height: 4.5rem/*180*/}
+.xzClass_list ul li .pos_list{position: absolute;top: 0;left: 0;width: 100%;height: 4.5rem/*180*/;padding:1rem/*40*/ 0;}
+.xzClass_list ul li .pos_list span{border-top: 1px solid #fff;}
+
+
+
+/*弹出分享提示样式 start*/
+.xq_layer_wrap{height: auto!important;background: none!important;box-shadow: none!important;top: 1rem!important;}
+.xq_layer_wrap .layui-layer-content img{height: 8.35rem!important;background: none!important;}
+.xq_layer_wrap .fx_success{margin-left: 11rem;}
+/*弹出的img晃动样式*/
+.zhuan_left{transform: rotate(-.6deg);-webkit-transform: rotate(-.6deg);}
+.zhuan_right{-webkit-transform: rotate(.6deg);transform: rotate(.6deg);}
+
+img.down-arrow{
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+#hand{
+    -webkit-animation:swinging 2s ease-in-out 0s infinite;
+    -moz-animation:swinging 2s ease-in-out 0s infinite;
+    animation:swinging 2s ease-in-out 0s infinite;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(.6deg); }
+    50% { -webkit-transform: rotate(-.6deg); }
+    100% { -webkit-transform: rotate(.6deg); }
+}
+
+.xq_layer_wrap .fx-img img{width: 2.5rem;height: 3.4rem!important;margin-right: 2.3rem;}
+.xq_layer_wrap img.more-s{width: .875rem;height: .875rem!important;vertical-align: middle;margin-right: 0;}
+.pt70{padding-top: 1.75rem!important;}
+.pt105{padding-top: 2.625rem!important;}
+.pl135{padding-left: 3.25rem!important;}
+/*弹出分享提示样式 end*/
+
+/*图片全屏弹出 start*/
+.img_layer_wrap2 .layui-layer-setwin .layui-layer-close2{right: 0rem;top: 0rem;width: 1.1rem;height: 1.1rem;background: url(../../images/close.png) no-repeat center center;background-size: 1.3rem 1.3rem;z-index: 99999; }
+.img_layer_wrap2 .bm_success{ display: block;}
+.img_layer_wrap2{height: auto!important;}
+.img_layer_wrap2 .layui-layer-content img{height: 28.35rem!important;}
+
+
+/* 头部 */
+
+/*弹出 start*/
+.bm_success_layer_wrap{
+    width: 13.75rem !important;
+    height: 14.5rem !important;
+    border-radius: 0.25rem !important;
+}
+
+
+.bm_success_layer_wrap .bm_success{display: block;width: 10.75rem;}
+.bm_success_layer_wrap p{line-height: .8rem!important;}
+
+
+
+
+
+

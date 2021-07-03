@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>我的钱包</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/xueyuan.css">
+    <link rel="stylesheet" href="../css/font-num40.css">
+
+    <!--jqweui css-->
+    <link href="../lib/jqweui/css/weui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/jqweui/css/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        (function(){
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth/18.75 + "px";
+        })()
+    </script>
+</head>
+<body style="background: #fff;">
+<!-- 现金金额 satrt -->
+<div class="mlr30 pt30 xueyuan_spb">
+    <div class="weui-cells  nobefore noafter mt0 pb30">
+        <a class="weui-cell weui-cell_access xueyuan_cash nobefore noafter" href="javascript:;">
+            <div class="weui-cell__bd f34 color_000 lt">
+                <p>现金金额 ¥0.00</p>
+            </div>
+            <div class="f24 color_000 cash_btn fz">
+                提现
+            </div>
+        </a>
+     </div>
+</div>
+<!-- 现金金额 end -->
+
+<!-- 赛普币明细 satrt -->
+<ul class="spb_details mlr30 fz">
+    <li class="color_gray9b f24 pb22">
+        <div class="weui-cells nobefore noafter mt0">
+            <a class="weui-cell weui-cell_access padding0 nobefore noafter fz" href="javascript:;">
+                <div class="weui-cell__bd f24 color_gray9b">
+                    <p>（提现金额需满100元）</p>
+                </div>
+                <div class="right f24 color_gray666">
+                    查看帮助
+                </div>
+            </a>
+        </div>
+    </li>
+    <li>
+        <div class="weui-cells nobefore noafter mt0 my_income">
+            <a class="weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter" href="javascript:;">
+                <div class="weui-cell__hd f26"><img src="../images/icon_income.png" alt=""></div>
+                <div class="weui-cell__bd fz">
+                    <p class="f28 color_4a">我的收入</p>
+                </div>
+                <div class="f24 color_gray666 spb_arrow weui-cell__ft"></div>
+            </a>
+        </div> 
+    </li>
+    <li> 
+        <div class="weui-cells nobefore noafter mt0 my_income">
+            <a class="weui-cell weui-cell_access ptb44 xueyuan_install nobefore noafter" href="javascript:;">
+                <div class="weui-cell__hd f26"><img src="../images/icon_zhifu.png" alt=""></div>
+                <div class="weui-cell__bd fz">
+                    <p class="f28 color_4a">支付记录</p>
+                </div>
+                <div class="f24 color_gray666 spb_arrow weui-cell__ft"></div>
+            </a>
+        </div> 
+    </li>
+</ul>
+<!-- 赛普币明细 end -->
+
+
+<script src="../lib/jqweui/js/jquery-2.1.4.js"></script>
+<script src="../lib/jqweui/js/fastclick.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+
+<script src="../lib/jqweui/js/jquery-weui.js"></script>
+
+</body>
+</html>

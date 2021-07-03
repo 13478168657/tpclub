@@ -1,0 +1,427 @@
+img{display: block;width: 100%;margin: 0 auto;}
+
+.f64{font-size: 1.6rem;}
+.mt70{margin-top: 1.75rem!important;}
+.mt90{margin-top: 2.25rem!important;}
+.mb50{margin-bottom: 1.25rem;}
+.pt70{padding-top: 1.75rem !important;}
+.ptb13{padding-top: .325rem!important;padding-bottom: .325rem!important;}
+.plr44{padding-left: 1.1rem!important;padding-right: 1.1rem!important;}
+.plr56{padding-left: 1.4rem!important;padding-right: 1.4rem!important;}
+.ptb65{padding-top: 1.625rem!important;padding-bottom: 1.625rem!important;}
+.mlr50{margin-left: 1.25rem!important;margin-right: 1.25rem!important;}
+.pt105{padding-top: 2.625rem;}
+.pb136{padding-bottom: 3.4rem!important;}
+.plr45{padding-right: 1.125rem;padding-left: 1.125rem;}
+.plr94{padding-right: 2.35rem;padding-left: 2.35rem;}
+.plr80{padding-right: 2rem;padding-left: 2rem;}
+.plr68{padding-right: 1.7rem;padding-left: 1.7rem;}
+.plr140{padding-right: 3.5rem;padding-left: 3.5rem;}
+
+.color_red-{color: #D0021B;!important;}
+.color_ec313d{color: #ec313d;}
+.bg262626{background: #262626;}
+.bg-ec313d{background: #ec313d;}
+.bg-b5b5b5{background: #b5b5b5;}
+.bg-eee{background: #eee;}
+.text-intent3{text-indent: 1.6rem;}
+.over-h{overflow: hidden}
+.di-bolck{display: block}
+
+.radius-img-te{border: 2px solid #ec313d}
+.radius-img-1{border: 2px solid #27a7e4}
+.radius-img-2{border: 2px solid #fdd000}
+.radius-img-3{border: 2px solid #fd8f00}
+.radius-img-4{border: 2px solid #03e3fd}
+.bg-bfbfbf{background:#bfbfbf}
+
+
+/*恭喜您获得*/
+.bg-huode{;background: url("../../images/zt/giftgive/bg-baiyuan.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 8.9rem;/*285*/padding-bottom: 1rem;}
+
+/*第一个背景图*/
+.bg-con1{background: url("../../images/zt/giftgive/bg-con1.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 3.5rem;/*140*/}
+
+/*领取100元*/
+.btn{width: 60%;height: 2.2rem;line-height: 2.2rem;}
+.btn2{border: 1px solid red;width: 80%}
+/*活动介绍*/
+.huodong{border: 2px solid #000;}
+.huodong p:nth-child(1){position: absolute;top: -11%;width: 100%}
+.huodong p:nth-child(1) span{background: #000;padding:.1rem .75rem;}
+.huodong p:last-child{color: #147fb3}
+.huodong p:last-child i{display: inline-block;width: 1.5rem;border-top: 1px solid #147fb3;vertical-align: middle;margin: 0 .1rem;}
+
+
+/*视频 */
+.video {position: relative;width:100%;height: 7.5rem;}
+.video .box2 {position: absolute;width: 100%;height: 100%;z-index: 100;}
+.video .box2 img {display: block;width: 100%;height: 100%;}
+.video .box2 .mask {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #000;filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);opacity: .5;}
+.video .box2 .btn_play {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 1.95rem;height: 1.95rem;background: url(../../images/bofang.png) 0 0 no-repeat;background-size: 1.95rem 1.95rem;}
+.video video {position: absolute;left: 0;top: 0;width: 100%;height: 7.5rem;}
+
+
+/*第二个背景图*/
+.bg-con2{background: url("../../images/zt/giftgive/bg-con2.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 8.425rem;/*337*/padding-bottom: 3.325rem/*134*/;}
+
+.po{position: absolute;left: 0rem;top: 0rem;z-index: 999999;width: 2.375rem;}
+
+/*第三个背景图*/
+.bg-con3{background: url("../../images/zt/giftgive/bg-con3.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 9.525rem;/*381*/padding-bottom: 3.65rem/*146*/;}
+
+/*第四个背景图*/
+.bg-con4{background: url("../../images/zt/giftgive/bg-con4.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 11.525rem;/*461*/padding-bottom: 6.85rem/*274*/;}
+
+
+
+/*表单*/
+.form{}
+.input{width: 100%;}
+.input input{width: 100%;height: 2.175rem;line-height: 2.175rem;padding-left: .8rem;padding-right: .8rem;border:none}
+input::-webkit-input-placeholder {/*Chrome/Opera/Safari*/color: #d5d5d6;}
+input:-ms-input-placeholder{/*IE*/color:#d5d5d6;}
+input::-moz-placeholder{/*Firfox*/color: #d5d5d6}
+.form .btn{display: block;height:2.175rem;line-height: 2.175rem;width: 100%;}
+.tip{margin-bottom: 0.5rem;color: red;padding-left: .6rem;}
+.form .btn{border: none}
+
+
+/*注册页面下输入验证码*/
+.yzm{width: 64% !important}
+.yzm-huoqu{width: 33% !important;height: 2.175rem;line-height: 2.175rem;}
+
+
+.footer{position: fixed;left: 0;bottom: 0;width: 100%;z-index: 999999}
+.footer ul li{width: 100%;height: 2.225rem;line-height: 2.225rem;}
+.footer ul li a{color: #fff;display: block;}
+
+
+/*==============第二页================================================================*/
+/*banner背景图*/
+.new-bgban{background: url("../../images/zt/giftgive/new-ban3.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 3.925rem;/*157*/padding-bottom: 2.925rem/*117*/;}
+.new-bgban p:nth-child(1) span,.new-huodong-btn p{background: #000;padding:.1rem .75rem;}
+
+/*视频背景*/
+.new-bg-sp{background: url("../../images/zt/giftgive/new-bg-sp.jpg")no-repeat top center;background-size: 100% 100%;}
+
+/*倒计时背景*/
+.new-bg-djs{background: url("../../images/zt/giftgive/new-bg-djs.jpg")no-repeat top center;background-size: 100% 100%;}
+.new-bg-djs span{font-size: 3.875rem;line-height: 3.875rem;padding-right: 5.425rem/*221*/}
+
+/*活动标题与btn背景*/
+.new-huodong-btn{background: url("../../images/zt/giftgive/new-bg-spbtn.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 3.775rem;/*151*/}
+.new-huodong-btn p{background: #000;padding:.1rem .75rem;}
+
+/*第一弹背景*/
+.new-bg-con2{background: url("../../images/zt/giftgive/new-bg-con2.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 9.45rem;/*338*/padding-bottom: 3.325rem/*134*/;}
+
+/*流程背景*/
+.new-bg-liucheng{background: url("../../images/zt/giftgive/new-bg-liucheng.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 1rem/*40*/;}
+.new-bg-liucheng p:first-child{background: #000;padding:.2rem 1rem;}
+
+.new-bg-linqu{background: url("../../images/zt/giftgive/new-bg-liuchengbtn.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 3.225rem/*129*/;}
+.new-bg-linqu p{background: #27a7e4;height: 1.8rem;line-height: 1.8rem;}
+
+/*第二弹背景*/
+.new-bg-con3{background: url("../../images/zt/giftgive/new-bg-con3.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 9.525rem;/*381*/padding-bottom: 2.5rem/*100*/;}
+
+/*领取豪礼流程*/
+.new-bg-haoli-liucheng{background: url("../../images/zt/giftgive/new-bg-haoli-liucheng.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 2.75rem/*110*/;}
+
+/*第三弹背景*/
+.new-bg-con4{background: url("../../images/zt/giftgive/new-bg-con4.jpg")no-repeat top center;background-size: 100% 100%;padding-top: 10.7rem;/*428*/padding-bottom: 1.7rem/*68*/;}
+
+.new-bg-haoli-liucheng{background: url("../../images/zt/giftgive/new-bg-why.jpg")no-repeat top center;background-size: 100% 100%;padding-bottom: 2.5rem/*100*/;}
+
+/*微信二维码*/
+.new-bg-weixin{background: url("../../images/zt/giftgive/new-bg-weixin.jpg")no-repeat top center;background-size: 100% 100%;padding-top:1.25rem/*50*/;padding-bottom: 1.8rem/*72*/; }
+.new-bg-weixin img{width: 50%}
+
+
+
+/*底部*/
+.new-footer{}
+.new-footer ul li{width: 33.33%;float: left;}
+.new-footer ul li:nth-child(2){border-left: 1px solid #fff;border-right: 1px solid #fff;}
+
+
+
+/*右悬浮 【微信】*/
+.right-suspension{position: fixed;right: 0;bottom: 8.6%;z-index: 999999;background: #fff;border-top-left-radius: 2rem;border-bottom-left-radius: 2rem;
+    -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);}
+.right-suspension a{display: block;padding:0 .2rem 0 .88rem;}
+.right-suspension a img{width: 1.775rem;
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+    /*animation-iteration-count:2;
+    animation-delay:2s;*/
+}
+@-webkit-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+
+/*==============================【子页面【领取奖学金的好友】【送礼竞赛排行榜】【我获得的奖品】】===========================================================*/
+/*头部*/
+.f-nav{}
+.f-nav ul li{float: left; width: 33.33%;height: 2.5rem;line-height: 2.5rem;}
+.f-nav ul li a{padding-bottom: .1rem;border-bottom: 2px solid #eee;color: #666}
+.f-nav ul li a.active{border-bottom: 2px solid #333;font-weight: bold;color: #333}
+
+/*领取奖学金的好友*/
+.f-list{}
+.f-list ul li{}
+.f-list ul li p img{width: 1.65rem;vertical-align: middle;}
+.f-list ul li p:nth-child(1){width: 13%}
+.f-list ul li p:nth-child(2){width: 15%}
+.f-list ul li p:nth-child(3){width: 46%}
+.f-list ul li p:nth-child(4){width: 26%;}
+.f-list ul li p{float: left;margin-top: .6rem;margin-bottom: .6rem;height: 1.95rem;line-height: 1.95rem;}
+
+/*送礼竞赛排行榜*/
+.f-list-ranking{}
+.f-list-ranking .top-h{height: 2rem;line-height: 2rem;background: #27a7e4;}
+.f-list-ranking ul li p:nth-child(1){width: 14%;}
+.f-list-ranking ul li p:nth-child(2){width: 13%;}
+.f-list-ranking ul li p:nth-child(3){width: 28%;}
+.f-list-ranking ul li p:nth-child(4){width: 25%;}
+.f-list-ranking ul li p:nth-child(5){width: 20%;}
+.f-list-ranking ul li p{float: left;margin-top: .6rem;margin-bottom: .6rem;height: 1.95rem;line-height: 1.95rem;}
+
+
+/*我获得的奖品*/
+.Get-list{}
+.pspan{position: absolute;bottom: 7%;right: 0;width: 4.225rem;/*169px*/line-height: 2.05rem;height: 2.05rem;border-top-left-radius: 1rem;border-bottom-left-radius: 1rem;}
+.di-none{display: none!important;}
+
+
+
+/*底部*/
+.footer-dit ul li{border: 1px solid red;width: 100%}
+
+
+/*扫码弹出带背景的*/
+.get_success_layer_wrap {
+    width: 13.75rem !important;
+    height: 18.15rem !important;
+    border-radius: 0.25rem !important;
+}
+
+.get_success_layer_wrap .bm_success {
+    display: block;
+    width: 9rem;
+    height: auto;
+    margin: .5rem auto 0rem;
+}
+
+.get_success_layer_wrap .layui-layer-setwin .layui-layer-close2,.dq_success_layer_wrap .layui-layer-setwin .layui-layer-close2{right: -7px;top: -7px;background: url("../../images/zt/giftgive/close.png")no-repeat top center;background-size: 100% auto;}
+
+/*海报的弹出*/
+.hb_success_layer_wrap .layui-layer-setwin .layui-layer-close2{right: -7px;top: -7px;background: url("../../images/zt/giftgive/close2.png")no-repeat top center;background-size: 100% auto;}
+.hb_success_layer_wrap{height: auto!important;background: none!important;}
+.hb_success_layer_wrap .layui-layer-content img{height: 24.375rem!important;}
+
+
+/*红包的弹出*/
+.hongbao_success_layer_wrap{
+    width: 13.75rem !important;
+    height: 20.25rem !important;
+    border-radius: 0.25rem !important;
+
+    background: none!important;
+    box-shadow: none!important;
+}
+
+.hongbao_success_layer_wrap .bm_success {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hongbao_success_layer_wrap .layui-layer-setwin .layui-layer-close2{right: -11px;top: -4px;background: url("../../images/zt/giftgive/close2.png")no-repeat top center;background-size: 100% auto;}
+.hongbao_success_layer_wrap .layui-layer-content img{height: 17.925rem;margin-top: 2.3rem;}
+.hongbao_success_layer_wrap .hb-p{position: absolute;top: 22%;width: 100%;left: 0;}
+
+/*确认框弹出*/
+.dq_success_layer_wrap{border-radius: 0.25rem !important;overflow: hidden}
+.dq_success_layer_wrap .layui-layer-btn a{border: none;background: #ec313d;height: 1.6rem;line-height: 1.6rem;}
+
+
+/**
+后期加图片
+*/
+.img_ya img{width:80%;margin:0 auto;}
+.dq_success_layer_wrap{width: 12rem!important; }

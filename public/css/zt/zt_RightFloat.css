@@ -1,0 +1,246 @@
+/*右悬浮 【微信】start */
+.right-suspension_wx{position: fixed;right: 0;bottom: 10%;z-index: 99;background: #fff;border-top-left-radius: 2rem;border-bottom-left-radius: 2rem;
+    -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);}
+.right-suspension_wx a{display: block;padding:0 .2rem 0 .88rem;}
+.right-suspension_wx a img{width: 1.775rem;margin: 0 auto;
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+    /*animation-iteration-count:2;
+    animation-delay:2s;*/
+}
+.icon_img_dong{
+    -webkit-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -moz-animation: icon-bounce 5s ease-in-out  0s infinite;
+    -o-animation: icon-bounce 5s ease-in-out  0s infinite;
+    animation: icon-bounce 5s ease-in-out  0s infinite;
+}
+@-webkit-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes icon-bounce {
+    0%, 100% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    3% {
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+    }
+
+    6% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    15% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+/*右悬浮 【微信】end */
+
+/*弹出分享提示样式 start*/
+.fxpyq_success_layer_wrap{height: auto!important;background: none!important;box-shadow: none!important;top: 1rem!important;}
+.fxpyq_success_layer_wrap .layui-layer-content img{height: 8.35rem!important;background: none!important;}
+.fxpyq_success_layer_wrap .fx_success{margin-left: 10rem;}
+/*弹出的img晃动样式*/
+.zhuan_left{transform: rotate(-.6deg);-webkit-transform: rotate(-.6deg);}
+.zhuan_right{-webkit-transform: rotate(.6deg);transform: rotate(.6deg);}
+
+img.down-arrow{
+    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+#hand{
+    -webkit-animation:swinging 2s ease-in-out 0s infinite;
+    -moz-animation:swinging 2s ease-in-out 0s infinite;
+    animation:swinging 2s ease-in-out 0s infinite;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(.6deg); }
+    50% { -webkit-transform: rotate(-.6deg); }
+    100% { -webkit-transform: rotate(.6deg); }
+}
+
+.fxpyq_success_layer_wrap .fx-img img{width: 2.5rem;height: 3.4rem!important;}
+.fxpyq_success_layer_wrap img.more-s{width: .875rem;height: .875rem!important;vertical-align: middle;margin-right: 0;}
+.pl135{padding-left: 3.25rem!important;}
+.ptb86{padding-top:2.15rem;padding-bottom: 2.15rem;}
+.pt98{padding-top: 2.45rem;}
+/*弹出分享提示样式 end*/
+
+
+/*二维码弹出 start*/
+.hideWImg{padding:.75rem .75rem 0!important;margin: 0 auto;}
+.hideWImg img{width: 77%;margin: 0 auto;}
+
+.codeW_layer_wrap {
+    width: 15rem!important;
+    height: 20rem !important;
+    border-radius: 6px !important;
+    overflow: hidden;
+}
+.codeW_layer_wrap .layui-layer-setwin .layui-layer-close2,
+.codeW_layer_wrap .layui-layer-setwin .layui-layer-close2:hover{top: 0; right: 0; width: 0.85rem; height: 0.85rem; background: url(../../images/close.png) 0 0 no-repeat; background-size: 100% 100%;}
+/*二维码弹出 end*/
+
